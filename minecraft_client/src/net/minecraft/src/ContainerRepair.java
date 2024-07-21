@@ -5,6 +5,11 @@ import java.util.Map;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemEnchantedBook;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.enchantment.Enchantment;
+import net.minecraft.src.item.enchantment.EnchantmentHelper;
 import net.minecraft.src.worldgen.World;
 
 public class ContainerRepair extends Container {

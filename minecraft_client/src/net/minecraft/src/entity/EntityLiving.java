@@ -11,13 +11,8 @@ import net.minecraft.src.CombatTracker;
 import net.minecraft.src.CrashReport;
 import net.minecraft.src.CrashReportCategory;
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.EnchantmentHelper;
 import net.minecraft.src.EnumCreatureAttribute;
 import net.minecraft.src.Icon;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemArmor;
-import net.minecraft.src.ItemStack;
-import net.minecraft.src.ItemSword;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.MovingObjectPosition;
@@ -42,6 +37,11 @@ import net.minecraft.src.callable.CallableEffectID;
 import net.minecraft.src.callable.CallableEffectIsAmbient;
 import net.minecraft.src.callable.CallableEffectIsSplash;
 import net.minecraft.src.callable.CallableEffectName;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemArmor;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.ItemSword;
+import net.minecraft.src.item.enchantment.EnchantmentHelper;
 import net.minecraft.src.worldgen.World;
 
 public abstract class EntityLiving extends Entity {

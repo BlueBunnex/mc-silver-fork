@@ -5,6 +5,8 @@ import java.util.Comparator;
 import java.util.List;
 import org.lwjgl.input.Mouse;
 
+import net.minecraft.src.item.Item;
+
 abstract class GuiSlotStats extends GuiSlot {
 	protected int field_77262_g;
 	protected List field_77266_h;

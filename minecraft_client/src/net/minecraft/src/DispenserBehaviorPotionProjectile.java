@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.entity.EntityPotion;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 class DispenserBehaviorPotionProjectile extends BehaviorProjectileDispense {

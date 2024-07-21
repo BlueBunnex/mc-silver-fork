@@ -4,6 +4,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import net.minecraft.src.item.ItemStack;
+
 public class Packet103SetSlot extends Packet {
 	public int windowId;
 	public int itemSlot;

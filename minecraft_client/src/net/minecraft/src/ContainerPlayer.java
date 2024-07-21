@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemArmor;
+import net.minecraft.src.item.ItemStack;
 
 public class ContainerPlayer extends Container {
 	public InventoryCrafting craftMatrix = new InventoryCrafting(this, 2, 2);

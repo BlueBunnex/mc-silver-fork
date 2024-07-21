@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.List;
 
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 
 public class Packet20NamedEntitySpawn extends Packet {
 	public int entityId;

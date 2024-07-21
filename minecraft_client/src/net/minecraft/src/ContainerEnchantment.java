@@ -5,6 +5,10 @@ import java.util.Random;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.enchantment.EnchantmentData;
+import net.minecraft.src.item.enchantment.EnchantmentHelper;
 import net.minecraft.src.worldgen.World;
 
 public class ContainerEnchantment extends Container {

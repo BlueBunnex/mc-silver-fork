@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.item.ItemStack;
+
 public interface ICrafting {
 	void sendContainerAndContentsToPlayer(Container var1, List var2);
 

@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.Iterator;
 
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 
 public class MapInfo {
 	public final EntityPlayer entityplayerObj;

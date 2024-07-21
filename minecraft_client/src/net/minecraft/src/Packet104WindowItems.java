@@ -5,6 +5,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.List;
 
+import net.minecraft.src.item.ItemStack;
+
 public class Packet104WindowItems extends Packet {
 	public int windowId;
 	public ItemStack[] itemStack;

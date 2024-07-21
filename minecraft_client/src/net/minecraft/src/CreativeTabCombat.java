@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.item.Item;
+
 final class CreativeTabCombat extends CreativeTabs {
 	CreativeTabCombat(int var1, String var2) {
 		super(var1, var2);

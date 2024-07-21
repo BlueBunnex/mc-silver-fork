@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.item.Item;
 
 public class DispenserBehaviors {
 	public static void func_96467_a() {

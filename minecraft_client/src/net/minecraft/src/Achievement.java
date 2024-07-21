@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 
 public class Achievement extends StatBase {
 	public final int displayColumn;

@@ -10,10 +10,8 @@ import net.minecraft.src.CrashReportCategory;
 import net.minecraft.src.DamageSource;
 import net.minecraft.src.DataWatcher;
 import net.minecraft.src.Direction;
-import net.minecraft.src.EnchantmentProtection;
 import net.minecraft.src.EnumEntitySize;
 import net.minecraft.src.Explosion;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
@@ -29,6 +27,8 @@ import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockFluid;
 import net.minecraft.src.callable.CallableEntityName;
 import net.minecraft.src.callable.CallableEntityType;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.enchantment.EnchantmentProtection;
 import net.minecraft.src.worldgen.World;
 
 public abstract class Entity {

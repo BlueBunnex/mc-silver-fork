@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.item.ItemStack;
+
 class InventoryRepair extends InventoryBasic {
 	final ContainerRepair theContainer;
 

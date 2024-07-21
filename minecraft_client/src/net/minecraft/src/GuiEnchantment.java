@@ -6,6 +6,8 @@ import org.lwjgl.opengl.GL12;
 import org.lwjgl.util.glu.GLU;
 
 import net.minecraft.src.entity.Entity;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.enchantment.EnchantmentNameParts;
 import net.minecraft.src.worldgen.World;
 
 public class GuiEnchantment extends GuiContainer {

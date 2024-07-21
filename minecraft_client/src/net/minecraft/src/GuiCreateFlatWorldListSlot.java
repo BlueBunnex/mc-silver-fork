@@ -3,6 +3,9 @@ package net.minecraft.src;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
+
 class GuiCreateFlatWorldListSlot extends GuiSlot {
 	public int field_82454_a;
 	final GuiCreateFlatWorld createFlatWorldGui;

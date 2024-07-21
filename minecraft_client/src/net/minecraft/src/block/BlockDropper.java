@@ -5,11 +5,11 @@ import net.minecraft.src.Facing;
 import net.minecraft.src.IBehaviorDispenseItem;
 import net.minecraft.src.IInventory;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityDispenser;
 import net.minecraft.src.TileEntityDropper;
 import net.minecraft.src.TileEntityHopper;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class BlockDropper extends BlockDispenser {

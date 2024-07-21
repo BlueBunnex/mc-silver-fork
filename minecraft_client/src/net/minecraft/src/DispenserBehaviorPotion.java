@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.item.ItemPotion;
+import net.minecraft.src.item.ItemStack;
+
 final class DispenserBehaviorPotion implements IBehaviorDispenseItem {
 	private final BehaviorDefaultDispenseItem defaultDispenserItemBehavior = new BehaviorDefaultDispenseItem();
 

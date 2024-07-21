@@ -6,7 +6,6 @@ import net.minecraft.src.Container;
 import net.minecraft.src.IInventory;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
@@ -15,6 +14,7 @@ import net.minecraft.src.TileEntityFurnace;
 import net.minecraft.src.entity.EntityItem;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class BlockFurnace extends BlockContainer {

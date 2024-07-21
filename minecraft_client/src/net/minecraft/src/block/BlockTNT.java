@@ -6,13 +6,13 @@ import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Explosion;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.Item;
 import net.minecraft.src.Material;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityArrow;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.entity.EntityTNTPrimed;
+import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.World;
 
 public class BlockTNT extends Block {

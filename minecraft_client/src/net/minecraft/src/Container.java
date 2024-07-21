@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 
 public abstract class Container {
 	public List inventoryItemStacks = new ArrayList();

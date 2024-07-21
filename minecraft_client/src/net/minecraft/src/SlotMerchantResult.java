@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 
 public class SlotMerchantResult extends Slot {
 	private final InventoryMerchant theMerchantInventory;

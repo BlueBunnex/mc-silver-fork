@@ -3,9 +3,9 @@ package net.minecraft.src.entity;
 import java.util.ArrayList;
 
 import net.minecraft.src.EnumArt;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.NBTTagCompound;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class EntityPainting extends EntityHanging {

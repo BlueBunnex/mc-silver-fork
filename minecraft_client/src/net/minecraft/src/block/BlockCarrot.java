@@ -2,7 +2,7 @@ package net.minecraft.src.block;
 
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.Item;
+import net.minecraft.src.item.Item;
 
 public class BlockCarrot extends BlockCrops {
 	private Icon[] iconArray;

@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.List;
 
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 
 public class InventoryBasic implements IInventory {
 	private String inventoryTitle;

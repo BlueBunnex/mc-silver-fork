@@ -8,14 +8,9 @@ import java.util.Random;
 
 import net.minecraft.src.ChunkCoordinates;
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.Enchantment;
-import net.minecraft.src.EnchantmentData;
-import net.minecraft.src.EnchantmentHelper;
 import net.minecraft.src.IMerchant;
 import net.minecraft.src.IMob;
 import net.minecraft.src.INpc;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.MerchantRecipe;
 import net.minecraft.src.MerchantRecipeList;
@@ -25,6 +20,11 @@ import net.minecraft.src.PotionEffect;
 import net.minecraft.src.Tuple;
 import net.minecraft.src.Village;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.enchantment.Enchantment;
+import net.minecraft.src.item.enchantment.EnchantmentData;
+import net.minecraft.src.item.enchantment.EnchantmentHelper;
 import net.minecraft.src.worldgen.World;
 
 public class EntityVillager extends EntityAgeable implements INpc, IMerchant {

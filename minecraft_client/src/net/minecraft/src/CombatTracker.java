@@ -8,6 +8,7 @@ import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 
 public class CombatTracker {
 	private final List field_94556_a = new ArrayList();

@@ -6,6 +6,7 @@ import java.util.List;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockChest;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 
 public class TileEntityChest extends TileEntity implements IInventory {
 	private ItemStack[] chestContents = new ItemStack[36];

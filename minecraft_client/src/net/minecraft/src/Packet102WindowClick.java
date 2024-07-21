@@ -4,6 +4,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import net.minecraft.src.item.ItemStack;
+
 public class Packet102WindowClick extends Packet {
 	public int window_Id;
 	public int inventorySlot;

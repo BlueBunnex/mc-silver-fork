@@ -4,8 +4,8 @@ import java.util.Random;
 
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Icon;
-import net.minecraft.src.Item;
 import net.minecraft.src.Material;
+import net.minecraft.src.item.Item;
 
 public class BlockBookshelf extends Block {
 	public BlockBookshelf(int var1) {

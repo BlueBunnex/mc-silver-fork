@@ -5,6 +5,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import net.minecraft.src.item.ItemStack;
+
 public class MerchantRecipeList extends ArrayList {
 	public MerchantRecipeList() {
 	}

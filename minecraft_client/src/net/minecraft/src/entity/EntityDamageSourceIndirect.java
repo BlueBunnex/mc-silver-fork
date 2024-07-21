@@ -1,7 +1,7 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.StatCollector;
+import net.minecraft.src.item.ItemStack;
 
 public class EntityDamageSourceIndirect extends EntityDamageSource {
 	private Entity indirectEntity;

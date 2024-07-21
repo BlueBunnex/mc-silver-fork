@@ -5,6 +5,7 @@ import org.lwjgl.opengl.GL12;
 
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityFireball;
+import net.minecraft.src.item.Item;
 
 public class RenderFireball extends Render {
 	private float field_77002_a;

@@ -6,9 +6,9 @@ import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.Item;
 import net.minecraft.src.Material;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.World;
 
 public class BlockCake extends Block {

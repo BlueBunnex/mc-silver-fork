@@ -2,14 +2,14 @@ package net.minecraft.src.command;
 
 import java.util.List;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.src.Enchantment;
 import net.minecraft.src.ICommandSender;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.NBTTagList;
 import net.minecraft.src.NumberInvalidException;
 import net.minecraft.src.WrongUsageException;
 import net.minecraft.src.entity.EntityPlayerMP;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.enchantment.Enchantment;
 
 public class CommandEnchant extends CommandBase {
 	public String getCommandName() {

@@ -49,6 +49,9 @@ import net.minecraft.src.entity.EntitySnowball;
 import net.minecraft.src.entity.EntityTNTPrimed;
 import net.minecraft.src.entity.EntityWitherSkull;
 import net.minecraft.src.entity.EntityXPOrb;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemMap;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.WorldClient;
 
 import org.lwjgl.input.Keyboard;

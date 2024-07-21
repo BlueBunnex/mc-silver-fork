@@ -3,13 +3,13 @@ package net.minecraft.src.entity;
 import java.util.Calendar;
 
 import net.minecraft.src.EnumCreatureAttribute;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.Potion;
 import net.minecraft.src.PotionEffect;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class EntityZombie extends EntityMob {

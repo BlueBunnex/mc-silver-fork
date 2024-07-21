@@ -60,6 +60,8 @@ import net.minecraft.src.entity.EntityWitherSkull;
 import net.minecraft.src.entity.EntityWolf;
 import net.minecraft.src.entity.EntityXPOrb;
 import net.minecraft.src.entity.EntityZombie;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemRenderer;
 import net.minecraft.src.worldgen.World;
 
 public class RenderManager {

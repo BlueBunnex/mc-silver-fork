@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.BlockDispenser;
 import net.minecraft.src.entity.EntityFireworkRocket;
+import net.minecraft.src.item.ItemStack;
 
 final class DispenserBehaviorFireworks extends BehaviorDefaultDispenseItem {
 	public ItemStack dispenseStack(IBlockSource var1, ItemStack var2) {

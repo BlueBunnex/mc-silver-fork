@@ -5,6 +5,9 @@ import java.io.DataOutputStream;
 import java.util.Iterator;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
+
 public class GuiBeacon extends GuiContainer {
 	private TileEntityBeacon beacon;
 	private GuiBeaconButtonConfirm beaconConfirmButton;

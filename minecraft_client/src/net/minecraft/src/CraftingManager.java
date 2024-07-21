@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.List;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class CraftingManager {

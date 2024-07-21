@@ -3,9 +3,12 @@ package net.minecraft.src;
 import net.minecraft.src.block.BlockDispenser;
 import net.minecraft.src.block.BlockRailBase;
 import net.minecraft.src.entity.EntityMinecart;
+import net.minecraft.src.item.ItemMinecart;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
-final class BehaviorDispenseMinecart extends BehaviorDefaultDispenseItem {
+public final class BehaviorDispenseMinecart extends BehaviorDefaultDispenseItem {
+	
 	private final BehaviorDefaultDispenseItem field_96465_b = new BehaviorDefaultDispenseItem();
 
 	public ItemStack dispenseStack(IBlockSource var1, ItemStack var2) {

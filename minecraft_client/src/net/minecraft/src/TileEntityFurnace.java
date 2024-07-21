@@ -3,6 +3,11 @@ package net.minecraft.src;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockFurnace;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemHoe;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.ItemSword;
+import net.minecraft.src.item.ItemTool;
 
 public class TileEntityFurnace extends TileEntity implements ISidedInventory {
 	private static final int[] field_102010_d = new int[]{0};

@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.minecraft.src.block.BlockDispenser;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityTNTPrimed;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 final class DispenserBehaviorTNT extends BehaviorDefaultDispenseItem {

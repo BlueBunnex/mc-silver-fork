@@ -6,13 +6,13 @@ import java.util.Iterator;
 import net.minecraft.src.CrashReportCategory;
 import net.minecraft.src.DamageSource;
 import net.minecraft.src.ITileEntityProvider;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTBase;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockSand;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class EntityFallingSand extends Entity {

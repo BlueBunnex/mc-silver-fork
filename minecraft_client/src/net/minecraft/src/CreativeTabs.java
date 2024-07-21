@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.enchantment.Enchantment;
+import net.minecraft.src.item.enchantment.EnchantmentData;
+
 public class CreativeTabs {
 	public static final CreativeTabs[] creativeTabArray = new CreativeTabs[12];
 	public static final CreativeTabs tabBlock = new CreativeTabBlock(0, "buildingBlocks");

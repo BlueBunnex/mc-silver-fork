@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.item.ItemStack;
+
 public class WeightedRandomChestContent extends WeightedRandomItem {
 	private ItemStack theItemId = null;
 	private int theMinimumChanceToGenerateItem;

@@ -6,8 +6,10 @@ import net.minecraft.src.block.BlockDispenser;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.entity.EntitySelectorArmoredMob;
+import net.minecraft.src.item.ItemStack;
 
-final class BehaviorDispenseArmor extends BehaviorDefaultDispenseItem {
+public final class BehaviorDispenseArmor extends BehaviorDefaultDispenseItem {
+	
 	protected ItemStack dispenseStack(IBlockSource var1, ItemStack var2) {
 		EnumFacing var3 = BlockDispenser.getFacing(var1.getBlockMetadata());
 		int var4 = var1.getXInt() + var3.getFrontOffsetX();

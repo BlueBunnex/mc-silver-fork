@@ -1,11 +1,11 @@
 package net.minecraft.src.entity;
 
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class EntityMinecartFurnace extends EntityMinecart {

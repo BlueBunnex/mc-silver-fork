@@ -5,6 +5,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityItem;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemRenderer;
+import net.minecraft.src.item.ItemStack;
 
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;

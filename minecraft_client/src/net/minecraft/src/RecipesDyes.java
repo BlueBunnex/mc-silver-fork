@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockCloth;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 
 public class RecipesDyes {
 	public void addRecipes(CraftingManager var1) {

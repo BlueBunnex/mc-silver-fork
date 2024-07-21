@@ -3,9 +3,9 @@ package net.minecraft.src.worldgen.structure;
 import java.util.Random;
 
 import net.minecraft.src.Direction;
-import net.minecraft.src.Item;
 import net.minecraft.src.WeightedRandomChestContent;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.World;
 
 public class ComponentScatteredFeatureDesertPyramid extends ComponentScatteredFeature {

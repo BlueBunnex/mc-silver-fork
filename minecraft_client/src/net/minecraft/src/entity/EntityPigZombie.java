@@ -3,9 +3,9 @@ package net.minecraft.src.entity;
 import java.util.List;
 
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.NBTTagCompound;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class EntityPigZombie extends EntityZombie {

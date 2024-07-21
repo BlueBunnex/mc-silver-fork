@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemArmor;
+import net.minecraft.src.item.ItemStack;
 
 class SlotArmor extends Slot {
 	final int armorType;

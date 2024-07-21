@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import java.util.ArrayList;
 
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemDye;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class RecipeFireworks implements IRecipe {

@@ -3,13 +3,13 @@ package net.minecraft.src.block;
 import java.util.Random;
 
 import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.EnchantmentHelper;
 import net.minecraft.src.EnumSkyBlock;
 import net.minecraft.src.IBlockAccess;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.StatList;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.enchantment.EnchantmentHelper;
 import net.minecraft.src.worldgen.World;
 
 public class BlockIce extends BlockBreakable {

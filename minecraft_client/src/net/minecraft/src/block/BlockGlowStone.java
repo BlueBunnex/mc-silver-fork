@@ -3,9 +3,9 @@ package net.minecraft.src.block;
 import java.util.Random;
 
 import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.Item;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
+import net.minecraft.src.item.Item;
 
 public class BlockGlowStone extends Block {
 	public BlockGlowStone(int var1, Material var2) {

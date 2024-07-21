@@ -6,8 +6,8 @@ import java.util.Random;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
+import net.minecraft.src.item.ItemStack;
 
 public class BlockStep extends BlockHalfSlab {
 	public static final String[] blockStepTypes = new String[]{"stone", "sand", "wood", "cobble", "brick", "smoothStoneBrick", "netherBrick", "quartz"};

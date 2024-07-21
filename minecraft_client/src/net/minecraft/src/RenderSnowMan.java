@@ -5,6 +5,7 @@ import org.lwjgl.opengl.GL11;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntitySnowman;
+import net.minecraft.src.item.ItemStack;
 
 public class RenderSnowMan extends RenderLiving {
 	private ModelSnowMan snowmanModel = (ModelSnowMan)this.mainModel;

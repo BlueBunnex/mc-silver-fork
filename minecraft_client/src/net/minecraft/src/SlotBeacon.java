@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
+
 class SlotBeacon extends Slot {
 	final ContainerBeacon beacon;
 

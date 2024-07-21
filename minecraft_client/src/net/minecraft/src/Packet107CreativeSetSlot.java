@@ -4,6 +4,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import net.minecraft.src.item.ItemStack;
+
 public class Packet107CreativeSetSlot extends Packet {
 	public int slot;
 	public ItemStack itemStack;

@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Map;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 
 public class StatList {
 	protected static Map oneShotStats = new HashMap();

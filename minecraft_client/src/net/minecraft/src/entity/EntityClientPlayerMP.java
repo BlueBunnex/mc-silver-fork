@@ -2,7 +2,6 @@ package net.minecraft.src.entity;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NetClientHandler;
 import net.minecraft.src.Packet101CloseWindow;
@@ -18,6 +17,7 @@ import net.minecraft.src.Packet205ClientCommand;
 import net.minecraft.src.Packet3Chat;
 import net.minecraft.src.Session;
 import net.minecraft.src.StatBase;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class EntityClientPlayerMP extends EntityPlayerSP {

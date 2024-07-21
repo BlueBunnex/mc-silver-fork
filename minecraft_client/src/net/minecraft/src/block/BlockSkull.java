@@ -6,9 +6,6 @@ import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemSkull;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
@@ -17,6 +14,9 @@ import net.minecraft.src.TileEntitySkull;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.entity.EntityWither;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemSkull;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class BlockSkull extends BlockContainer {

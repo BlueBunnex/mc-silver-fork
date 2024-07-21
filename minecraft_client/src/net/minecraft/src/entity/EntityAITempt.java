@@ -1,6 +1,6 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.ItemStack;
+import net.minecraft.src.item.ItemStack;
 
 public class EntityAITempt extends EntityAIBase {
 	private EntityCreature temptedEntity;

@@ -3,7 +3,7 @@ package net.minecraft.src.callable;
 import java.util.concurrent.Callable;
 
 import net.minecraft.src.InventoryPlayer;
-import net.minecraft.src.ItemStack;
+import net.minecraft.src.item.ItemStack;
 
 public class CallableItemName implements Callable {
 	

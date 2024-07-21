@@ -12,6 +12,10 @@ import net.minecraft.src.callable.CallablePacketID;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityItem;
 import net.minecraft.src.entity.EntityPlayerMP;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemEditableBook;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.ItemWritableBook;
 
 public class NetServerHandler extends NetHandler {
 	public final INetworkManager netManager;

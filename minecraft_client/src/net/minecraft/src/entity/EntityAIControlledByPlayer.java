@@ -1,12 +1,12 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.PathFinder;
 import net.minecraft.src.PathPoint;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockHalfSlab;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 
 public class EntityAIControlledByPlayer extends EntityAIBase {
 	private final EntityLiving thisEntity;

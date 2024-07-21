@@ -11,6 +11,8 @@ import java.util.Map;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
+import net.minecraft.src.item.ItemStack;
+
 public class DataWatcher {
 	private boolean isBlank = true;
 	private static final HashMap dataTypes = new HashMap();

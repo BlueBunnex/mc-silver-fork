@@ -21,8 +21,6 @@ import net.minecraft.src.GuiScreen;
 import net.minecraft.src.GuiScreenBook;
 import net.minecraft.src.IInventory;
 import net.minecraft.src.IMerchant;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.MouseFilter;
 import net.minecraft.src.MovementInput;
@@ -38,6 +36,8 @@ import net.minecraft.src.TileEntityDispenser;
 import net.minecraft.src.TileEntityFurnace;
 import net.minecraft.src.TileEntityHopper;
 import net.minecraft.src.TileEntitySign;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class EntityPlayerSP extends EntityPlayer {

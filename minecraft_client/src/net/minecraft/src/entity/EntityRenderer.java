@@ -14,7 +14,6 @@ import net.minecraft.src.CrashReportCategory;
 import net.minecraft.src.EffectRenderer;
 import net.minecraft.src.Frustrum;
 import net.minecraft.src.GLAllocation;
-import net.minecraft.src.ItemRenderer;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.MouseFilter;
@@ -31,6 +30,7 @@ import net.minecraft.src.block.Block;
 import net.minecraft.src.callable.CallableMouseLocation;
 import net.minecraft.src.callable.CallableScreenName;
 import net.minecraft.src.callable.CallableScreenSize;
+import net.minecraft.src.item.ItemRenderer;
 import net.minecraft.src.worldgen.BiomeGenBase;
 import net.minecraft.src.worldgen.WorldClient;
 

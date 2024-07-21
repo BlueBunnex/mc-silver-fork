@@ -1,12 +1,12 @@
 package net.minecraft.src.entity;
 
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.EnchantmentHelper;
-import net.minecraft.src.EnchantmentThorns;
 import net.minecraft.src.EnumSkyBlock;
 import net.minecraft.src.IMob;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.Potion;
+import net.minecraft.src.item.enchantment.EnchantmentHelper;
+import net.minecraft.src.item.enchantment.EnchantmentThorns;
 import net.minecraft.src.worldgen.World;
 
 public abstract class EntityMob extends EntityCreature implements IMob {

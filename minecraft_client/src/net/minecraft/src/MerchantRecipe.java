@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
+
 public class MerchantRecipe {
 	private ItemStack itemToBuy;
 	private ItemStack secondItemToBuy;

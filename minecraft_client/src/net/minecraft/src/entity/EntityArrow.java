@@ -4,16 +4,16 @@ import java.util.List;
 
 import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.EnchantmentThorns;
 import net.minecraft.src.IProjectile;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.MovingObjectPosition;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.Packet70GameEvent;
 import net.minecraft.src.Vec3;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.enchantment.EnchantmentThorns;
 import net.minecraft.src.worldgen.World;
 
 public class EntityArrow extends Entity implements IProjectile {

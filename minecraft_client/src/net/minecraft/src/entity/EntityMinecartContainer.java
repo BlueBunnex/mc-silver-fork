@@ -3,9 +3,9 @@ package net.minecraft.src.entity;
 import net.minecraft.src.Container;
 import net.minecraft.src.DamageSource;
 import net.minecraft.src.IInventory;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.NBTTagList;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public abstract class EntityMinecartContainer extends EntityMinecart implements IInventory {

@@ -3,13 +3,13 @@ package net.minecraft.src.block;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityRecordPlayer;
 import net.minecraft.src.entity.EntityItem;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class BlockJukeBox extends BlockContainer {

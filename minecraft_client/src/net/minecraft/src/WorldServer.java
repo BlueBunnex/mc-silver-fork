@@ -18,6 +18,7 @@ import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.entity.EntityPlayerMP;
 import net.minecraft.src.entity.EntityTracker;
 import net.minecraft.src.entity.EntityWaterMob;
+import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.BiomeGenBase;
 import net.minecraft.src.worldgen.World;
 import net.minecraft.src.worldgen.WorldChunkManager;

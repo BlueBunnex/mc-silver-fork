@@ -3,6 +3,8 @@ package net.minecraft.src;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
+import net.minecraft.src.item.ItemStack;
+
 class GuiFlatPresetsListSlot extends GuiSlot {
 	public int field_82459_a;
 	final GuiFlatPresets flatPresetsGui;

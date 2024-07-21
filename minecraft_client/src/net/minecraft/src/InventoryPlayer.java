@@ -4,6 +4,9 @@ import net.minecraft.src.block.Block;
 import net.minecraft.src.callable.CallableItemName;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemArmor;
+import net.minecraft.src.item.ItemStack;
 
 public class InventoryPlayer implements IInventory {
 	

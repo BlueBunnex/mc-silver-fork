@@ -4,11 +4,11 @@ import java.util.List;
 
 import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.Item;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.World;
 
 public class EntityBoat extends Entity {

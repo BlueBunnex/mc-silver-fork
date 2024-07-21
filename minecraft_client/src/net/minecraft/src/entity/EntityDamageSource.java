@@ -1,8 +1,8 @@
 package net.minecraft.src.entity;
 
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.StatCollector;
+import net.minecraft.src.item.ItemStack;
 
 public class EntityDamageSource extends DamageSource {
 	protected Entity damageSourceEntity;

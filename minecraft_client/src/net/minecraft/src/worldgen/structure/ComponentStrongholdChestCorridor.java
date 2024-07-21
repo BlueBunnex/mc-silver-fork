@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.Random;
 
 import net.minecraft.src.EnumDoor;
-import net.minecraft.src.Item;
 import net.minecraft.src.WeightedRandomChestContent;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.World;
 
 public class ComponentStrongholdChestCorridor extends ComponentStronghold {

@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.BlockDispenser;
 import net.minecraft.src.entity.Entity;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public abstract class BehaviorProjectileDispense extends BehaviorDefaultDispenseItem {

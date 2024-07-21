@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemBucket;
+import net.minecraft.src.item.ItemStack;
 
 final class DispenserBehaviorFilledBucket extends BehaviorDefaultDispenseItem {
 	private final BehaviorDefaultDispenseItem defaultDispenserItemBehavior = new BehaviorDefaultDispenseItem();

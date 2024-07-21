@@ -29,7 +29,6 @@ import net.minecraft.src.ILogAgent;
 import net.minecraft.src.ISaveHandler;
 import net.minecraft.src.IUpdatePlayerListBox;
 import net.minecraft.src.IWorldAccess;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MapStorage;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
@@ -64,6 +63,7 @@ import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityMinecart;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 
 public abstract class World implements IBlockAccess {
 	

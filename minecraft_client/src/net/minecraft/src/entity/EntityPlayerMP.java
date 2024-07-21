@@ -35,10 +35,6 @@ import net.minecraft.src.ICrafting;
 import net.minecraft.src.IInventory;
 import net.minecraft.src.IMerchant;
 import net.minecraft.src.InventoryMerchant;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemInWorldManager;
-import net.minecraft.src.ItemMapBase;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.MerchantRecipeList;
 import net.minecraft.src.NBTTagCompound;
@@ -81,6 +77,10 @@ import net.minecraft.src.TileEntityDropper;
 import net.minecraft.src.TileEntityFurnace;
 import net.minecraft.src.TileEntityHopper;
 import net.minecraft.src.WorldServer;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemInWorldManager;
+import net.minecraft.src.item.ItemMapBase;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class EntityPlayerMP extends EntityPlayer implements ICrafting {

@@ -4,10 +4,10 @@ import net.minecraft.src.AchievementList;
 import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.DamageSource;
 import net.minecraft.src.IMob;
-import net.minecraft.src.Item;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.Vec3;
+import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.World;
 
 public class EntityGhast extends EntityFlying implements IMob {

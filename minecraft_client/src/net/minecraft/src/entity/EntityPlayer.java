@@ -10,8 +10,6 @@ import net.minecraft.src.ChunkCoordinates;
 import net.minecraft.src.Container;
 import net.minecraft.src.ContainerPlayer;
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.EnchantmentHelper;
-import net.minecraft.src.EnchantmentThorns;
 import net.minecraft.src.EnumAction;
 import net.minecraft.src.EnumGameType;
 import net.minecraft.src.EnumStatus;
@@ -25,8 +23,6 @@ import net.minecraft.src.IMob;
 import net.minecraft.src.Icon;
 import net.minecraft.src.InventoryEnderChest;
 import net.minecraft.src.InventoryPlayer;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
@@ -50,6 +46,10 @@ import net.minecraft.src.TileEntityHopper;
 import net.minecraft.src.Vec3;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockBed;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.enchantment.EnchantmentHelper;
+import net.minecraft.src.item.enchantment.EnchantmentThorns;
 import net.minecraft.src.worldgen.World;
 
 public abstract class EntityPlayer extends EntityLiving implements ICommandSender {

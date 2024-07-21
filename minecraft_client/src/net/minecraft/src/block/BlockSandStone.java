@@ -5,8 +5,8 @@ import java.util.List;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
+import net.minecraft.src.item.ItemStack;
 
 public class BlockSandStone extends Block {
 	public static final String[] SAND_STONE_TYPES = new String[]{"default", "chiseled", "smooth"};

@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.entity.EntityXPOrb;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 
 public class SlotFurnace extends Slot {
 	private EntityPlayer thePlayer;

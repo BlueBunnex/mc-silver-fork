@@ -42,6 +42,10 @@ import net.minecraft.src.entity.EntitySorter;
 import net.minecraft.src.entity.EntitySpellParticleFX;
 import net.minecraft.src.entity.EntitySplashFX;
 import net.minecraft.src.entity.EntitySuspendFX;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemDye;
+import net.minecraft.src.item.ItemRecord;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.WorldClient;
 
 import org.lwjgl.opengl.ARBOcclusionQuery;

@@ -1,8 +1,8 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemSeeds;
-import net.minecraft.src.ItemStack;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemSeeds;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class EntityChicken extends EntityAnimal {

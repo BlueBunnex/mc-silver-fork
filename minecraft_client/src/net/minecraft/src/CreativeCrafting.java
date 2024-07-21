@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import java.util.List;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.item.ItemStack;
 
 public class CreativeCrafting implements ICrafting {
 	private final Minecraft mc;

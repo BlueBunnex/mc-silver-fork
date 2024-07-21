@@ -5,6 +5,8 @@ import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityClientPlayerMP;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemBlock;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 import net.minecraft.src.worldgen.WorldClient;
 

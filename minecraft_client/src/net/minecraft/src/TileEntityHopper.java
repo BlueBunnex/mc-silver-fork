@@ -8,6 +8,7 @@ import net.minecraft.src.block.BlockHopper;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityItem;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class TileEntityHopper extends TileEntity implements Hopper {

@@ -1,9 +1,9 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.Item;
 import net.minecraft.src.RenderEngine;
 import net.minecraft.src.Tessellator;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.World;
 
 public class EntityBreakingFX extends EntityFX {

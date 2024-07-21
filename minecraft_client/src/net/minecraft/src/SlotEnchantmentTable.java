@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.item.ItemStack;
+
 class SlotEnchantmentTable extends InventoryBasic {
 	final ContainerEnchantment container;
 

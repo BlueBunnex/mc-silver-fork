@@ -5,6 +5,7 @@ import java.io.DataOutputStream;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class GuiMerchant extends GuiContainer {

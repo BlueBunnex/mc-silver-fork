@@ -1,5 +1,11 @@
 package net.minecraft.src;
 
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemArmor;
+import net.minecraft.src.item.ItemBow;
+import net.minecraft.src.item.ItemSword;
+import net.minecraft.src.item.ItemTool;
+
 public enum EnumEnchantmentType {
 	all,
 	armor,

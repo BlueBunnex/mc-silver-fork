@@ -13,7 +13,6 @@ import net.minecraft.src.IPosition;
 import net.minecraft.src.IRegistry;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.PositionImpl;
@@ -23,6 +22,7 @@ import net.minecraft.src.TileEntityDispenser;
 import net.minecraft.src.entity.EntityItem;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class BlockDispenser extends BlockContainer {

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.item.ItemStack;
+
 public class TileEntityRecordPlayer extends TileEntity {
 	private ItemStack record;
 

@@ -3,12 +3,12 @@ package net.minecraft.src.command;
 import java.util.List;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.ICommandSender;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.NumberInvalidException;
 import net.minecraft.src.WrongUsageException;
 import net.minecraft.src.entity.EntityItem;
 import net.minecraft.src.entity.EntityPlayerMP;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
 
 public class CommandGive extends CommandBase {
 	public String getCommandName() {

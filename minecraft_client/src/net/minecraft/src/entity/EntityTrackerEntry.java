@@ -7,9 +7,6 @@ import java.util.Set;
 
 import net.minecraft.src.DataWatcher;
 import net.minecraft.src.IAnimals;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemMap;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MapData;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.Packet;
@@ -30,6 +27,9 @@ import net.minecraft.src.Packet40EntityMetadata;
 import net.minecraft.src.Packet41EntityEffect;
 import net.minecraft.src.Packet5PlayerInventory;
 import net.minecraft.src.PotionEffect;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemMap;
+import net.minecraft.src.item.ItemStack;
 
 public class EntityTrackerEntry {
 	public Entity myEntity;

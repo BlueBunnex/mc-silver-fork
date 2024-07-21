@@ -4,18 +4,18 @@ import java.util.Calendar;
 
 import net.minecraft.src.AchievementList;
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.Enchantment;
-import net.minecraft.src.EnchantmentHelper;
 import net.minecraft.src.EnumCreatureAttribute;
 import net.minecraft.src.IRangedAttackMob;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.Potion;
 import net.minecraft.src.PotionEffect;
 import net.minecraft.src.WorldProviderHell;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemStack;
+import net.minecraft.src.item.enchantment.Enchantment;
+import net.minecraft.src.item.enchantment.EnchantmentHelper;
 import net.minecraft.src.worldgen.World;
 
 public class EntitySkeleton extends EntityMob implements IRangedAttackMob {

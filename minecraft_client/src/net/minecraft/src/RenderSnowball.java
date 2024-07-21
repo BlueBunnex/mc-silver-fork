@@ -5,6 +5,8 @@ import org.lwjgl.opengl.GL12;
 
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityPotion;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemPotion;
 
 public class RenderSnowball extends Render {
 	private Item field_94151_a;

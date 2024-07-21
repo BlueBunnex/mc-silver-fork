@@ -1,13 +1,13 @@
 package net.minecraft.src.entity;
 
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.Item;
-import net.minecraft.src.ItemFood;
-import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.PathEntity;
 import net.minecraft.src.block.BlockCloth;
+import net.minecraft.src.item.Item;
+import net.minecraft.src.item.ItemFood;
+import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 
 public class EntityWolf extends EntityTameable {
