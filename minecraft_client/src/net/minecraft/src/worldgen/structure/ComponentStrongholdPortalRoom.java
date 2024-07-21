@@ -4,8 +4,8 @@ import java.util.List;
 import java.util.Random;
 
 import net.minecraft.src.EnumDoor;
-import net.minecraft.src.TileEntityMobSpawner;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.tile.TileEntityMobSpawner;
 import net.minecraft.src.worldgen.World;
 
 public class ComponentStrongholdPortalRoom extends ComponentStronghold {

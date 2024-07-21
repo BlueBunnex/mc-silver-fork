@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.minecraft.src.command.CommandBase;
 import net.minecraft.src.command.CommandException;
+import net.minecraft.src.entity.tile.TileEntityCommandBlock;
 
 public class ServerCommandTestFor extends CommandBase {
 	public String getCommandName() {

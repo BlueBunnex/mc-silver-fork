@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.EntityMinecart;
 import net.minecraft.src.entity.EntityMinecartMobSpawner;
+import net.minecraft.src.entity.tile.TileEntityMobSpawnerRenderer;
 
 public class RenderMinecartMobSpawner extends RenderMinecart {
 	protected void func_98192_a(EntityMinecartMobSpawner var1, float var2, Block var3, int var4) {

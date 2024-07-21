@@ -3,6 +3,10 @@ package net.minecraft.src;
 import java.nio.FloatBuffer;
 import java.util.Random;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.entity.tile.TileEntity;
+import net.minecraft.src.entity.tile.TileEntityEndPortal;
+import net.minecraft.src.entity.tile.TileEntitySpecialRenderer;
+
 import org.lwjgl.opengl.GL11;
 
 public class RenderEndPortal extends TileEntitySpecialRenderer {

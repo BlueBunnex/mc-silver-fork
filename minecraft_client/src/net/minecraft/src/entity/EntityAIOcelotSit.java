@@ -1,8 +1,8 @@
 package net.minecraft.src.entity;
 
-import net.minecraft.src.TileEntityChest;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockBed;
+import net.minecraft.src.entity.tile.TileEntityChest;
 import net.minecraft.src.worldgen.World;
 
 public class EntityAIOcelotSit extends EntityAIBase {

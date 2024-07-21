@@ -1,11 +1,13 @@
 package net.minecraft.src;
 
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.gui.GuiContainerCreative;
 import net.minecraft.src.item.ItemStack;
 
-class SlotCreativeInventory extends Slot {
+public class SlotCreativeInventory extends Slot {
+	
 	private final Slot theSlot;
-	final GuiContainerCreative theCreativeInventory;
+	private final GuiContainerCreative theCreativeInventory;
 
 	public SlotCreativeInventory(GuiContainerCreative var1, Slot var2, int var3) {
 		super(var2.inventory, var3, 0, 0);
@@ -53,7 +55,7 @@ class SlotCreativeInventory extends Slot {
 		return this.theSlot.isSlotInInventory(var1, var2);
 	}
 
-	static Slot func_75240_a(SlotCreativeInventory var0) {
+	public static Slot func_75240_a(SlotCreativeInventory var0) {
 		return var0.theSlot;
 	}
 }

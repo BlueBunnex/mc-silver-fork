@@ -41,6 +41,7 @@ import net.minecraft.src.command.CommandToggleDownfall;
 import net.minecraft.src.command.CommandWeather;
 import net.minecraft.src.command.CommandXP;
 import net.minecraft.src.entity.EntityPlayerMP;
+import net.minecraft.src.entity.tile.TileEntityCommandBlock;
 
 public class ServerCommandManager extends CommandHandler implements IAdminCommand {
 	public ServerCommandManager() {

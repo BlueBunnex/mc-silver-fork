@@ -4,6 +4,7 @@ import org.lwjgl.opengl.GL11;
 
 import net.minecraft.src.entity.EntityGiantZombie;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.ModelBase;
 
 public class RenderGiantZombie extends RenderLiving {
 	private float scale;

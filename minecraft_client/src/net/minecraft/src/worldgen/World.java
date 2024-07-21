@@ -40,7 +40,6 @@ import net.minecraft.src.PathFinder;
 import net.minecraft.src.Profiler;
 import net.minecraft.src.ReportedException;
 import net.minecraft.src.Scoreboard;
-import net.minecraft.src.TileEntity;
 import net.minecraft.src.Vec3;
 import net.minecraft.src.Vec3Pool;
 import net.minecraft.src.VillageCollection;
@@ -63,6 +62,7 @@ import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityMinecart;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.tile.TileEntity;
 import net.minecraft.src.item.ItemStack;
 
 public abstract class World implements IBlockAccess {

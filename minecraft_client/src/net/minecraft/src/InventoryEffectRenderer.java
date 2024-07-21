@@ -4,6 +4,8 @@ import java.util.Collection;
 import java.util.Iterator;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.gui.GuiContainer;
+
 public abstract class InventoryEffectRenderer extends GuiContainer {
 	private boolean field_74222_o;
 

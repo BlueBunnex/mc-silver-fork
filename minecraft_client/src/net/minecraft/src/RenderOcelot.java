@@ -5,6 +5,7 @@ import org.lwjgl.opengl.GL11;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityOcelot;
+import net.minecraft.src.entity.ModelBase;
 
 public class RenderOcelot extends RenderLiving {
 	public RenderOcelot(ModelBase var1, float var2) {

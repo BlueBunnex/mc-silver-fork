@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.net.ConnectException;
 import java.net.UnknownHostException;
 
+import net.minecraft.src.gui.GuiScreenDisconnectedOnline;
+
 class ThreadOnlineConnect extends Thread {
 	final String field_96595_a;
 	final int field_96593_b;

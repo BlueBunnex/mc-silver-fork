@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.gui.GuiButton;
+import net.minecraft.src.gui.GuiScreenLongRunningTask;
 
 public abstract class TaskLongRunning implements Runnable {
 	protected GuiScreenLongRunningTask field_96579_b;

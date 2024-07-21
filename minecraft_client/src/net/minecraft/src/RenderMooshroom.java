@@ -6,6 +6,8 @@ import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityMooshroom;
+import net.minecraft.src.entity.ModelBase;
+import net.minecraft.src.entity.ModelQuadruped;
 
 public class RenderMooshroom extends RenderLiving {
 	public RenderMooshroom(ModelBase var1, float var2) {

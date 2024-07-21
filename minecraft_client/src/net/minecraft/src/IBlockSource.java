@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.tile.TileEntity;
+
 public interface IBlockSource extends ILocatableSource {
 	double getX();
 

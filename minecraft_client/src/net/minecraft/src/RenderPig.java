@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPig;
+import net.minecraft.src.entity.ModelBase;
 
 public class RenderPig extends RenderLiving {
 	public RenderPig(ModelBase var1, ModelBase var2, float var3) {

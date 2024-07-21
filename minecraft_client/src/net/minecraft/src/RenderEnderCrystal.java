@@ -4,6 +4,8 @@ import org.lwjgl.opengl.GL11;
 
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityEnderCrystal;
+import net.minecraft.src.entity.ModelBase;
+import net.minecraft.src.entity.ModelEnderCrystal;
 
 public class RenderEnderCrystal extends Render {
 	private int field_76996_a = -1;

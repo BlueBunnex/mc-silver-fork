@@ -5,6 +5,7 @@ import org.lwjgl.opengl.GL11;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntitySquid;
+import net.minecraft.src.entity.ModelBase;
 
 public class RenderSquid extends RenderLiving {
 	public RenderSquid(ModelBase var1, float var2) {

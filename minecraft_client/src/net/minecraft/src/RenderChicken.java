@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityChicken;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.ModelBase;
 
 public class RenderChicken extends RenderLiving {
 	public RenderChicken(ModelBase var1, float var2) {

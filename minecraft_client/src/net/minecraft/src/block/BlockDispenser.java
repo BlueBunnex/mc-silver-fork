@@ -17,11 +17,11 @@ import net.minecraft.src.Material;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.PositionImpl;
 import net.minecraft.src.RegistryDefaulted;
-import net.minecraft.src.TileEntity;
-import net.minecraft.src.TileEntityDispenser;
 import net.minecraft.src.entity.EntityItem;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.tile.TileEntity;
+import net.minecraft.src.entity.tile.TileEntityDispenser;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 

@@ -2,10 +2,14 @@ package net.minecraft.src;
 
 import java.net.URL;
 
-class RunnableTitleScreen implements Runnable {
-	final GuiMainMenu field_104058_d;
+import net.minecraft.src.gui.GuiButton;
+import net.minecraft.src.gui.GuiMainMenu;
 
-	RunnableTitleScreen(GuiMainMenu var1) {
+public class RunnableTitleScreen implements Runnable {
+	
+	private final GuiMainMenu field_104058_d;
+
+	public RunnableTitleScreen(GuiMainMenu var1) {
 		this.field_104058_d = var1;
 	}
 

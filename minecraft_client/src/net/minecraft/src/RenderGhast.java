@@ -4,6 +4,7 @@ import org.lwjgl.opengl.GL11;
 
 import net.minecraft.src.entity.EntityGhast;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.ModelGhast;
 
 public class RenderGhast extends RenderLiving {
 	public RenderGhast() {

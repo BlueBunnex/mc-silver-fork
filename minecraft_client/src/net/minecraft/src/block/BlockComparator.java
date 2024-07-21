@@ -7,9 +7,9 @@ import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.ITileEntityProvider;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.TileEntity;
-import net.minecraft.src.TileEntityComparator;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.tile.TileEntity;
+import net.minecraft.src.entity.tile.TileEntityComparator;
 import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.World;
 

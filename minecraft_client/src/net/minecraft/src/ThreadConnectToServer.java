@@ -3,12 +3,16 @@ package net.minecraft.src;
 import java.net.ConnectException;
 import java.net.UnknownHostException;
 
-class ThreadConnectToServer extends Thread {
-	final String ip;
-	final int port;
-	final GuiConnecting connectingGui;
+import net.minecraft.src.gui.GuiConnecting;
+import net.minecraft.src.gui.GuiDisconnected;
 
-	ThreadConnectToServer(GuiConnecting var1, String var2, int var3) {
+public class ThreadConnectToServer extends Thread {
+	
+	private final String ip;
+	private final int port;
+	private final GuiConnecting connectingGui;
+
+	public ThreadConnectToServer(GuiConnecting var1, String var2, int var3) {
 		this.connectingGui = var1;
 		this.ip = var2;
 		this.port = var3;

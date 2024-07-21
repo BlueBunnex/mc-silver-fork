@@ -8,6 +8,7 @@ import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityEnderman;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.ModelEnderman;
 
 public class RenderEnderman extends RenderLiving {
 	private ModelEnderman endermanModel = (ModelEnderman)this.mainModel;

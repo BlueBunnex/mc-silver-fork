@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityBlaze;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.ModelBlaze;
 
 public class RenderBlaze extends RenderLiving {
 	private int field_77068_a = ((ModelBlaze)this.mainModel).func_78104_a();

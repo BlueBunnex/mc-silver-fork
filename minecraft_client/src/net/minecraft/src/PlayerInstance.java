@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.src.entity.EntityPlayerMP;
+import net.minecraft.src.entity.tile.TileEntity;
 
 class PlayerInstance {
 	private final List playersInChunk;

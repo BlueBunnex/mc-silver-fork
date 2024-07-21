@@ -3,10 +3,10 @@ package net.minecraft.src.worldgen.structure;
 import java.util.List;
 import java.util.Random;
 
-import net.minecraft.src.TileEntityMobSpawner;
 import net.minecraft.src.WeightedRandomChestContent;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.EntityMinecartChest;
+import net.minecraft.src.entity.tile.TileEntityMobSpawner;
 import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.World;
 

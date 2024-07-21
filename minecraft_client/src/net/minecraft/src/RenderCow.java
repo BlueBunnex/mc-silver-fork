@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityCow;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.ModelBase;
 
 public class RenderCow extends RenderLiving {
 	public RenderCow(ModelBase var1, float var2) {

@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.entity.tile.TileEntityDispenser;
 import net.minecraft.src.item.ItemStack;
 
 public class WeightedRandomChestContent extends WeightedRandomItem {

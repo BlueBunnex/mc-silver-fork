@@ -4,6 +4,8 @@ import org.lwjgl.opengl.GL11;
 
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityBoat;
+import net.minecraft.src.entity.ModelBase;
+import net.minecraft.src.entity.ModelBoat;
 
 public class RenderBoat extends Render {
 	protected ModelBase modelBoat;

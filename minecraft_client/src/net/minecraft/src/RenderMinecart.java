@@ -5,6 +5,8 @@ import org.lwjgl.opengl.GL11;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityMinecart;
+import net.minecraft.src.entity.ModelBase;
+import net.minecraft.src.entity.ModelMinecart;
 
 public class RenderMinecart extends Render {
 	protected ModelBase modelMinecart;

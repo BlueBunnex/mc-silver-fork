@@ -1,5 +1,10 @@
 package net.minecraft.src;
 
+import net.minecraft.src.gui.GuiButton;
+import net.minecraft.src.gui.GuiScreen;
+import net.minecraft.src.gui.GuiSlider;
+import net.minecraft.src.gui.GuiSmallButton;
+
 public class ScreenChatOptions extends GuiScreen {
 	private static final EnumOptions[] allScreenChatOptions = new EnumOptions[]{EnumOptions.CHAT_VISIBILITY, EnumOptions.CHAT_COLOR, EnumOptions.CHAT_LINKS, EnumOptions.CHAT_OPACITY, EnumOptions.CHAT_LINKS_PROMPT, EnumOptions.CHAT_SCALE, EnumOptions.CHAT_HEIGHT_FOCUSED, EnumOptions.CHAT_HEIGHT_UNFOCUSED, EnumOptions.CHAT_WIDTH};
 	private static final EnumOptions[] allMultiplayerOptions = new EnumOptions[]{EnumOptions.SHOW_CAPE};

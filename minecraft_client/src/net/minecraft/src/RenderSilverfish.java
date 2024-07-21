@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntitySilverfish;
+import net.minecraft.src.entity.ModelSilverfish;
 
 public class RenderSilverfish extends RenderLiving {
 	public RenderSilverfish() {

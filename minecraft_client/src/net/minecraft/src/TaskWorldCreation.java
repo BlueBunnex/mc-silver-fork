@@ -3,12 +3,15 @@ package net.minecraft.src;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
-class TaskWorldCreation extends TaskLongRunning {
+import net.minecraft.src.gui.GuiScreenCreateOnlineWorld;
+
+public class TaskWorldCreation extends TaskLongRunning {
+	
 	private final String field_96589_c;
 	private final String field_96587_d;
 	private final String field_96588_e;
 	private final String field_104065_f;
-	final GuiScreenCreateOnlineWorld field_96590_a;
+	private final GuiScreenCreateOnlineWorld field_96590_a;
 
 	public TaskWorldCreation(GuiScreenCreateOnlineWorld var1, String var2, String var3, String var4, String var5) {
 		this.field_96590_a = var1;

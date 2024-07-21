@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.tile.TileEntity;
 import net.minecraft.src.worldgen.BiomeGenBase;
 import net.minecraft.src.worldgen.World;
 

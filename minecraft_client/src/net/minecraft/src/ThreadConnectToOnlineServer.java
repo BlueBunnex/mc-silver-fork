@@ -5,11 +5,15 @@ import java.net.ConnectException;
 import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 
-class ThreadConnectToOnlineServer extends Thread {
-	final McoServer field_96597_a;
-	final GuiSlotOnlineServerList field_96596_b;
+import net.minecraft.src.gui.GuiScreenOnlineServers;
+import net.minecraft.src.gui.GuiSlotOnlineServerList;
 
-	ThreadConnectToOnlineServer(GuiSlotOnlineServerList var1, McoServer var2) {
+public class ThreadConnectToOnlineServer extends Thread {
+	
+	private final McoServer field_96597_a;
+	private final GuiSlotOnlineServerList field_96596_b;
+
+	public ThreadConnectToOnlineServer(GuiSlotOnlineServerList var1, McoServer var2) {
 		this.field_96596_b = var1;
 		this.field_96597_a = var2;
 	}

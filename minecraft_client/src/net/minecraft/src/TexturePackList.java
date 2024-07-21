@@ -9,6 +9,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.gui.GuiProgress;
 
 public class TexturePackList {
 	private static final ITexturePack defaultTexturePack = new TexturePackDefault();

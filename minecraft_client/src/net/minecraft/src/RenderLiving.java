@@ -5,6 +5,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityArrow;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.ModelBase;
+import net.minecraft.src.entity.ModelBox;
+import net.minecraft.src.entity.ModelRenderer;
 
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;

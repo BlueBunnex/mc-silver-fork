@@ -2,9 +2,9 @@ package net.minecraft.src.worldgen;
 
 import java.util.Random;
 
-import net.minecraft.src.TileEntityChest;
 import net.minecraft.src.WeightedRandomChestContent;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.tile.TileEntityChest;
 
 public class WorldGeneratorBonusChest extends WorldGenerator {
 	private final WeightedRandomChestContent[] theBonusChestGenerator;

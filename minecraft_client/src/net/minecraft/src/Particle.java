@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.gui.GuiParticle;
+
 public class Particle {
 	private static Random rand = new Random();
 	public double posX;

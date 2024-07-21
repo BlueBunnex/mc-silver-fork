@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.gui.GuiScreen;
 
 class NetClientWebTextures extends GuiScreen {
 	final String texturePackName;

@@ -7,11 +7,11 @@ import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.StatCollector;
-import net.minecraft.src.TileEntity;
-import net.minecraft.src.TileEntitySkull;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockSkull;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.tile.TileEntity;
+import net.minecraft.src.entity.tile.TileEntitySkull;
 import net.minecraft.src.worldgen.World;
 
 public class ItemSkull extends Item {

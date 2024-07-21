@@ -4,6 +4,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityMagmaCube;
+import net.minecraft.src.entity.ModelMagmaCube;
 
 import org.lwjgl.opengl.GL11;
 

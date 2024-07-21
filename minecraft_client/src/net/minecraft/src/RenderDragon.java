@@ -6,6 +6,7 @@ import org.lwjgl.opengl.GL11;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityDragon;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.ModelDragon;
 
 public class RenderDragon extends RenderLiving {
 	private static int updateModelState = 0;

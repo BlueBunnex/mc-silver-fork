@@ -6,8 +6,8 @@ import net.minecraft.src.DamageSource;
 import net.minecraft.src.Hopper;
 import net.minecraft.src.IEntitySelector;
 import net.minecraft.src.NBTTagCompound;
-import net.minecraft.src.TileEntityHopper;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.tile.TileEntityHopper;
 import net.minecraft.src.worldgen.World;
 
 public class EntityMinecartHopper extends EntityMinecartContainer implements Hopper {

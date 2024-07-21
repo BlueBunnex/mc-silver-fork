@@ -2,13 +2,16 @@ package net.minecraft.src;
 
 import java.io.IOException;
 
-class ThreadTitleScreen extends Thread {
-	final StringTranslate field_98135_a;
-	final int field_98133_b;
-	final int field_98134_c;
-	final GuiMainMenu field_98132_d;
+import net.minecraft.src.gui.GuiMainMenu;
 
-	ThreadTitleScreen(GuiMainMenu var1, StringTranslate var2, int var3, int var4) {
+public class ThreadTitleScreen extends Thread {
+	
+	private final StringTranslate field_98135_a;
+	private final int field_98133_b;
+	private final int field_98134_c;
+	private final GuiMainMenu field_98132_d;
+
+	public ThreadTitleScreen(GuiMainMenu var1, StringTranslate var2, int var3, int var4) {
 		this.field_98132_d = var1;
 		this.field_98135_a = var2;
 		this.field_98133_b = var3;

@@ -2,7 +2,10 @@ package net.minecraft.src;
 
 import java.io.IOException;
 
-class TaskResetWorld extends TaskLongRunning {
+import net.minecraft.src.gui.GuiScreenResetWorld;
+
+public class TaskResetWorld extends TaskLongRunning {
+	
 	private final long field_96591_c;
 	private final String field_104066_d;
 	final GuiScreenResetWorld field_96592_a;
@@ -21,10 +24,10 @@ class TaskResetWorld extends TaskLongRunning {
 		try {
 			var1.func_96376_d(this.field_96591_c, this.field_104066_d);
 			GuiScreenResetWorld.func_96147_b(this.field_96592_a).displayGuiScreen(GuiScreenResetWorld.func_96148_a(this.field_96592_a));
-		} catch (ExceptionMcoService var4) {
-			this.func_96575_a(var4.field_96391_b);
-		} catch (IOException var5) {
-		}
-
+		
+		} catch (ExceptionMcoService e) {
+			this.func_96575_a(e.field_96391_b);
+			
+		} catch (IOException e) {}
 	}
 }

@@ -3,10 +3,10 @@ package net.minecraft.src.block;
 import java.util.Random;
 
 import net.minecraft.src.Material;
-import net.minecraft.src.TileEntity;
-import net.minecraft.src.TileEntityCommandBlock;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.tile.TileEntity;
+import net.minecraft.src.entity.tile.TileEntityCommandBlock;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 

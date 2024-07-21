@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Random;
 
 import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.tile.TileEntity;
 import net.minecraft.src.worldgen.World;
 
 public class EmptyChunk extends Chunk {

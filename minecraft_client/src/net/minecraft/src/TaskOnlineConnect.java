@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.io.IOException;
 
+import net.minecraft.src.gui.GuiScreen;
+
 public class TaskOnlineConnect extends TaskLongRunning {
 	private NetClientHandler field_96586_a;
 	private final McoServer field_96585_c;

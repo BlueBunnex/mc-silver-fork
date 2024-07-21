@@ -12,12 +12,12 @@ import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.Material;
 import net.minecraft.src.NBTTagCompound;
-import net.minecraft.src.TileEntity;
-import net.minecraft.src.TileEntityHopper;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityItem;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.tile.TileEntity;
+import net.minecraft.src.entity.tile.TileEntityHopper;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 

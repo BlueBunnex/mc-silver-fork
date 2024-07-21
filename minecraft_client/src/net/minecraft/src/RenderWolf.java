@@ -5,6 +5,7 @@ import org.lwjgl.opengl.GL11;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntitySheep;
 import net.minecraft.src.entity.EntityWolf;
+import net.minecraft.src.entity.ModelBase;
 
 public class RenderWolf extends RenderLiving {
 	public RenderWolf(ModelBase var1, ModelBase var2, float var3) {

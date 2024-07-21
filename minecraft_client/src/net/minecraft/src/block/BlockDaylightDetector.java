@@ -9,8 +9,8 @@ import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
-import net.minecraft.src.TileEntity;
-import net.minecraft.src.TileEntityDaylightDetector;
+import net.minecraft.src.entity.tile.TileEntity;
+import net.minecraft.src.entity.tile.TileEntityDaylightDetector;
 import net.minecraft.src.worldgen.World;
 
 public class BlockDaylightDetector extends BlockContainer {

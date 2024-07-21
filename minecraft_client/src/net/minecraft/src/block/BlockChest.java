@@ -13,12 +13,12 @@ import net.minecraft.src.InventoryLargeChest;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
-import net.minecraft.src.TileEntity;
-import net.minecraft.src.TileEntityChest;
 import net.minecraft.src.entity.EntityItem;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityOcelot;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.tile.TileEntity;
+import net.minecraft.src.entity.tile.TileEntityChest;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
 

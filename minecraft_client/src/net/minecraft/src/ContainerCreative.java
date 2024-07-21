@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.gui.GuiContainerCreative;
 import net.minecraft.src.item.ItemStack;
 
-class ContainerCreative extends Container {
+public class ContainerCreative extends Container {
+	
 	public List itemList = new ArrayList();
 
 	public ContainerCreative(EntityPlayer var1) {

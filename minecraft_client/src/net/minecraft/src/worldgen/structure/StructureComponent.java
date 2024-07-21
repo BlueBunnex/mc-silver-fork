@@ -7,11 +7,11 @@ import java.util.Random;
 import net.minecraft.src.ChunkPosition;
 import net.minecraft.src.Direction;
 import net.minecraft.src.Facing;
-import net.minecraft.src.TileEntityChest;
-import net.minecraft.src.TileEntityDispenser;
 import net.minecraft.src.WeightedRandomChestContent;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockDirectional;
+import net.minecraft.src.entity.tile.TileEntityChest;
+import net.minecraft.src.entity.tile.TileEntityDispenser;
 import net.minecraft.src.item.ItemDoor;
 import net.minecraft.src.worldgen.World;
 

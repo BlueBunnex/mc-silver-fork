@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.tile.TileEntityBrewingStand;
 import net.minecraft.src.item.ItemStack;
 
 public class ContainerBrewingStand extends Container {

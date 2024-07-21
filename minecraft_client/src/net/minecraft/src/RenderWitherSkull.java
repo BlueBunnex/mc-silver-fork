@@ -5,6 +5,7 @@ import org.lwjgl.opengl.GL12;
 
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityWitherSkull;
+import net.minecraft.src.entity.ModelSkeletonHead;
 
 public class RenderWitherSkull extends Render {
 	ModelSkeletonHead skeletonHeadModel = new ModelSkeletonHead();

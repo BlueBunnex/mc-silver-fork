@@ -7,6 +7,7 @@ import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.Entity;
 import net.minecraft.src.entity.EntityIronGolem;
 import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.ModelIronGolem;
 
 public class RenderIronGolem extends RenderLiving {
 	private ModelIronGolem ironGolemModel = (ModelIronGolem)this.mainModel;

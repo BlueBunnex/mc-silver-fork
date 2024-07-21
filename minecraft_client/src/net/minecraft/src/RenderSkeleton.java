@@ -4,6 +4,7 @@ import org.lwjgl.opengl.GL11;
 
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntitySkeleton;
+import net.minecraft.src.entity.ModelSkeleton;
 
 public class RenderSkeleton extends RenderBiped {
 	public RenderSkeleton() {

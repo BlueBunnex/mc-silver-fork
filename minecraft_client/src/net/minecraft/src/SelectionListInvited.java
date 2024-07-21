@@ -1,7 +1,10 @@
 package net.minecraft.src;
 
-class SelectionListInvited extends SelectionListBase {
-	final GuiScreenConfigureWorld field_98264_a;
+import net.minecraft.src.gui.GuiScreenConfigureWorld;
+
+public class SelectionListInvited extends SelectionListBase {
+	
+	private final GuiScreenConfigureWorld field_98264_a;
 
 	public SelectionListInvited(GuiScreenConfigureWorld var1) {
 		super(GuiScreenConfigureWorld.func_96265_a(var1), GuiScreenConfigureWorld.func_96271_b(var1), GuiScreenConfigureWorld.func_96274_a(var1, 2), GuiScreenConfigureWorld.func_96269_c(var1), GuiScreenConfigureWorld.func_96274_a(var1, 9) - GuiScreenConfigureWorld.func_96274_a(var1, 2), 12);

@@ -5,11 +5,15 @@ import java.net.ConnectException;
 import java.net.SocketTimeoutException;
 import java.net.UnknownHostException;
 
-class ThreadPollServers extends Thread {
-	final ServerData pollServersServerData;
-	final GuiSlotServer serverSlotContainer;
+import net.minecraft.src.gui.GuiMultiplayer;
+import net.minecraft.src.gui.GuiSlotServer;
 
-	ThreadPollServers(GuiSlotServer var1, ServerData var2) {
+public class ThreadPollServers extends Thread {
+	
+	private final ServerData pollServersServerData;
+	private final GuiSlotServer serverSlotContainer;
+
+	public ThreadPollServers(GuiSlotServer var1, ServerData var2) {
 		this.serverSlotContainer = var1;
 		this.pollServersServerData = var2;
 	}
