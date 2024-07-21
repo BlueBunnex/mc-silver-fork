@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class BiomeEndDecorator extends BiomeDecorator {
 	protected WorldGenerator spikeGen = new WorldGenSpikes(Block.whiteStone.blockID);
 

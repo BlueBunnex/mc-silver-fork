@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class Teleporter {
 	private final WorldServer worldServerInstance;
 	private final Random random;

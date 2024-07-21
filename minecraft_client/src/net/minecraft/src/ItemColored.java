@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class ItemColored extends ItemBlock {
 	private final Block blockRef = Block.blocksList[this.getBlockID()];
 	private String[] blockNames;

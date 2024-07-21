@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+
 public class ItemMap extends ItemMapBase {
 	protected ItemMap(int var1) {
 		super(var1);

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class EntityMooshroom extends EntityCow {
 	public EntityMooshroom(World var1) {
 		super(var1);

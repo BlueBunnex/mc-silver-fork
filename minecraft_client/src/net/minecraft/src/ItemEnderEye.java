@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockEndPortalFrame;
+
 public class ItemEnderEye extends Item {
 	public ItemEnderEye(int var1) {
 		super(var1);

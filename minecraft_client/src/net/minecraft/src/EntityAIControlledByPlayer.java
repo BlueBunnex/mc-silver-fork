@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockHalfSlab;
+
 public class EntityAIControlledByPlayer extends EntityAIBase {
 	private final EntityLiving thisEntity;
 	private final float maxSpeed;

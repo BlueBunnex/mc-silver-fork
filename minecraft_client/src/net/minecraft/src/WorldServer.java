@@ -9,6 +9,8 @@ import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockEventData;
 
 public class WorldServer extends World {
 	private final MinecraftServer mcServer;

@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Iterator;
 
+import net.minecraft.src.block.Block;
+
 public class EntityItem extends Entity {
 	public int age;
 	public int delayBeforeCanPickup;

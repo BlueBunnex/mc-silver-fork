@@ -6,6 +6,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public final class SpawnerAnimals {
 	private static HashMap eligibleChunksForSpawning = new HashMap();
 	protected static final Class[] nightSpawnEntities = new Class[]{EntitySpider.class, EntityZombie.class, EntitySkeleton.class};

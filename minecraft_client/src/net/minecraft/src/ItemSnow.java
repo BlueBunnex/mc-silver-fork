@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class ItemSnow extends ItemBlockWithMetadata {
 	public ItemSnow(int var1, Block var2) {
 		super(var1, var2);

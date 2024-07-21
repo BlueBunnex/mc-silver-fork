@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockDoor;
+
 public class VillageCollection extends WorldSavedData {
 	private World worldObj;
 	private final List villagerPositionsList = new ArrayList();

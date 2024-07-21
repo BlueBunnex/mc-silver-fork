@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockChest;
+import net.minecraft.src.block.BlockHopper;
+
 public class TileEntityHopper extends TileEntity implements Hopper {
 	private ItemStack[] hopperItemStacks = new ItemStack[5];
 	private String inventoryName;

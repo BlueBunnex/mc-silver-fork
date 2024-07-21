@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.BlockDispenser;
+
 public class ItemArmor extends Item {
 	private static final int[] maxDamageArray = new int[]{11, 16, 15, 13};
 	private static final String[] field_94606_cu = new String[]{"helmetCloth_overlay", "chestplateCloth_overlay", "leggingsCloth_overlay", "bootsCloth_overlay"};

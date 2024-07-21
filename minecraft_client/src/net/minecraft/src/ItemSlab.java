@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockHalfSlab;
+
 public class ItemSlab extends ItemBlock {
 	private final boolean isFullBlock;
 	private final BlockHalfSlab theHalfSlab;

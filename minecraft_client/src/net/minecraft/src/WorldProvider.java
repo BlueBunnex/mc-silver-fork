@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public abstract class WorldProvider {
 	public World worldObj;
 	public WorldType terrainType;

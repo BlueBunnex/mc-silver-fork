@@ -3,6 +3,8 @@ package net.minecraft.src;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
+import net.minecraft.src.block.Block;
+
 public class RenderIronGolem extends RenderLiving {
 	private ModelIronGolem ironGolemModel = (ModelIronGolem)this.mainModel;
 

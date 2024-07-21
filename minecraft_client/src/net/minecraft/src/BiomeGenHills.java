@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class BiomeGenHills extends BiomeGenBase {
 	private WorldGenerator theWorldGenerator = new WorldGenMinable(Block.silverfish.blockID, 8);
 

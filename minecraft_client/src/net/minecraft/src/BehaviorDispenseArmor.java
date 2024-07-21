@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.block.BlockDispenser;
+
 final class BehaviorDispenseArmor extends BehaviorDefaultDispenseItem {
 	protected ItemStack dispenseStack(IBlockSource var1, ItemStack var2) {
 		EnumFacing var3 = BlockDispenser.getFacing(var1.getBlockMetadata());

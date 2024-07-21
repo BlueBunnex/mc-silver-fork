@@ -3,6 +3,9 @@ package net.minecraft.src;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockSand;
+
 public class EntityFallingSand extends Entity {
 	public int blockID;
 	public int metadata;

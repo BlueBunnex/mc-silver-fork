@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class EntitySmallFireball extends EntityFireball {
 	public EntitySmallFireball(World var1) {
 		super(var1);

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.BlockDispenser;
+
 final class DispenserBehaviorTNT extends BehaviorDefaultDispenseItem {
 	protected ItemStack dispenseStack(IBlockSource var1, ItemStack var2) {
 		EnumFacing var3 = BlockDispenser.getFacing(var1.getBlockMetadata());

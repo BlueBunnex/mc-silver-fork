@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.BlockDispenser;
+
 final class DispenserBehaviorBoat extends BehaviorDefaultDispenseItem {
 	private final BehaviorDefaultDispenseItem defaultDispenserItemBehavior = new BehaviorDefaultDispenseItem();
 

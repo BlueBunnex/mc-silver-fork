@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class TileEntityEnderChest extends TileEntity {
 	public float lidAngle;
 	public float prevLidAngle;

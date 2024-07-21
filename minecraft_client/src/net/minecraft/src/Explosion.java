@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class Explosion {
 	public boolean isFlaming = false;
 	public boolean isSmoking = true;

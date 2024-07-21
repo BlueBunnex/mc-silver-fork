@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class ItemRedstone extends Item {
 	public ItemRedstone(int var1) {
 		super(var1);

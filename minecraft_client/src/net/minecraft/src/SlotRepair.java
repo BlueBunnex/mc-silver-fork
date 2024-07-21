@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 class SlotRepair extends Slot {
 	final World theWorld;
 	final int blockPosX;

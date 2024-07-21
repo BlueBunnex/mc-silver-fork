@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockLeaves;
+
 public class ItemLeaves extends ItemBlock {
 	public ItemLeaves(int var1) {
 		super(var1);

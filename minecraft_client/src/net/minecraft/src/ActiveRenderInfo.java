@@ -5,6 +5,9 @@ import java.nio.IntBuffer;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.util.glu.GLU;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockFluid;
+
 public class ActiveRenderInfo {
 	public static float objectX = 0.0F;
 	public static float objectY = 0.0F;

@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockBed;
+
 public class EntityAIOcelotSit extends EntityAIBase {
 	private final EntityOcelot theOcelot;
 	private final float field_75404_b;

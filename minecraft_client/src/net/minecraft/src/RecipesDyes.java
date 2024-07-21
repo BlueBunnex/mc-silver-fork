@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockCloth;
+
 public class RecipesDyes {
 	public void addRecipes(CraftingManager var1) {
 		for(int var2 = 0; var2 < 16; ++var2) {

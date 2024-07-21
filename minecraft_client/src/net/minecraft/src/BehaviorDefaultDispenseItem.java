@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.BlockDispenser;
+
 public class BehaviorDefaultDispenseItem implements IBehaviorDispenseItem {
 	public final ItemStack dispense(IBlockSource var1, ItemStack var2) {
 		ItemStack var3 = this.dispenseStack(var1, var2);

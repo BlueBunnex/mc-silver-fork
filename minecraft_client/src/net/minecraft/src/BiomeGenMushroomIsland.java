@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class BiomeGenMushroomIsland extends BiomeGenBase {
 	public BiomeGenMushroomIsland(int var1) {
 		super(var1);

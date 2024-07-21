@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class ComponentStrongholdStairs extends ComponentStronghold {
 	private final boolean field_75024_a;
 	private final EnumDoor doorType;

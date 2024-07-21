@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 abstract class ComponentStronghold extends StructureComponent {
 	protected ComponentStronghold(int var1) {
 		super(var1);

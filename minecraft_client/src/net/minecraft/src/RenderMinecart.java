@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.block.Block;
+
 public class RenderMinecart extends Render {
 	protected ModelBase modelMinecart;
 	protected final RenderBlocks field_94145_f;

@@ -6,6 +6,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public abstract class EntityLiving extends Entity {
 	private static final float[] enchantmentProbability = new float[]{0.0F, 0.0F, 0.1F, 0.2F};
 	private static final float[] armorEnchantmentProbability = new float[]{0.0F, 0.0F, 0.25F, 0.5F};

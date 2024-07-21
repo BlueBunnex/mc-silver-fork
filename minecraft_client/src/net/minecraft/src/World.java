@@ -9,6 +9,13 @@ import java.util.List;
 import java.util.Random;
 import java.util.Set;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockFluid;
+import net.minecraft.src.block.BlockHalfSlab;
+import net.minecraft.src.block.BlockHopper;
+import net.minecraft.src.block.BlockSnow;
+import net.minecraft.src.block.BlockStairs;
+
 public abstract class World implements IBlockAccess {
 	public boolean scheduledUpdatesAreImmediate = false;
 	public List loadedEntityList = new ArrayList();

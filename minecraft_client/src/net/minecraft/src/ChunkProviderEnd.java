@@ -3,6 +3,9 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockSand;
+
 public class ChunkProviderEnd implements IChunkProvider {
 	private Random endRNG;
 	private NoiseGeneratorOctaves noiseGen1;

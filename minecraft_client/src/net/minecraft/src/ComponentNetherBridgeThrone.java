@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class ComponentNetherBridgeThrone extends ComponentNetherBridgePiece {
 	private boolean hasSpawner;
 

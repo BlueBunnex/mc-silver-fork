@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.block.Block;
+
 public abstract class Render {
 	protected RenderManager renderManager;
 	private ModelBase modelBase = new ModelBiped();

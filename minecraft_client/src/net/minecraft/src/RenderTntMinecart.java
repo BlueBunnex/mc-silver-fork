@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.block.Block;
+
 public class RenderTntMinecart extends RenderMinecart {
 	protected void func_94146_a(EntityMinecartTNT var1, float var2, Block var3, int var4) {
 		int var5 = var1.func_94104_d();

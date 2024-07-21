@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class ItemHoe extends Item {
 	protected EnumToolMaterial theToolMaterial;
 

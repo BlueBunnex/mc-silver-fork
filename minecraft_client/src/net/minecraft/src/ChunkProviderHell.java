@@ -3,6 +3,9 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockSand;
+
 public class ChunkProviderHell implements IChunkProvider {
 	private Random hellRNG;
 	private NoiseGeneratorOctaves netherNoiseGen1;

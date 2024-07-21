@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.Random;
 import java.util.Set;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.block.Block;
 
 public class WorldClient extends World {
 	private NetClientHandler sendQueue;

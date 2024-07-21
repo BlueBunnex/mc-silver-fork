@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+
 public class CombatTracker {
 	private final List field_94556_a = new ArrayList();
 	private final EntityLiving field_94554_b;

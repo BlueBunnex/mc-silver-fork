@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockLever;
+
 public class ComponentScatteredFeatureJunglePyramid extends ComponentScatteredFeature {
 	private boolean field_74947_h;
 	private boolean field_74948_i;

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class EntityMinecartChest extends EntityMinecartContainer {
 	public EntityMinecartChest(World var1) {
 		super(var1);

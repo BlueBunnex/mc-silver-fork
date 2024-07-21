@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.HashMap;
 import java.util.Map;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.block.Block;
 
 public class TileEntity {
 	private static Map nameToClassMap = new HashMap();

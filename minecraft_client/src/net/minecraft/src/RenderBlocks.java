@@ -1,6 +1,37 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockAnvil;
+import net.minecraft.src.block.BlockBeacon;
+import net.minecraft.src.block.BlockBed;
+import net.minecraft.src.block.BlockBrewingStand;
+import net.minecraft.src.block.BlockCauldron;
+import net.minecraft.src.block.BlockCocoa;
+import net.minecraft.src.block.BlockComparator;
+import net.minecraft.src.block.BlockDirectional;
+import net.minecraft.src.block.BlockDragonEgg;
+import net.minecraft.src.block.BlockEndPortalFrame;
+import net.minecraft.src.block.BlockFence;
+import net.minecraft.src.block.BlockFenceGate;
+import net.minecraft.src.block.BlockFire;
+import net.minecraft.src.block.BlockFlower;
+import net.minecraft.src.block.BlockFlowerPot;
+import net.minecraft.src.block.BlockFluid;
+import net.minecraft.src.block.BlockGrass;
+import net.minecraft.src.block.BlockHopper;
+import net.minecraft.src.block.BlockPane;
+import net.minecraft.src.block.BlockPistonBase;
+import net.minecraft.src.block.BlockPistonExtension;
+import net.minecraft.src.block.BlockRailBase;
+import net.minecraft.src.block.BlockRedstoneLogic;
+import net.minecraft.src.block.BlockRedstoneRepeater;
+import net.minecraft.src.block.BlockRedstoneWire;
+import net.minecraft.src.block.BlockStairs;
+import net.minecraft.src.block.BlockStem;
+import net.minecraft.src.block.BlockTripWire;
+import net.minecraft.src.block.BlockWall;
+
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 

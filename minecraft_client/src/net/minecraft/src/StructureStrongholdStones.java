@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 class StructureStrongholdStones extends StructurePieceBlockSelector {
 	private StructureStrongholdStones() {
 	}

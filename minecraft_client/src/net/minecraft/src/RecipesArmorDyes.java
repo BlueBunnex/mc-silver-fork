@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.ArrayList;
 
+import net.minecraft.src.block.BlockCloth;
+
 public class RecipesArmorDyes implements IRecipe {
 	public boolean matches(InventoryCrafting var1, World var2) {
 		ItemStack var3 = null;

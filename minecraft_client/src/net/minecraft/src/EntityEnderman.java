@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class EntityEnderman extends EntityMob {
 	private static boolean[] carriableBlocks = new boolean[256];
 	private int teleportDelay = 0;

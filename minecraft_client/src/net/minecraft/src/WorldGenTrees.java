@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class WorldGenTrees extends WorldGenerator {
 	private final int minTreeHeight;
 	private final boolean vinesGrow;

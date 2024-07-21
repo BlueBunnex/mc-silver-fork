@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import net.minecraft.src.block.Block;
+
 public class FlatGeneratorInfo {
 	private final List flatLayers = new ArrayList();
 	private final Map worldFeatures = new HashMap();

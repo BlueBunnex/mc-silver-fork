@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class WorldGenHellLava extends WorldGenerator {
 	private int hellLavaID;
 	private boolean field_94524_b = false;

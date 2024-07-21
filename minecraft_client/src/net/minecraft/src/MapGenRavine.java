@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class MapGenRavine extends MapGenBase {
 	private float[] field_75046_d = new float[1024];
 

@@ -3,6 +3,9 @@ package net.minecraft.src;
 import java.util.Iterator;
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockChest;
+
 public class TileEntityChest extends TileEntity implements IInventory {
 	private ItemStack[] chestContents = new ItemStack[36];
 	public boolean adjacentChestChecked = false;

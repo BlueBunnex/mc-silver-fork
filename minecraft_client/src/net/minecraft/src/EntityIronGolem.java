@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class EntityIronGolem extends EntityGolem {
 	private int homeCheckTimer = 0;
 	Village villageObj = null;

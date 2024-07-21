@@ -4,6 +4,8 @@ import java.util.Random;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
+import net.minecraft.src.block.Block;
+
 public class RenderEnderman extends RenderLiving {
 	private ModelEnderman endermanModel = (ModelEnderman)this.mainModel;
 	private Random rnd = new Random();

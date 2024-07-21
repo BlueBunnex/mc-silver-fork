@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class ItemInWorldManager {
 	public World theWorld;
 	public EntityPlayerMP thisPlayerMP;

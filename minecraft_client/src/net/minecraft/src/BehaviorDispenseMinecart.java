@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.block.BlockRailBase;
+
 final class BehaviorDispenseMinecart extends BehaviorDefaultDispenseItem {
 	private final BehaviorDefaultDispenseItem field_96465_b = new BehaviorDefaultDispenseItem();
 

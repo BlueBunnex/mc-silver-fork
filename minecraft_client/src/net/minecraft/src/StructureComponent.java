@@ -4,6 +4,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockDirectional;
+
 public abstract class StructureComponent {
 	protected StructureBoundingBox boundingBox;
 	protected int coordBaseMode;

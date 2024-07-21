@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class NextTickListEntry implements Comparable {
 	private static long nextTickEntryID = 0L;
 	public int xCoord;

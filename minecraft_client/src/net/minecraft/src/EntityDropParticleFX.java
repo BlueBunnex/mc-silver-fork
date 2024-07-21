@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.BlockFluid;
+
 public class EntityDropParticleFX extends EntityFX {
 	private Material materialType;
 	private int bobTimer;

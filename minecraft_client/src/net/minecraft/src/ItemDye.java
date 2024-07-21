@@ -2,6 +2,16 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockCloth;
+import net.minecraft.src.block.BlockCocoa;
+import net.minecraft.src.block.BlockCrops;
+import net.minecraft.src.block.BlockDirectional;
+import net.minecraft.src.block.BlockLog;
+import net.minecraft.src.block.BlockMushroom;
+import net.minecraft.src.block.BlockSapling;
+import net.minecraft.src.block.BlockStem;
+
 public class ItemDye extends Item {
 	public static final String[] dyeColorNames = new String[]{"black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"};
 	public static final String[] field_94595_b = new String[]{"dyePowder_black", "dyePowder_red", "dyePowder_green", "dyePowder_brown", "dyePowder_blue", "dyePowder_purple", "dyePowder_cyan", "dyePowder_silver", "dyePowder_gray", "dyePowder_pink", "dyePowder_lime", "dyePowder_yellow", "dyePowder_lightBlue", "dyePowder_magenta", "dyePowder_orange", "dyePowder_white"};

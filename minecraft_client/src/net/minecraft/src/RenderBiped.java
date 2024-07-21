@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.block.Block;
+
 public class RenderBiped extends RenderLiving {
 	protected ModelBiped modelBipedMain;
 	protected float field_77070_b;

@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class ChunkProviderFlat implements IChunkProvider {
 	private World worldObj;
 	private Random random;

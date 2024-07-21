@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class WorldGeneratorBonusChest extends WorldGenerator {
 	private final WeightedRandomChestContent[] theBonusChestGenerator;
 	private final int itemsToGenerateInBonusChest;

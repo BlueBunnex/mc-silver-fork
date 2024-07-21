@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockSkull;
+
 public class ItemSkull extends Item {
 	private static final String[] skullTypes = new String[]{"skeleton", "wither", "zombie", "char", "creeper"};
 	public static final String[] field_94587_a = new String[]{"skull_skeleton", "skull_wither", "skull_zombie", "skull_char", "skull_creeper"};

@@ -4,6 +4,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockJukeBox;
+
 public class ItemRecord extends Item {
 	private static final Map records = new HashMap();
 	public final String recordName;

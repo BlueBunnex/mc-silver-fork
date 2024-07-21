@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+
 public class EntityWither extends EntityMob implements IBossDisplayData, IRangedAttackMob {
 	private float[] field_82220_d = new float[2];
 	private float[] field_82221_e = new float[2];

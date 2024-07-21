@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+
 public class AchievementList {
 	public static int minDisplayColumn;
 	public static int minDisplayRow;

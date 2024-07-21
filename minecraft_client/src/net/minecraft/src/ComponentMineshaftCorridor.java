@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class ComponentMineshaftCorridor extends StructureComponent {
 	private final boolean hasRails;
 	private final boolean hasSpiders;

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public enum EnumToolMaterial {
 	WOOD(0, 59, 2.0F, 0, 15),
 	STONE(1, 131, 4.0F, 1, 5),

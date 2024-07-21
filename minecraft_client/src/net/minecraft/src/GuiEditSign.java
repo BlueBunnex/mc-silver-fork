@@ -3,6 +3,8 @@ package net.minecraft.src;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.block.Block;
+
 public class GuiEditSign extends GuiScreen {
 	private static final String allowedCharacters = ChatAllowedCharacters.allowedCharacters;
 	protected String screenTitle = "Edit sign message:";

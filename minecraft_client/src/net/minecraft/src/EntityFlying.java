@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public abstract class EntityFlying extends EntityLiving {
 	public EntityFlying(World var1) {
 		super(var1);

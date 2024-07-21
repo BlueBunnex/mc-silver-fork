@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class ComponentVillageWell extends ComponentVillage {
 	private final boolean field_74924_a = true;
 	private int averageGroundLevel = -1;

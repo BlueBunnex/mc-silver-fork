@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class ContainerEnchantment extends Container {
 	public IInventory tableInventory = new SlotEnchantmentTable(this, "Enchant", true, 1);
 	private World worldPointer;

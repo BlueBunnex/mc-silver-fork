@@ -4,6 +4,8 @@ import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockFluid;
 
 public abstract class Entity {
 	private static int nextEntityID = 0;

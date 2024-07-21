@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class ChestItemRenderHelper {
 	public static ChestItemRenderHelper instance = new ChestItemRenderHelper();
 	private TileEntityChest theChest = new TileEntityChest();

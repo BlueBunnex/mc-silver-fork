@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 class SlotArmor extends Slot {
 	final int armorType;
 	final ContainerPlayer parent;

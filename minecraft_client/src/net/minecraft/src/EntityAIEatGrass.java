@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class EntityAIEatGrass extends EntityAIBase {
 	private EntityLiving theEntity;
 	private World theWorld;

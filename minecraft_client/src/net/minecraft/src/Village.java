@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.TreeMap;
 
+import net.minecraft.src.block.Block;
+
 public class Village {
 	private World worldObj;
 	private final List villageDoorInfoList = new ArrayList();

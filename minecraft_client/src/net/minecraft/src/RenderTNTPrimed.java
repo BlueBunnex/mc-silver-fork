@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.block.Block;
+
 public class RenderTNTPrimed extends Render {
 	private RenderBlocks blockRenderer = new RenderBlocks();
 

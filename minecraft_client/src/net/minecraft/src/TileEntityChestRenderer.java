@@ -4,6 +4,9 @@ import java.util.Calendar;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockChest;
+
 public class TileEntityChestRenderer extends TileEntitySpecialRenderer {
 	private ModelChest chestModel = new ModelChest();
 	private ModelChest largeChestModel = new ModelLargeChest();

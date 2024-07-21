@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Calendar;
 
+import net.minecraft.src.block.Block;
+
 public class EntityZombie extends EntityMob {
 	private int conversionTime = 0;
 

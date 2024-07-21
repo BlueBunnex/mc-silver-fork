@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.block.Block;
 
 public class PlayerControllerMP {
 	private final Minecraft mc;

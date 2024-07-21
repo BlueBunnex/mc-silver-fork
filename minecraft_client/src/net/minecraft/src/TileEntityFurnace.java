@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockFurnace;
+
 public class TileEntityFurnace extends TileEntity implements ISidedInventory {
 	private static final int[] field_102010_d = new int[]{0};
 	private static final int[] field_102011_e = new int[]{2, 1};

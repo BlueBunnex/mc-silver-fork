@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.concurrent.Callable;
 
+import net.minecraft.src.block.Block;
+
 final class CallableBlockType implements Callable {
 	final int blockID;
 

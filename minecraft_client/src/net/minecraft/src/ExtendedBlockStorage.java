@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class ExtendedBlockStorage {
 	private int yBase;
 	private int blockRefCount;

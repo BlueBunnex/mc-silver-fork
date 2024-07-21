@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class ComponentVillageWoodHut extends ComponentVillage {
 	private int averageGroundLevel = -1;
 	private final boolean isTallHouse;

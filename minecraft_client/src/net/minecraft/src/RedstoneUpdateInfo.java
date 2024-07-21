@@ -1,10 +1,9 @@
 package net.minecraft.src;
 
-class RedstoneUpdateInfo {
-	int x;
-	int y;
-	int z;
-	long updateTime;
+public class RedstoneUpdateInfo {
+	
+	public int x, y, z;
+	public long updateTime;
 
 	public RedstoneUpdateInfo(int var1, int var2, int var3, long var4) {
 		this.x = var1;

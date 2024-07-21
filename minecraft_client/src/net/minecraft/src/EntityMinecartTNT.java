@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockRailBase;
+
 public class EntityMinecartTNT extends EntityMinecart {
 	private int minecartTNTFuse = -1;
 

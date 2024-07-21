@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.BlockDaylightDetector;
+
 public class TileEntityDaylightDetector extends TileEntity {
 	public void updateEntity() {
 		if(this.worldObj != null && !this.worldObj.isRemote && this.worldObj.getTotalWorldTime() % 20L == 0L) {

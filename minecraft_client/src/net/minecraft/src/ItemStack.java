@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public final class ItemStack {
 	public int stackSize;
 	public int animationsToGo;

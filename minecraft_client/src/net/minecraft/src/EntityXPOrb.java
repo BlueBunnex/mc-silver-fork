@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class EntityXPOrb extends Entity {
 	public int xpColor;
 	public int xpOrbAge = 0;

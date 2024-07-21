@@ -7,6 +7,8 @@ import java.util.Iterator;
 import java.util.List;
 import org.lwjgl.input.Keyboard;
 
+import net.minecraft.src.block.Block;
+
 public class GuiFlatPresets extends GuiScreen {
 	private static RenderItem presetIconRenderer = new RenderItem();
 	private static final List presets = new ArrayList();

@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class ComponentStrongholdCrossing extends ComponentStronghold {
 	protected final EnumDoor doorType;
 	private boolean field_74996_b;

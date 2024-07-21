@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class EntityEnderCrystal extends Entity {
 	public int innerRotation;
 	public int health;

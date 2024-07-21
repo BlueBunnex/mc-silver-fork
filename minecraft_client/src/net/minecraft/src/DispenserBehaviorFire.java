@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockDispenser;
+
 final class DispenserBehaviorFire extends BehaviorDefaultDispenseItem {
 	private boolean field_96466_b = true;
 

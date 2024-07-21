@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Random;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.block.Block;
+
 public class EffectRenderer {
 	protected World worldObj;
 	private List[] fxLayers = new List[4];

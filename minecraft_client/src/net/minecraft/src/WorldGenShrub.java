@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class WorldGenShrub extends WorldGenerator {
 	private int field_76527_a;
 	private int field_76526_b;

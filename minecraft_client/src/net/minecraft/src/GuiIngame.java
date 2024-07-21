@@ -6,6 +6,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.block.Block;
+
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 

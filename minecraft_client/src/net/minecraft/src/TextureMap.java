@@ -12,6 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.block.Block;
 
 public class TextureMap implements IconRegister {
 	private final int textureType;

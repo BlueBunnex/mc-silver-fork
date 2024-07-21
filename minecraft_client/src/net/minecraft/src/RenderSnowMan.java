@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.block.Block;
+
 public class RenderSnowMan extends RenderLiving {
 	private ModelSnowMan snowmanModel = (ModelSnowMan)this.mainModel;
 

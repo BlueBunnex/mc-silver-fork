@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.concurrent.Callable;
 
+import net.minecraft.src.block.Block;
+
 class CallableLvl1 implements Callable {
 	final int field_85179_a;
 	final World theWorld;

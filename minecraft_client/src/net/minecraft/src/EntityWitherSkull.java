@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class EntityWitherSkull extends EntityFireball {
 	public EntityWitherSkull(World var1) {
 		super(var1);

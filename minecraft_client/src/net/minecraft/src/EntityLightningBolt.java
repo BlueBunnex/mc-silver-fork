@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+
 public class EntityLightningBolt extends EntityWeatherEffect {
 	private int lightningState;
 	public long boltVertex = 0L;

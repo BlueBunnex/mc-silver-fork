@@ -5,6 +5,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class ComponentMineshaftRoom extends StructureComponent {
 	private List roomsLinkedToTheRoom = new LinkedList();
 

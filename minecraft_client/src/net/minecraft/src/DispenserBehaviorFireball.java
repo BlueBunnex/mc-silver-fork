@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.block.BlockDispenser;
+
 final class DispenserBehaviorFireball extends BehaviorDefaultDispenseItem {
 	public ItemStack dispenseStack(IBlockSource var1, ItemStack var2) {
 		EnumFacing var3 = BlockDispenser.getFacing(var1.getBlockMetadata());

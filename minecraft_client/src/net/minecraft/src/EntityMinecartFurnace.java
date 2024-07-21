@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class EntityMinecartFurnace extends EntityMinecart {
 	private int fuel = 0;
 	public double pushX;

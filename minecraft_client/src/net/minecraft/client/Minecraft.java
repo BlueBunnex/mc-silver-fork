@@ -19,7 +19,6 @@ import javax.swing.JPanel;
 import net.minecraft.src.AchievementList;
 import net.minecraft.src.AnvilSaveConverter;
 import net.minecraft.src.AxisAlignedBB;
-import net.minecraft.src.Block;
 import net.minecraft.src.CallableClientMemoryStats;
 import net.minecraft.src.CallableClientProfiler;
 import net.minecraft.src.CallableGLInfo;
@@ -115,6 +114,8 @@ import net.minecraft.src.WorldClient;
 import net.minecraft.src.WorldInfo;
 import net.minecraft.src.WorldRenderer;
 import net.minecraft.src.WorldSettings;
+import net.minecraft.src.block.Block;
+
 import org.lwjgl.LWJGLException;
 import org.lwjgl.Sys;
 import org.lwjgl.input.Keyboard;

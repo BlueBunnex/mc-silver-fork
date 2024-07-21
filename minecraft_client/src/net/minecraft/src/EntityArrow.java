@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+
 public class EntityArrow extends Entity implements IProjectile {
 	private int xTile = -1;
 	private int yTile = -1;

@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Calendar;
 
+import net.minecraft.src.block.Block;
+
 public class EntitySkeleton extends EntityMob implements IRangedAttackMob {
 	private EntityAIArrowAttack aiArrowAttack = new EntityAIArrowAttack(this, 0.25F, 20, 60, 15.0F);
 	private EntityAIAttackOnCollide aiAttackOnCollide = new EntityAIAttackOnCollide(this, EntityPlayer.class, 0.31F, false);

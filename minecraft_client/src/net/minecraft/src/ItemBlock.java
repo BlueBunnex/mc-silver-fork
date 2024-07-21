@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.block.Block;
+
 public class ItemBlock extends Item {
 	private int blockID;
 	private Icon field_94588_b;

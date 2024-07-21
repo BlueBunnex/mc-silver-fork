@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+
 public class ItemSign extends Item {
 	public ItemSign(int var1) {
 		super(var1);

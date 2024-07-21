@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.block.Block;
+
 import org.lwjgl.opengl.GL11;
 
 public class RenderWitch extends RenderLiving {

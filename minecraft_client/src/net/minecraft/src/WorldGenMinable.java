@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.block.Block;
+
 public class WorldGenMinable extends WorldGenerator {
 	private int minableBlockId;
 	private int numberOfBlocks;

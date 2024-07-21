@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.BlockDispenser;
+
 public abstract class BehaviorProjectileDispense extends BehaviorDefaultDispenseItem {
 	public ItemStack dispenseStack(IBlockSource var1, ItemStack var2) {
 		World var3 = var1.getWorld();

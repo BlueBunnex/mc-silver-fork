@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.block.BlockRailBase;
+
 public class ItemMinecart extends Item {
 	private static final IBehaviorDispenseItem dispenserMinecartBehavior = new BehaviorDispenseMinecart();
 	public int minecartType;

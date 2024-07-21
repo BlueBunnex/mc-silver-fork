@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.block.Block;
+import net.minecraft.src.block.BlockAnvil;
+
 public class ItemAnvilBlock extends ItemMultiTextureTile {
 	public ItemAnvilBlock(Block var1) {
 		super(var1.blockID - 256, var1, BlockAnvil.statuses);

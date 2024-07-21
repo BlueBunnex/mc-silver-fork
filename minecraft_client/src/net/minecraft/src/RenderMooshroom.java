@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.block.Block;
+
 public class RenderMooshroom extends RenderLiving {
 	public RenderMooshroom(ModelBase var1, float var2) {
 		super(var1, var2);

@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.Iterator;
 import java.util.Map;
 
+import net.minecraft.src.block.Block;
+
 public class ContainerRepair extends Container {
 	private IInventory outputSlot = new InventoryCraftResult();
 	private IInventory inputSlots = new InventoryRepair(this, "Repair", true, 2);
