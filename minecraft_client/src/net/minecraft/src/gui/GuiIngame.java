@@ -349,20 +349,6 @@ public class GuiIngame extends Gui {
 			this.mc.mcProfiler.endSection();
 		}
 
-		if(this.mc.isDemo()) {
-			this.mc.mcProfiler.startSection("demo");
-			var35 = "";
-			if(this.mc.theWorld.getTotalWorldTime() >= 120500L) {
-				var35 = StatCollector.translateToLocal("demo.demoExpired");
-			} else {
-				var35 = String.format(StatCollector.translateToLocal("demo.remainingTime"), new Object[]{StringUtils.ticksToElapsedTime((int)(120500L - this.mc.theWorld.getTotalWorldTime()))});
-			}
-
-			var12 = var8.getStringWidth(var35);
-			var8.drawStringWithShadow(var35, var6 - var12 - 10, 5, 16777215);
-			this.mc.mcProfiler.endSection();
-		}
-
 		if(this.mc.gameSettings.showDebugInfo) {
 			this.mc.mcProfiler.startSection("debug");
 			GL11.glPushMatrix();

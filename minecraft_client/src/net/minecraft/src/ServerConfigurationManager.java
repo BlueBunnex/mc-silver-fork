@@ -233,14 +233,9 @@ public abstract class ServerConfigurationManager {
 			var4.playerNetServerHandler.kickPlayerFromServer("You logged in from another location");
 		}
 
-		Object var6;
-		if(this.mcServer.isDemo()) {
-			var6 = new DemoWorldManager(this.mcServer.worldServerForDimension(0));
-		} else {
-			var6 = new ItemInWorldManager(this.mcServer.worldServerForDimension(0));
-		}
+		ItemInWorldManager var6 = new ItemInWorldManager(this.mcServer.worldServerForDimension(0));
 
-		return new EntityPlayerMP(this.mcServer, this.mcServer.worldServerForDimension(0), var1, (ItemInWorldManager)var6);
+		return new EntityPlayerMP(this.mcServer, this.mcServer.worldServerForDimension(0), var1, var6);
 	}
 
 	public EntityPlayerMP respawnPlayer(EntityPlayerMP var1, int var2, boolean var3) {
@@ -252,14 +247,11 @@ public abstract class ServerConfigurationManager {
 		ChunkCoordinates var4 = var1.getBedLocation();
 		boolean var5 = var1.isSpawnForced();
 		var1.dimension = var2;
-		Object var6;
-		if(this.mcServer.isDemo()) {
-			var6 = new DemoWorldManager(this.mcServer.worldServerForDimension(var1.dimension));
-		} else {
-			var6 = new ItemInWorldManager(this.mcServer.worldServerForDimension(var1.dimension));
-		}
+		
+		ItemInWorldManager var6 = new ItemInWorldManager(this.mcServer.worldServerForDimension(var1.dimension));
 
-		EntityPlayerMP var7 = new EntityPlayerMP(this.mcServer, this.mcServer.worldServerForDimension(var1.dimension), var1.username, (ItemInWorldManager)var6);
+		EntityPlayerMP var7 = new EntityPlayerMP(this.mcServer, this.mcServer.worldServerForDimension(var1.dimension), var1.username, var6);
+		
 		var7.playerNetServerHandler = var1.playerNetServerHandler;
 		var7.clonePlayer(var1, var3);
 		var7.entityId = var1.entityId;

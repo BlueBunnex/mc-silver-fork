@@ -14,7 +14,6 @@ import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.ChunkCoordinates;
 import net.minecraft.src.ConvertingProgressUpdate;
 import net.minecraft.src.CrashReport;
-import net.minecraft.src.DemoWorldServer;
 import net.minecraft.src.EnumGameType;
 import net.minecraft.src.ICommandManager;
 import net.minecraft.src.ICommandSender;
@@ -91,7 +90,6 @@ public abstract class MinecraftServer implements ICommandSender, Runnable, IPlay
 	private String serverOwner;
 	private String folderName;
 	private String worldName;
-	private boolean isDemo;
 	private boolean enableBonusChest;
 	private boolean worldIsBeingDeleted;
 	private String texturePack = "";
@@ -162,11 +160,7 @@ public abstract class MinecraftServer implements ICommandSender, Runnable, IPlay
 			}
 
 			if(var10 == 0) {
-				if(this.isDemo()) {
-					this.worldServers[var10] = new DemoWorldServer(this, var7, var2, var11, this.theProfiler, this.getLogAgent());
-				} else {
-					this.worldServers[var10] = new WorldServer(this, var7, var2, var11, var8, this.theProfiler, this.getLogAgent());
-				}
+				this.worldServers[var10] = new WorldServer(this, var7, var2, var11, var8, this.theProfiler, this.getLogAgent());
 			} else {
 				this.worldServers[var10] = new WorldServerMulti(this, var7, var2, var11, var8, this.worldServers[0], this.theProfiler, this.getLogAgent());
 			}
@@ -695,14 +689,6 @@ public abstract class MinecraftServer implements ICommandSender, Runnable, IPlay
 
 	protected boolean allowSpawnMonsters() {
 		return true;
-	}
-
-	public boolean isDemo() {
-		return this.isDemo;
-	}
-
-	public void setDemo(boolean var1) {
-		this.isDemo = var1;
 	}
 
 	public void canCreateBonusChest(boolean var1) {

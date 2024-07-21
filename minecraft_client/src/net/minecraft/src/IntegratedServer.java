@@ -27,7 +27,6 @@ public class IntegratedServer extends MinecraftServer {
 		this.setServerOwner(var1.session.username);
 		this.setFolderName(var2);
 		this.setWorldName(var3);
-		this.setDemo(var1.isDemo());
 		this.canCreateBonusChest(var4.isBonusChestEnabled());
 		this.setBuildLimit(256);
 		this.setConfigurationManager(new IntegratedPlayerList(this));
@@ -58,11 +57,7 @@ public class IntegratedServer extends MinecraftServer {
 			}
 
 			if(var8 == 0) {
-				if(this.isDemo()) {
-					this.worldServers[var8] = new DemoWorldServer(this, var7, var2, var9, this.theProfiler, this.getLogAgent());
-				} else {
-					this.worldServers[var8] = new WorldServer(this, var7, var2, var9, this.theWorldSettings, this.theProfiler, this.getLogAgent());
-				}
+				this.worldServers[var8] = new WorldServer(this, var7, var2, var9, this.theWorldSettings, this.theProfiler, this.getLogAgent());
 			} else {
 				this.worldServers[var8] = new WorldServerMulti(this, var7, var2, var9, this.theWorldSettings, this.worldServers[0], this.theProfiler, this.getLogAgent());
 			}

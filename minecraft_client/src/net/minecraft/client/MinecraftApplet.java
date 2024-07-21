@@ -29,7 +29,6 @@ public class MinecraftApplet extends Applet {
 			this.mc.session = new Session("Player", "");
 		}
 
-		this.mc.setDemo("true".equals(this.getParameter("demo")));
 		if(this.getParameter("server") != null && this.getParameter("port") != null) {
 			this.mc.setServer(this.getParameter("server"), Integer.parseInt(this.getParameter("port")));
 		}

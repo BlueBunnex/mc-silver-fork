@@ -7,12 +7,9 @@ import java.io.InputStreamReader;
 import java.net.URI;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 import java.util.Random;
 import net.minecraft.client.Minecraft;
-import net.minecraft.src.DemoWorldServer;
 import net.minecraft.src.EnumChatFormatting;
 import net.minecraft.src.FontRenderer;
 import net.minecraft.src.ISaveFormat;
@@ -21,7 +18,6 @@ import net.minecraft.src.RunnableTitleScreen;
 import net.minecraft.src.StringTranslate;
 import net.minecraft.src.Tessellator;
 import net.minecraft.src.ThreadTitleScreen;
-import net.minecraft.src.worldgen.WorldInfo;
 
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.util.glu.GLU;
@@ -31,7 +27,6 @@ public class GuiMainMenu extends GuiScreen {
 	private static final Random rand = new Random();
 	private float updateCounter = 0.0F;
 	private String splashText = "missingno";
-	private GuiButton buttonResetDemo;
 	private int panoramaTimer = 0;
 	private int viewportTexture;
 	private boolean field_96141_q = true;
@@ -50,46 +45,53 @@ public class GuiMainMenu extends GuiScreen {
 	private int field_92019_w;
 
 	public GuiMainMenu() {
-		BufferedReader var1 = null;
-
-		String var3;
+		
+		// read in splashes
+		BufferedReader read = null;
+		
 		try {
-			ArrayList var2 = new ArrayList();
-			var1 = new BufferedReader(new InputStreamReader(GuiMainMenu.class.getResourceAsStream("/title/splashes.txt"), Charset.forName("UTF-8")));
+			ArrayList<String> allSplashes = new ArrayList<String>();
+			read = new BufferedReader(new InputStreamReader(GuiMainMenu.class.getResourceAsStream("/title/splashes.txt"), Charset.forName("UTF-8")));
 
-			while(true) {
-				var3 = var1.readLine();
-				if(var3 == null) {
-					do {
-						this.splashText = (String)var2.get(rand.nextInt(var2.size()));
-					} while(this.splashText.hashCode() == 125780783);
+			String line;
+			
+			while (true) {
+				
+				line = read.readLine();
+				
+				if(line == null) {
+					
+					this.splashText = allSplashes.get(rand.nextInt(allSplashes.size()));
 					break;
 				}
 
-				var3 = var3.trim();
-				if(var3.length() > 0) {
-					var2.add(var3);
-				}
+				line = line.trim();
+				
+				if(line.length() > 0)
+					allSplashes.add(line);
 			}
-		} catch (IOException var12) {
+			
+		} catch (IOException e) {
+			
 		} finally {
-			if(var1 != null) {
+			
+			if(read != null) {
 				try {
-					var1.close();
-				} catch (IOException var11) {
-				}
+					read.close();
+				} catch (IOException e) {}
 			}
-
 		}
 
 		this.updateCounter = rand.nextFloat();
 		this.field_92025_p = "";
-		String var14 = System.getProperty("os_architecture");
-		var3 = System.getProperty("java_version");
-		if("ppc".equalsIgnoreCase(var14)) {
+		String architecture = System.getProperty("os_architecture");
+		String version      = System.getProperty("java_version");
+		
+		if("ppc".equalsIgnoreCase(architecture)) {
 			this.field_92025_p = "" + EnumChatFormatting.BOLD + "Notice!" + EnumChatFormatting.RESET + " PowerPC compatibility will be dropped in Minecraft 1.6";
 			this.field_104024_v = "http://tinyurl.com/javappc";
-		} else if(var3 != null && var3.startsWith("1.5")) {
+			
+		} else if (version != null && version.startsWith("1.5")) {
 			this.field_92025_p = "" + EnumChatFormatting.BOLD + "Notice!" + EnumChatFormatting.RESET + " Java 1.5 compatibility will be dropped in Minecraft 1.6";
 			this.field_104024_v = "http://tinyurl.com/javappc";
 		}
@@ -113,28 +115,16 @@ public class GuiMainMenu extends GuiScreen {
 
 	public void initGui() {
 		this.viewportTexture = this.mc.renderEngine.allocateAndSetupTexture(new BufferedImage(256, 256, 2));
-		Calendar var1 = Calendar.getInstance();
-		var1.setTime(new Date());
-		if(var1.get(2) + 1 == 11 && var1.get(5) == 9) {
-			this.splashText = "Happy birthday, ez!";
-		} else if(var1.get(2) + 1 == 6 && var1.get(5) == 1) {
-			this.splashText = "Happy birthday, Notch!";
-		} else if(var1.get(2) + 1 == 12 && var1.get(5) == 24) {
-			this.splashText = "Merry X-mas!";
-		} else if(var1.get(2) + 1 == 1 && var1.get(5) == 1) {
-			this.splashText = "Happy new year!";
-		} else if(var1.get(2) + 1 == 10 && var1.get(5) == 31) {
-			this.splashText = "OOoooOOOoooo! Spooky!";
-		}
 
 		StringTranslate var2 = StringTranslate.getInstance();
 		int var4 = this.height / 4 + 48;
-		if(this.mc.isDemo()) {
-			this.addDemoButtons(var4, 24, var2);
-		} else {
-			this.addSingleplayerMultiplayerButtons(var4, 24, var2);
-		}
-
+		
+		this.buttonList.add(new GuiButton(1, this.width / 2 - 100, var4, var2.translateKey("menu.singleplayer")));
+		
+		GuiButton mult = new GuiButton(2, this.width / 2 - 100, var4 + 24 * 1, var2.translateKey("menu.multiplayer"));
+		mult.enabled = false;
+		this.buttonList.add(mult);
+		
 		this.func_96137_a(var2, var4, 24);
 		if(this.mc.hideQuitButton) {
 			this.buttonList.add(new GuiButton(0, this.width / 2 - 100, var4 + 72, var2.translateKey("menu.options")));
@@ -172,58 +162,34 @@ public class GuiMainMenu extends GuiScreen {
 		this.buttonList.add(new GuiButton(3, this.width / 2 - 100, var2 + var3 * 2, var1.translateKey("menu.online")));
 	}
 
-	private void addSingleplayerMultiplayerButtons(int var1, int var2, StringTranslate var3) {
-		this.buttonList.add(new GuiButton(1, this.width / 2 - 100, var1, var3.translateKey("menu.singleplayer")));
-		this.buttonList.add(new GuiButton(2, this.width / 2 - 100, var1 + var2 * 1, var3.translateKey("menu.multiplayer")));
-	}
-
-	private void addDemoButtons(int var1, int var2, StringTranslate var3) {
-		this.buttonList.add(new GuiButton(11, this.width / 2 - 100, var1, var3.translateKey("menu.playdemo")));
-		this.buttonList.add(this.buttonResetDemo = new GuiButton(12, this.width / 2 - 100, var1 + var2 * 1, var3.translateKey("menu.resetdemo")));
-		ISaveFormat var4 = this.mc.getSaveLoader();
-		WorldInfo var5 = var4.getWorldInfo("Demo_World");
-		if(var5 == null) {
-			this.buttonResetDemo.enabled = false;
-		}
-
-	}
-
-	protected void actionPerformed(GuiButton var1) {
-		if(var1.id == 0) {
-			this.mc.displayGuiScreen(new GuiOptions(this, this.mc.gameSettings));
-		}
-
-		if(var1.id == 5) {
-			this.mc.displayGuiScreen(new GuiLanguage(this, this.mc.gameSettings));
-		}
-
-		if(var1.id == 1) {
-			this.mc.displayGuiScreen(new GuiSelectWorld(this));
-		}
-
-		if(var1.id == 2) {
-			this.mc.displayGuiScreen(new GuiMultiplayer(this));
-		}
-
-		if(var1.id == 3) {
-			this.mc.displayGuiScreen(new GuiScreenOnlineServers(this));
-		}
-
-		if(var1.id == 4) {
-			this.mc.shutdown();
-		}
-
-		if(var1.id == 11) {
-			this.mc.launchIntegratedServer("Demo_World", "Demo_World", DemoWorldServer.demoWorldSettings);
-		}
-
-		if(var1.id == 12) {
-			ISaveFormat var2 = this.mc.getSaveLoader();
-			WorldInfo var3 = var2.getWorldInfo("Demo_World");
-			if(var3 != null) {
-				GuiYesNo var4 = GuiSelectWorld.getDeleteWorldScreen(this, var3.getWorldName(), 12);
-				this.mc.displayGuiScreen(var4);
-			}
+	protected void actionPerformed(GuiButton button) {
+		
+		switch (button.id) {
+		
+			case 0:
+				this.mc.displayGuiScreen(new GuiOptions(this, this.mc.gameSettings));
+				break;
+				
+			case 1:
+				this.mc.displayGuiScreen(new GuiSelectWorld(this));
+				break;
+				
+			case 2:
+				// multiplayer is currently disabled entirely
+				this.mc.displayGuiScreen(new GuiMultiplayer(this));
+				break;
+				
+			case 3:
+				this.mc.displayGuiScreen(new GuiScreenOnlineServers(this));
+				break;
+				
+			case 4:
+				this.mc.shutdown();
+				break;
+			
+			case 5:
+				this.mc.displayGuiScreen(new GuiLanguage(this, this.mc.gameSettings));
+				break;
 		}
 
 	}
@@ -415,12 +381,8 @@ public class GuiMainMenu extends GuiScreen {
 		GL11.glScalef(var8, var8, var8);
 		this.drawCenteredString(this.fontRenderer, this.splashText, 0, -8, 16776960);
 		GL11.glPopMatrix();
-		String var9 = "Minecraft 1.5.2";
-		if(this.mc.isDemo()) {
-			var9 = var9 + " Demo";
-		}
 
-		this.drawString(this.fontRenderer, var9, 2, this.height - 10, 16777215);
+		this.drawString(this.fontRenderer, "Minecraft 1.5.2", 2, this.height - 10, 16777215);
 		String var10 = "Copyright Mojang AB. Do not distribute!";
 		this.drawString(this.fontRenderer, var10, this.width - this.fontRenderer.getStringWidth(var10) - 2, this.height - 10, 16777215);
 		if(this.field_92025_p != null && this.field_92025_p.length() > 0) {

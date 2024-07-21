@@ -185,7 +185,6 @@ public abstract class Minecraft implements Runnable, IPlayerUsage {
 	public boolean inGameHasFocus = false;
 	long systemTime = getSystemTime();
 	private int joinPlayerCounter = 0;
-	private boolean isDemo;
 	private INetworkManager myNetworkManager;
 	private boolean integratedServerIsRunning;
 	public final Profiler mcProfiler = new Profiler();
@@ -1562,14 +1561,6 @@ public abstract class Minecraft implements Runnable, IPlayerUsage {
 			this.displayGuiScreen((GuiScreen)null);
 		}
 
-	}
-
-	void setDemo(boolean var1) {
-		this.isDemo = var1;
-	}
-
-	public final boolean isDemo() {
-		return this.isDemo;
 	}
 
 	public NetClientHandler getNetHandler() {
