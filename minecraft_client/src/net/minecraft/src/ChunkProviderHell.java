@@ -5,6 +5,14 @@ import java.util.Random;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockSand;
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldGenFire;
+import net.minecraft.src.worldgen.WorldGenFlowers;
+import net.minecraft.src.worldgen.WorldGenGlowStone1;
+import net.minecraft.src.worldgen.WorldGenGlowStone2;
+import net.minecraft.src.worldgen.WorldGenHellLava;
+import net.minecraft.src.worldgen.WorldGenMinable;
 
 public class ChunkProviderHell implements IChunkProvider {
 	private Random hellRNG;

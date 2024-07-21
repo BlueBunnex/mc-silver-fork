@@ -6,7 +6,7 @@ import net.minecraft.src.EntityFallingSand;
 import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockDragonEgg extends Block {
 	public BlockDragonEgg(int var1) {

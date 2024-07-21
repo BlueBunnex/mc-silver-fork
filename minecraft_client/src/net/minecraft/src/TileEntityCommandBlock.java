@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.worldgen.World;
 
 public class TileEntityCommandBlock extends TileEntity implements ICommandSender {
 	private int succesCount = 0;

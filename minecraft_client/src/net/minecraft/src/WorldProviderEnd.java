@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.WorldChunkManagerHell;
 
 public class WorldProviderEnd extends WorldProvider {
 	public void registerWorldChunkManager() {

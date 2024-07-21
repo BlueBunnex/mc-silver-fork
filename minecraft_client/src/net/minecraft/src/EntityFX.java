@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityFX extends Entity {
 	protected int particleTextureIndexX;
 	protected int particleTextureIndexY;

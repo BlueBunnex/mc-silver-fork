@@ -5,6 +5,7 @@ import java.util.Iterator;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockSand;
+import net.minecraft.src.worldgen.World;
 
 public class EntityFallingSand extends Entity {
 	public int blockID;

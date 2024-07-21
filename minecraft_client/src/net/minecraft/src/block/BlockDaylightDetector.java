@@ -11,7 +11,7 @@ import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityDaylightDetector;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockDaylightDetector extends BlockContainer {
 	private Icon[] iconArray = new Icon[2];

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityFireworkRocket extends Entity {
 	private int fireworkAge;
 	private int lifetime;

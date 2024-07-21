@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.Iterator;
 import java.util.List;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class EntityHanging extends Entity {
 	private int tickCounter1;
 	public int hangingDirection;

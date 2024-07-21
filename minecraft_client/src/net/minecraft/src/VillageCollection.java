@@ -6,6 +6,7 @@ import java.util.List;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockDoor;
+import net.minecraft.src.worldgen.World;
 
 public class VillageCollection extends WorldSavedData {
 	private World worldObj;

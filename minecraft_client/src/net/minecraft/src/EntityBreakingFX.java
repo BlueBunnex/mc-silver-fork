@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class EntityBreakingFX extends EntityFX {
 	public EntityBreakingFX(World var1, double var2, double var4, double var6, Item var8, RenderEngine var9) {

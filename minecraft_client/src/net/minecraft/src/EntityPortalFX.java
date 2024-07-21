@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityPortalFX extends EntityFX {
 	private float portalParticleScale;
 	private double portalPosX;

@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.Iterator;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class EntityItem extends Entity {
 	public int age;

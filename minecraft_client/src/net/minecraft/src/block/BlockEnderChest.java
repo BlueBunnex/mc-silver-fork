@@ -12,7 +12,7 @@ import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityEnderChest;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockEnderChest extends BlockContainer {
 	protected BlockEnderChest(int var1) {

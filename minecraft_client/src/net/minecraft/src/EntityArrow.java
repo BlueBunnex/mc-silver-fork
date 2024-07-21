@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.List;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class EntityArrow extends Entity implements IProjectile {
 	private int xTile = -1;

@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class EntitySnowman extends EntityGolem implements IRangedAttackMob {
 	public EntitySnowman(World var1) {

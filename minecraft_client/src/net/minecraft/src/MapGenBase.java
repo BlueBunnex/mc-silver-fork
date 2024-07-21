@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.worldgen.World;
+
 public class MapGenBase {
 	protected int range = 8;
 	protected Random rand = new Random();

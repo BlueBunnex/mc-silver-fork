@@ -6,7 +6,7 @@ import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockLadder extends Block {
 	protected BlockLadder(int var1) {

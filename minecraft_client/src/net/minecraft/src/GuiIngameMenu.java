@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.worldgen.WorldClient;
+
 public class GuiIngameMenu extends GuiScreen {
 	private int updateCounter2 = 0;
 	private int updateCounter = 0;

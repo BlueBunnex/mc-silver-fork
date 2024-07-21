@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.Calendar;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class EntityZombie extends EntityMob {
 	private int conversionTime = 0;

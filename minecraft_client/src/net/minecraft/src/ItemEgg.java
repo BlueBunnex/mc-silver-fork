@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class ItemEgg extends Item {
 	public ItemEgg(int var1) {
 		super(var1);

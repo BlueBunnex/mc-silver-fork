@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityFireworkOverlayFX extends EntityFX {
 	protected EntityFireworkOverlayFX(World var1, double var2, double var4, double var6) {
 		super(var1, var2, var4, var6);

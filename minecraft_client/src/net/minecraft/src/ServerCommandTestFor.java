@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.command.CommandBase;
+import net.minecraft.src.command.CommandException;
+
 public class ServerCommandTestFor extends CommandBase {
 	public String getCommandName() {
 		return "testfor";

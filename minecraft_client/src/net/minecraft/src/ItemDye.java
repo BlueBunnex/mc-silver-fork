@@ -11,6 +11,7 @@ import net.minecraft.src.block.BlockLog;
 import net.minecraft.src.block.BlockMushroom;
 import net.minecraft.src.block.BlockSapling;
 import net.minecraft.src.block.BlockStem;
+import net.minecraft.src.worldgen.World;
 
 public class ItemDye extends Item {
 	public static final String[] dyeColorNames = new String[]{"black", "red", "green", "brown", "blue", "purple", "cyan", "silver", "gray", "pink", "lime", "yellow", "lightBlue", "magenta", "orange", "white"};

@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
 
+import net.minecraft.src.worldgen.World;
+
 class StructureVillageStart extends StructureStart {
 	private boolean hasMoreThanTwoComponents = false;
 

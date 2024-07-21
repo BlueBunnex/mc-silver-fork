@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class ItemHangingEntity extends Item {
 	private final Class hangingEntityClass;
 

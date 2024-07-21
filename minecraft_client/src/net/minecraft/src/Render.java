@@ -3,6 +3,7 @@ package net.minecraft.src;
 import org.lwjgl.opengl.GL11;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public abstract class Render {
 	protected RenderManager renderManager;

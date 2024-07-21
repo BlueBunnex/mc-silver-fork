@@ -2,6 +2,44 @@ package net.minecraft.src;
 
 import java.util.Iterator;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.command.CommandBase;
+import net.minecraft.src.command.CommandClearInventory;
+import net.minecraft.src.command.CommandDebug;
+import net.minecraft.src.command.CommandDefaultGameMode;
+import net.minecraft.src.command.CommandDifficulty;
+import net.minecraft.src.command.CommandEffect;
+import net.minecraft.src.command.CommandEnchant;
+import net.minecraft.src.command.CommandGameMode;
+import net.minecraft.src.command.CommandGameRule;
+import net.minecraft.src.command.CommandGive;
+import net.minecraft.src.command.CommandHandler;
+import net.minecraft.src.command.CommandHelp;
+import net.minecraft.src.command.CommandKill;
+import net.minecraft.src.command.CommandServerBan;
+import net.minecraft.src.command.CommandServerBanIp;
+import net.minecraft.src.command.CommandServerBanlist;
+import net.minecraft.src.command.CommandServerDeop;
+import net.minecraft.src.command.CommandServerEmote;
+import net.minecraft.src.command.CommandServerKick;
+import net.minecraft.src.command.CommandServerList;
+import net.minecraft.src.command.CommandServerMessage;
+import net.minecraft.src.command.CommandServerOp;
+import net.minecraft.src.command.CommandServerPardon;
+import net.minecraft.src.command.CommandServerPardonIp;
+import net.minecraft.src.command.CommandServerPublishLocal;
+import net.minecraft.src.command.CommandServerSaveAll;
+import net.minecraft.src.command.CommandServerSaveOff;
+import net.minecraft.src.command.CommandServerSaveOn;
+import net.minecraft.src.command.CommandServerSay;
+import net.minecraft.src.command.CommandServerStop;
+import net.minecraft.src.command.CommandServerTp;
+import net.minecraft.src.command.CommandServerWhitelist;
+import net.minecraft.src.command.CommandSetSpawnpoint;
+import net.minecraft.src.command.CommandShowSeed;
+import net.minecraft.src.command.CommandTime;
+import net.minecraft.src.command.CommandToggleDownfall;
+import net.minecraft.src.command.CommandWeather;
+import net.minecraft.src.command.CommandXP;
 
 public class ServerCommandManager extends CommandHandler implements IAdminCommand {
 	public ServerCommandManager() {

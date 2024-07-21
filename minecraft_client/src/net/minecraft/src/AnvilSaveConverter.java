@@ -12,6 +12,9 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.WorldChunkManager;
+import net.minecraft.src.worldgen.WorldChunkManagerHell;
 
 public class AnvilSaveConverter extends SaveFormatOld {
 	public AnvilSaveConverter(File var1) {

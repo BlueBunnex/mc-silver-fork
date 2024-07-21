@@ -20,7 +20,7 @@ import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityChest;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockChest extends BlockContainer {
 	private final Random random = new Random();

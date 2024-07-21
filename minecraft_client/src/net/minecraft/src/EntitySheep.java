@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class EntitySheep extends EntityAnimal {
 	private final InventoryCrafting field_90016_e = new InventoryCrafting(new ContainerSheep(this), 2, 1);

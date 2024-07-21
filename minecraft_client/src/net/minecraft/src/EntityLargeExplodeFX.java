@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityLargeExplodeFX extends EntityFX {
 	private int field_70581_a = 0;
 	private int field_70584_aq = 0;

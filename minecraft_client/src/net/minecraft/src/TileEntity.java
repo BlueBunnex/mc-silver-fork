@@ -4,6 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.callable.CallableTileEntityData;
+import net.minecraft.src.callable.CallableTileEntityID;
+import net.minecraft.src.callable.CallableTileEntityName;
+import net.minecraft.src.worldgen.World;
 
 public class TileEntity {
 	private static Map nameToClassMap = new HashMap();
@@ -149,7 +153,7 @@ public class TileEntity {
 		var1.addCrashSectionCallable("Actual block data value", new CallableTileEntityData(this));
 	}
 
-	static Map getClassToNameMap() {
+	public static Map getClassToNameMap() {
 		return classToNameMap;
 	}
 

@@ -5,6 +5,8 @@ import java.util.Iterator;
 import java.util.Map;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.worldgen.World;
+
 public class TileEntityRenderer {
 	private Map specialRendererMap = new HashMap();
 	public static TileEntityRenderer instance = new TileEntityRenderer();

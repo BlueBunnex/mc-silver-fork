@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.worldgen.World;
 
 final class DispenserBehaviorDye extends BehaviorDefaultDispenseItem {
 	private boolean field_96461_b = true;

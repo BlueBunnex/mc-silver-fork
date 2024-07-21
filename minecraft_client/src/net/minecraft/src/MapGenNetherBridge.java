@@ -17,7 +17,7 @@ public class MapGenNetherBridge extends MapGenStructure {
 		return this.spawnList;
 	}
 
-	protected boolean canSpawnStructureAtCoords(int var1, int var2) {
+	public boolean canSpawnStructureAtCoords(int var1, int var2) {
 		int var3 = var1 >> 4;
 		int var4 = var2 >> 4;
 		this.rand.setSeed((long)(var3 ^ var4 << 4) ^ this.worldObj.getSeed());

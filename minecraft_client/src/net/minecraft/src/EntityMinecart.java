@@ -4,6 +4,7 @@ import java.util.List;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockRailBase;
+import net.minecraft.src.worldgen.World;
 
 public abstract class EntityMinecart extends Entity {
 	private boolean isInReverse;

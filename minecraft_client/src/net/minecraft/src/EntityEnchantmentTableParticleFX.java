@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityEnchantmentTableParticleFX extends EntityFX {
 	private float field_70565_a;
 	private double field_70568_aq;

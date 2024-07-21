@@ -7,7 +7,7 @@ import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Entity;
 import net.minecraft.src.Item;
 import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockWeb extends Block {
 	public BlockWeb(int var1) {

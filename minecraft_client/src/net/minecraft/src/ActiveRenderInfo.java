@@ -7,6 +7,7 @@ import org.lwjgl.util.glu.GLU;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockFluid;
+import net.minecraft.src.worldgen.World;
 
 public class ActiveRenderInfo {
 	public static float objectX = 0.0F;

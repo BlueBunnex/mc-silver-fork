@@ -8,7 +8,7 @@ import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockLever extends Block {
 	protected BlockLever(int var1) {

@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldClient;
 
 public class PlayerControllerMP {
 	private final Minecraft mc;

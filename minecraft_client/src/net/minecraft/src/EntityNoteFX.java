@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityNoteFX extends EntityFX {
 	float noteParticleScale;
 

@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityPickupFX extends EntityFX {
 	private Entity entityToPickUp;
 	private Entity entityPickingUp;

@@ -2,7 +2,7 @@ package net.minecraft.src.block;
 
 import net.minecraft.src.IBlockSource;
 import net.minecraft.src.TileEntity;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockSourceImpl implements IBlockSource {
 	private final World worldObj;

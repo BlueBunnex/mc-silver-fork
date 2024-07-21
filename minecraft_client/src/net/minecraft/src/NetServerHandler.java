@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Random;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.callable.CallablePacketClass;
+import net.minecraft.src.callable.CallablePacketID;
 
 public class NetServerHandler extends NetHandler {
 	public final INetworkManager netManager;

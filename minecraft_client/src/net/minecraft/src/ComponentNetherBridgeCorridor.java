@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class ComponentNetherBridgeCorridor extends ComponentNetherBridgePiece {
 	public ComponentNetherBridgeCorridor(int var1, Random var2, StructureBoundingBox var3, int var4) {

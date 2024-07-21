@@ -23,7 +23,7 @@ import net.minecraft.src.PositionImpl;
 import net.minecraft.src.RegistryDefaulted;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityDispenser;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockDispenser extends BlockContainer {
 	public static final IRegistry dispenseBehaviorRegistry = new RegistryDefaulted(new BehaviorDefaultDispenseItem());

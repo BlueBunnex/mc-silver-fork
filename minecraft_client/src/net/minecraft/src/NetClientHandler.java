@@ -19,6 +19,8 @@ import java.util.Map;
 import java.util.Random;
 import javax.crypto.SecretKey;
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.worldgen.WorldClient;
+
 import org.lwjgl.input.Keyboard;
 
 public class NetClientHandler extends NetHandler {

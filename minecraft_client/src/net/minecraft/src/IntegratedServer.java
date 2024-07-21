@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import net.minecraft.client.Minecraft;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.callable.CallableIsModded;
+import net.minecraft.src.callable.CallableType3;
 
 public class IntegratedServer extends MinecraftServer {
 	private final Minecraft mc;

@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockRailBase;
+import net.minecraft.src.worldgen.World;
 
 public class EntityMinecartTNT extends EntityMinecart {
 	private int minecartTNTFuse = -1;

@@ -8,6 +8,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+import net.minecraft.src.callable.CallableTagCompound1;
+import net.minecraft.src.callable.CallableTagCompound2;
+
 public class NBTTagCompound extends NBTBase {
 	private Map tagMap = new HashMap();
 
@@ -256,7 +259,7 @@ public class NBTTagCompound extends NBTBase {
 		return super.hashCode() ^ this.tagMap.hashCode();
 	}
 
-	static Map getTagMap(NBTTagCompound var0) {
+	public static Map getTagMap(NBTTagCompound var0) {
 		return var0.tagMap;
 	}
 }

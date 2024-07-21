@@ -5,7 +5,7 @@ import java.util.Iterator;
 import net.minecraft.src.EntityItem;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockPressurePlateWeighted extends BlockBasePressurePlate {
 	private final int maxItemsWeighted;

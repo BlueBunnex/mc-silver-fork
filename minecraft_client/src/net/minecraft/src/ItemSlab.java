@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockHalfSlab;
+import net.minecraft.src.worldgen.World;
 
 public class ItemSlab extends ItemBlock {
 	private final boolean isFullBlock;

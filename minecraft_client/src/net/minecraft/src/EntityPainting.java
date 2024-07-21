@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.ArrayList;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityPainting extends EntityHanging {
 	public EnumArt art;
 

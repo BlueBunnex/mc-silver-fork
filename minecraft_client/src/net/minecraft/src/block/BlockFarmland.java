@@ -8,7 +8,7 @@ import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockFarmland extends Block {
 	private Icon field_94441_a;

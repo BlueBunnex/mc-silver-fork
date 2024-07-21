@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityHugeExplodeFX extends EntityFX {
 	private int timeSinceStart = 0;
 	private int maximumTime = 0;

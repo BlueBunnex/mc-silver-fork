@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.ArrayList;
 
+import net.minecraft.src.worldgen.World;
+
 public class RecipeFireworks implements IRecipe {
 	private ItemStack field_92102_a;
 

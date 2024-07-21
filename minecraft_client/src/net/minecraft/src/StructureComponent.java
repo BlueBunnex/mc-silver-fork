@@ -6,6 +6,7 @@ import java.util.Random;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockDirectional;
+import net.minecraft.src.worldgen.World;
 
 public abstract class StructureComponent {
 	protected StructureBoundingBox boundingBox;

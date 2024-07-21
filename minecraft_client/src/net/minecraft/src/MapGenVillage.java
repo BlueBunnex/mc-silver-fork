@@ -7,7 +7,10 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Map.Entry;
 
+import net.minecraft.src.worldgen.BiomeGenBase;
+
 public class MapGenVillage extends MapGenStructure {
+	
 	public static final List villageSpawnBiomes = Arrays.asList(new BiomeGenBase[]{BiomeGenBase.plains, BiomeGenBase.desert});
 	private int terrainType;
 	private int field_82665_g;
@@ -34,7 +37,7 @@ public class MapGenVillage extends MapGenStructure {
 
 	}
 
-	protected boolean canSpawnStructureAtCoords(int var1, int var2) {
+	public boolean canSpawnStructureAtCoords(int var1, int var2) {
 		int var3 = var1;
 		int var4 = var2;
 		if(var1 < 0) {

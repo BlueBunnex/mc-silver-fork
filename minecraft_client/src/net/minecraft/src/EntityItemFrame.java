@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityItemFrame extends EntityHanging {
 	private float itemDropChance = 1.0F;
 

@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class ContainerWorkbench extends Container {
 	public InventoryCrafting craftMatrix = new InventoryCrafting(this, 3, 3);

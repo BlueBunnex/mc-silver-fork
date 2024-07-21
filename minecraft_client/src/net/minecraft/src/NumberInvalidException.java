@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.command.CommandException;
+
 public class NumberInvalidException extends CommandException {
 	public NumberInvalidException() {
 		this("commands.generic.num.invalid", new Object[0]);

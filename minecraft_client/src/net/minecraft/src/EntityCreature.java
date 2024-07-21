@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class EntityCreature extends EntityLiving {
 	private PathEntity pathToEntity;
 	protected Entity entityToAttack;

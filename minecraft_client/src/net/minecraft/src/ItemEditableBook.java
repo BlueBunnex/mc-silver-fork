@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.worldgen.World;
+
 public class ItemEditableBook extends Item {
 	public ItemEditableBook(int var1) {
 		super(var1);

@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityAIFleeSun extends EntityAIBase {
 	private EntityCreature theCreature;
 	private double shelterX;

@@ -16,7 +16,7 @@ import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.MovingObjectPosition;
 import net.minecraft.src.Vec3;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockStairs extends Block {
 	private static final int[][] field_72159_a = new int[][]{{2, 6}, {3, 7}, {2, 3}, {6, 7}, {0, 4}, {1, 5}, {0, 1}, {4, 5}};

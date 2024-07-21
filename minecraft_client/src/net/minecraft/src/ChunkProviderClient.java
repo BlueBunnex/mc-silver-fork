@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.minecraft.src.worldgen.World;
+
 public class ChunkProviderClient implements IChunkProvider {
 	private Chunk blankChunk;
 	private LongHashMap chunkMapping = new LongHashMap();

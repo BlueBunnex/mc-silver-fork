@@ -8,6 +8,7 @@ import java.util.List;
 import org.lwjgl.input.Keyboard;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.BiomeGenBase;
 
 public class GuiFlatPresets extends GuiScreen {
 	private static RenderItem presetIconRenderer = new RenderItem();

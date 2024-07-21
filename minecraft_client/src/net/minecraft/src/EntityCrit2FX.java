@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityCrit2FX extends EntityFX {
 	private Entity theEntity;
 	private int currentLife;

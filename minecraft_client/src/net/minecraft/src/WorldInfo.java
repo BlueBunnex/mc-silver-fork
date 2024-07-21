@@ -1,5 +1,15 @@
 package net.minecraft.src;
 
+import net.minecraft.src.callable.CallableLevelDimension;
+import net.minecraft.src.callable.CallableLevelGamemode;
+import net.minecraft.src.callable.CallableLevelGenerator;
+import net.minecraft.src.callable.CallableLevelGeneratorOptions;
+import net.minecraft.src.callable.CallableLevelSeed;
+import net.minecraft.src.callable.CallableLevelSpawnLocation;
+import net.minecraft.src.callable.CallableLevelStorageVersion;
+import net.minecraft.src.callable.CallableLevelTime;
+import net.minecraft.src.callable.CallableLevelWeather;
+
 public class WorldInfo {
 	private long randomSeed;
 	private WorldType terrainType = WorldType.DEFAULT;
@@ -350,71 +360,71 @@ public class WorldInfo {
 		var1.addCrashSectionCallable("Level game mode", new CallableLevelGamemode(this));
 	}
 
-	static WorldType getTerrainTypeOfWorld(WorldInfo var0) {
+	public static WorldType getTerrainTypeOfWorld(WorldInfo var0) {
 		return var0.terrainType;
 	}
 
-	static boolean getMapFeaturesEnabled(WorldInfo var0) {
+	public static boolean getMapFeaturesEnabled(WorldInfo var0) {
 		return var0.mapFeaturesEnabled;
 	}
 
-	static String getWorldGeneratorOptions(WorldInfo var0) {
+	public static String getWorldGeneratorOptions(WorldInfo var0) {
 		return var0.generatorOptions;
 	}
 
-	static int getSpawnXCoordinate(WorldInfo var0) {
+	public static int getSpawnXCoordinate(WorldInfo var0) {
 		return var0.spawnX;
 	}
 
-	static int getSpawnYCoordinate(WorldInfo var0) {
+	public static int getSpawnYCoordinate(WorldInfo var0) {
 		return var0.spawnY;
 	}
 
-	static int getSpawnZCoordinate(WorldInfo var0) {
+	public static int getSpawnZCoordinate(WorldInfo var0) {
 		return var0.spawnZ;
 	}
 
-	static long func_85126_g(WorldInfo var0) {
+	public static long func_85126_g(WorldInfo var0) {
 		return var0.totalTime;
 	}
 
-	static long getWorldTime(WorldInfo var0) {
+	public static long getWorldTime(WorldInfo var0) {
 		return var0.worldTime;
 	}
 
-	static int func_85122_i(WorldInfo var0) {
+	public static int func_85122_i(WorldInfo var0) {
 		return var0.dimension;
 	}
 
-	static int getSaveVersion(WorldInfo var0) {
+	public static int getSaveVersion(WorldInfo var0) {
 		return var0.saveVersion;
 	}
 
-	static int getRainTime(WorldInfo var0) {
+	public static int getRainTime(WorldInfo var0) {
 		return var0.rainTime;
 	}
 
-	static boolean getRaining(WorldInfo var0) {
+	public static boolean getRaining(WorldInfo var0) {
 		return var0.raining;
 	}
 
-	static int getThunderTime(WorldInfo var0) {
+	public static int getThunderTime(WorldInfo var0) {
 		return var0.thunderTime;
 	}
 
-	static boolean getThundering(WorldInfo var0) {
+	public static boolean getThundering(WorldInfo var0) {
 		return var0.thundering;
 	}
 
-	static EnumGameType getGameType(WorldInfo var0) {
+	public static EnumGameType getGameType(WorldInfo var0) {
 		return var0.theGameType;
 	}
 
-	static boolean func_85117_p(WorldInfo var0) {
+	public static boolean func_85117_p(WorldInfo var0) {
 		return var0.hardcore;
 	}
 
-	static boolean func_85131_q(WorldInfo var0) {
+	public static boolean func_85131_q(WorldInfo var0) {
 		return var0.allowCommands;
 	}
 }

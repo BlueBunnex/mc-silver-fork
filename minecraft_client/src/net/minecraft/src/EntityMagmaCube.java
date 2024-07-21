@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityMagmaCube extends EntitySlime {
 	public EntityMagmaCube(World var1) {
 		super(var1);

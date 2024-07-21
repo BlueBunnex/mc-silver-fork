@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.worldgen.World;
 
 public class EntityFireworkStarterFX extends EntityFX {
 	private int field_92042_ax = 0;

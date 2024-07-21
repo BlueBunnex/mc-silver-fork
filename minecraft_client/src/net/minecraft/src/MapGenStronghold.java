@@ -8,6 +8,8 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Map.Entry;
 
+import net.minecraft.src.worldgen.BiomeGenBase;
+
 public class MapGenStronghold extends MapGenStructure {
 	private BiomeGenBase[] allowedBiomeGenBases = new BiomeGenBase[]{BiomeGenBase.desert, BiomeGenBase.forest, BiomeGenBase.extremeHills, BiomeGenBase.swampland, BiomeGenBase.taiga, BiomeGenBase.icePlains, BiomeGenBase.iceMountains, BiomeGenBase.desertHills, BiomeGenBase.forestHills, BiomeGenBase.extremeHillsEdge, BiomeGenBase.jungle, BiomeGenBase.jungleHills};
 	private boolean ranBiomeCheck;
@@ -34,7 +36,7 @@ public class MapGenStronghold extends MapGenStructure {
 
 	}
 
-	protected boolean canSpawnStructureAtCoords(int var1, int var2) {
+	public boolean canSpawnStructureAtCoords(int var1, int var2) {
 		if(!this.ranBiomeCheck) {
 			Random var3 = new Random();
 			var3.setSeed(this.worldObj.getSeed());

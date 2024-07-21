@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class EntityGolem extends EntityCreature implements IAnimals {
 	public EntityGolem(World var1) {
 		super(var1);

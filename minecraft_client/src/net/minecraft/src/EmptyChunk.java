@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.worldgen.World;
+
 public class EmptyChunk extends Chunk {
 	public EmptyChunk(World var1, int var2, int var3) {
 		super(var1, var2, var3);

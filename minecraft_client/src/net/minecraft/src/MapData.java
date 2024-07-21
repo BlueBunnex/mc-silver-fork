@@ -6,6 +6,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import net.minecraft.src.worldgen.World;
+
 public class MapData extends WorldSavedData {
 	public int xCenter;
 	public int zCenter;

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityCritFX extends EntityFX {
 	float field_70561_a;
 

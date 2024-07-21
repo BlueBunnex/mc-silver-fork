@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class ComponentScatteredFeatureSwampHut extends ComponentScatteredFeature {
 	private boolean hasWitch;

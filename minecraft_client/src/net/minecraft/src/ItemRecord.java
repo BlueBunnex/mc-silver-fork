@@ -6,6 +6,7 @@ import java.util.Map;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockJukeBox;
+import net.minecraft.src.worldgen.World;
 
 public class ItemRecord extends Item {
 	private static final Map records = new HashMap();

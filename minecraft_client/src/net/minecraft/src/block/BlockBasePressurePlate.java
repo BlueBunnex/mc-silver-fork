@@ -8,7 +8,7 @@ import net.minecraft.src.Entity;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public abstract class BlockBasePressurePlate extends Block {
 	private String pressurePlateIconName;

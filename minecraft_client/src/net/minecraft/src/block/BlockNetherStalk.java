@@ -7,7 +7,7 @@ import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.Item;
 import net.minecraft.src.ItemStack;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockNetherStalk extends BlockFlower {
 	private static final String[] field_94373_a = new String[]{"netherStalk_0", "netherStalk_1", "netherStalk_2"};

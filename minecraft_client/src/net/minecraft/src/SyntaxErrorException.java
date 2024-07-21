@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.command.CommandException;
+
 public class SyntaxErrorException extends CommandException {
 	public SyntaxErrorException() {
 		this("commands.generic.snytax", new Object[0]);

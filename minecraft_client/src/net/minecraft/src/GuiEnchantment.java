@@ -5,6 +5,8 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 import org.lwjgl.util.glu.GLU;
 
+import net.minecraft.src.worldgen.World;
+
 public class GuiEnchantment extends GuiContainer {
 	private static ModelBook bookModel = new ModelBook();
 	private Random rand = new Random();

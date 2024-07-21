@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntitySquid extends EntityWaterMob {
 	public float squidPitch = 0.0F;
 	public float prevSquidPitch = 0.0F;

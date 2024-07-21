@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityAIVillagerMate extends EntityAIBase {
 	private EntityVillager villagerObj;
 	private EntityVillager mate;

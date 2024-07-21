@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 class EntityMinecartMobSpawnerLogic extends MobSpawnerBaseLogic {
 	final EntityMinecartMobSpawner spawnerMinecart;
 

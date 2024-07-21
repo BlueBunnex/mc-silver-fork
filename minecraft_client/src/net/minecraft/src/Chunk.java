@@ -9,6 +9,9 @@ import java.util.Map;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldChunkManager;
 
 public class Chunk {
 	public static boolean isLit;

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.command.CommandException;
+
 public class PlayerNotFoundException extends CommandException {
 	public PlayerNotFoundException() {
 		this("commands.generic.player.notFound", new Object[0]);

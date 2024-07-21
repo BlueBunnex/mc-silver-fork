@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class EntityAgeable extends EntityCreature {
 	private float field_98056_d = -1.0F;
 	private float field_98057_e;

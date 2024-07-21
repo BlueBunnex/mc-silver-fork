@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.Iterator;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.worldgen.WorldClient;
+
 public class GuiGameOver extends GuiScreen {
 	private int cooldownTimer;
 

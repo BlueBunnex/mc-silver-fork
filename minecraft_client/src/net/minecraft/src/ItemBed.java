@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockBed;
+import net.minecraft.src.worldgen.World;
 
 public class ItemBed extends Item {
 	public ItemBed(int var1) {

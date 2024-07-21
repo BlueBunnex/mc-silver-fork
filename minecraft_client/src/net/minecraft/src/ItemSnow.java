@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class ItemSnow extends ItemBlockWithMetadata {
 	public ItemSnow(int var1, Block var2) {

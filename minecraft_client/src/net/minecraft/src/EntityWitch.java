@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.Iterator;
 import java.util.List;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityWitch extends EntityMob implements IRangedAttackMob {
 	private static final int[] witchDrops = new int[]{Item.lightStoneDust.itemID, Item.sugar.itemID, Item.redstone.itemID, Item.spiderEye.itemID, Item.glassBottle.itemID, Item.gunpowder.itemID, Item.stick.itemID, Item.stick.itemID};
 	private int witchAttackTimer = 0;

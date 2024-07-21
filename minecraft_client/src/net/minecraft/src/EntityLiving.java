@@ -7,8 +7,16 @@ import java.util.List;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.callable.CallableEffectAmplifier;
+import net.minecraft.src.callable.CallableEffectDuration;
+import net.minecraft.src.callable.CallableEffectID;
+import net.minecraft.src.callable.CallableEffectIsAmbient;
+import net.minecraft.src.callable.CallableEffectIsSplash;
+import net.minecraft.src.callable.CallableEffectName;
+import net.minecraft.src.worldgen.World;
 
 public abstract class EntityLiving extends Entity {
+	
 	private static final float[] enchantmentProbability = new float[]{0.0F, 0.0F, 0.1F, 0.2F};
 	private static final float[] armorEnchantmentProbability = new float[]{0.0F, 0.0F, 0.25F, 0.5F};
 	private static final float[] armorProbability = new float[]{0.0F, 0.0F, 0.05F, 0.07F};

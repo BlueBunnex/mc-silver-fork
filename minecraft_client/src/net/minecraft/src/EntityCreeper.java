@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityCreeper extends EntityMob {
 	private int lastActiveTime;
 	private int timeSinceIgnited;

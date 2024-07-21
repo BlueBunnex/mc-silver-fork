@@ -8,7 +8,7 @@ import net.minecraft.src.Entity;
 import net.minecraft.src.EntityBoat;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockLilyPad extends BlockFlower {
 	protected BlockLilyPad(int var1) {

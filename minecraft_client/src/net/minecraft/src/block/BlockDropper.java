@@ -10,7 +10,7 @@ import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityDispenser;
 import net.minecraft.src.TileEntityDropper;
 import net.minecraft.src.TileEntityHopper;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockDropper extends BlockDispenser {
 	private final IBehaviorDispenseItem dropperDefaultBehaviour = new BehaviorDefaultDispenseItem();

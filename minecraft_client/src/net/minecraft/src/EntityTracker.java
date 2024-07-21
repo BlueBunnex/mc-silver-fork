@@ -5,7 +5,10 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
+import net.minecraft.src.callable.CallableEntityTracker;
+
 public class EntityTracker {
+	
 	private final WorldServer theWorld;
 	private Set trackedEntities = new HashSet();
 	private IntHashMap trackedEntityIDs = new IntHashMap();

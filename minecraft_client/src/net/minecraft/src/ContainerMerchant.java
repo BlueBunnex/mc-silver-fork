@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class ContainerMerchant extends Container {
 	private IMerchant theMerchant;
 	private InventoryMerchant merchantInventory;

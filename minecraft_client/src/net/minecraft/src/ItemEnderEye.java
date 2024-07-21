@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockEndPortalFrame;
+import net.minecraft.src.worldgen.World;
 
 public class ItemEnderEye extends Item {
 	public ItemEnderEye(int var1) {

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityFireworkSparkFX extends EntityFX {
 	private int field_92049_a = 160;
 	private boolean field_92054_ax;

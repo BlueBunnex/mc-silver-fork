@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class ItemSeeds extends Item {
 	private int blockType;
 	private int soilBlockID;

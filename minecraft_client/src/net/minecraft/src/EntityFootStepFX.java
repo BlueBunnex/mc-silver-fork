@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityFootStepFX extends EntityFX {
 	private int field_70576_a = 0;
 	private int field_70578_aq = 0;

@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.World;
+
 public class StructureScatteredFeatureStart extends StructureStart {
 	public StructureScatteredFeatureStart(World var1, Random var2, int var3, int var4) {
 		BiomeGenBase var5 = var1.getBiomeGenForCoords(var3 * 16 + 8, var4 * 16 + 8);

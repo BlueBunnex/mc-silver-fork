@@ -10,7 +10,7 @@ import net.minecraft.src.IconRegister;
 import net.minecraft.src.Material;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityPiston;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockPistonMoving extends BlockContainer {
 	public BlockPistonMoving(int var1) {

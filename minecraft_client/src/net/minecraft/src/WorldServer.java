@@ -11,8 +11,13 @@ import java.util.TreeSet;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockEventData;
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldChunkManager;
+import net.minecraft.src.worldgen.WorldGeneratorBonusChest;
 
 public class WorldServer extends World {
+	
 	private final MinecraftServer mcServer;
 	private final EntityTracker theEntityTracker;
 	private final PlayerManager thePlayerManager;

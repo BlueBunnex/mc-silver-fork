@@ -3,7 +3,7 @@ package net.minecraft.src.block;
 import net.minecraft.src.ITileEntityProvider;
 import net.minecraft.src.Material;
 import net.minecraft.src.TileEntity;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public abstract class BlockContainer extends Block implements ITileEntityProvider {
 	protected BlockContainer(int var1, Material var2) {

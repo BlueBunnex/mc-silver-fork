@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityEnderEye extends Entity {
 	public int field_70226_a = 0;
 	private double targetX;

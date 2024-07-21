@@ -6,6 +6,7 @@ import java.util.List;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockBed;
+import net.minecraft.src.worldgen.World;
 
 public abstract class EntityPlayer extends EntityLiving implements ICommandSender {
 	public InventoryPlayer inventory = new InventoryPlayer(this);

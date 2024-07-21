@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.ArrayList;
 import java.util.Random;
 
+import net.minecraft.src.worldgen.World;
+
 class StructureStrongholdStart extends StructureStart {
 	public StructureStrongholdStart(World var1, Random var2, int var3, int var4) {
 		StructureStrongholdPieces.prepareStructurePieces();

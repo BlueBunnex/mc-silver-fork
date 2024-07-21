@@ -7,6 +7,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import net.minecraft.src.worldgen.World;
+
 public class ChunkProviderServer implements IChunkProvider {
 	private Set chunksToUnload = new HashSet();
 	private Chunk defaultEmptyChunk;

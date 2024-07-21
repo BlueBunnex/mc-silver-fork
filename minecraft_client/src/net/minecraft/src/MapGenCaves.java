@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class MapGenCaves extends MapGenBase {
 	protected void generateLargeCaveNode(long var1, int var3, int var4, byte[] var5, double var6, double var8, double var10) {

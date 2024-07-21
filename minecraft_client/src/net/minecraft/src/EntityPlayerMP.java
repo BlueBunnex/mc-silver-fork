@@ -10,6 +10,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.worldgen.World;
 
 public class EntityPlayerMP extends EntityPlayer implements ICrafting {
 	private StringTranslate translator = new StringTranslate("en_US");

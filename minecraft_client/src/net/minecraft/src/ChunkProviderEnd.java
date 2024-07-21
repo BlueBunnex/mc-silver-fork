@@ -5,6 +5,8 @@ import java.util.Random;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockSand;
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.World;
 
 public class ChunkProviderEnd implements IChunkProvider {
 	private Random endRNG;

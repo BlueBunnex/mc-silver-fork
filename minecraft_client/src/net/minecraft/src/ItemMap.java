@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.List;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class ItemMap extends ItemMapBase {
 	protected ItemMap(int var1) {

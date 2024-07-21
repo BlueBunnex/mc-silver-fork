@@ -7,13 +7,13 @@ import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.ItemStack;
-import net.minecraft.src.World;
-import net.minecraft.src.WorldGenBigTree;
-import net.minecraft.src.WorldGenForest;
-import net.minecraft.src.WorldGenHugeTrees;
-import net.minecraft.src.WorldGenTaiga2;
-import net.minecraft.src.WorldGenTrees;
-import net.minecraft.src.WorldGenerator;
+import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldGenBigTree;
+import net.minecraft.src.worldgen.WorldGenForest;
+import net.minecraft.src.worldgen.WorldGenHugeTrees;
+import net.minecraft.src.worldgen.WorldGenTaiga2;
+import net.minecraft.src.worldgen.WorldGenTrees;
+import net.minecraft.src.worldgen.WorldGenerator;
 
 public class BlockSapling extends BlockFlower {
 	public static final String[] WOOD_TYPES = new String[]{"oak", "spruce", "birch", "jungle"};

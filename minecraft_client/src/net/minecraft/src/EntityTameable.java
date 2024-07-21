@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class EntityTameable extends EntityAnimal {
 	protected EntityAISit aiSit = new EntityAISit(this);
 

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class EntityMinecartContainer extends EntityMinecart implements IInventory {
 	private ItemStack[] minecartContainerItems = new ItemStack[36];
 	private boolean dropContentsWhenDead = true;

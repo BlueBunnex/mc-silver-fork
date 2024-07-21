@@ -6,8 +6,12 @@ import java.util.UUID;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockFluid;
+import net.minecraft.src.callable.CallableEntityName;
+import net.minecraft.src.callable.CallableEntityType;
+import net.minecraft.src.worldgen.World;
 
 public abstract class Entity {
+	
 	private static int nextEntityID = 0;
 	public int entityId = nextEntityID++;
 	public double renderDistanceWeight = 1.0D;

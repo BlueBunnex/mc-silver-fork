@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.worldgen.World;
 
 public class EntityPlayerSP extends EntityPlayer {
 	public MovementInput movementInput;

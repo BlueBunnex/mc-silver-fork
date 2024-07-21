@@ -5,6 +5,8 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class MobSpawnerBaseLogic {
 	public int spawnDelay = 20;
 	private String mobID = "Pig";

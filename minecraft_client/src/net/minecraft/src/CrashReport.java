@@ -11,7 +11,18 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
+import net.minecraft.src.callable.CallableCrashMemoryReport;
+import net.minecraft.src.callable.CallableIntCache;
+import net.minecraft.src.callable.CallableJVMFlags;
+import net.minecraft.src.callable.CallableJavaInfo;
+import net.minecraft.src.callable.CallableJavaInfo2;
+import net.minecraft.src.callable.CallableMemoryInfo;
+import net.minecraft.src.callable.CallableMinecraftVersion;
+import net.minecraft.src.callable.CallableOSInfo;
+import net.minecraft.src.callable.CallableSuspiciousClasses;
+
 public class CrashReport {
+	
 	private final String description;
 	private final Throwable cause;
 	private final CrashReportCategory field_85061_c = new CrashReportCategory(this, "System Details");

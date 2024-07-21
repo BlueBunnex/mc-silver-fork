@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.worldgen.World;
+
 abstract class ComponentScatteredFeature extends StructureComponent {
 	protected final int scatteredFeatureSizeX;
 	protected final int scatteredFeatureSizeY;

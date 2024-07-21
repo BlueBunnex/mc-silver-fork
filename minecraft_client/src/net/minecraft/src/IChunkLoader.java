@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.io.IOException;
 
+import net.minecraft.src.worldgen.World;
+
 public interface IChunkLoader {
 	Chunk loadChunk(World var1, int var2, int var3) throws IOException;
 

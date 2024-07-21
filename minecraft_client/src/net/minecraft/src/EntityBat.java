@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Calendar;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityBat extends EntityAmbientCreature {
 	private ChunkCoordinates currentFlightTarget;
 

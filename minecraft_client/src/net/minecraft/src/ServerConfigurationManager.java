@@ -12,6 +12,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.worldgen.World;
 
 public abstract class ServerConfigurationManager {
 	private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd \'at\' HH:mm:ss z");

@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 public class MapGenMineshaft extends MapGenStructure {
+	
 	private double field_82673_e = 0.01D;
 
 	public MapGenMineshaft() {
@@ -22,7 +23,7 @@ public class MapGenMineshaft extends MapGenStructure {
 
 	}
 
-	protected boolean canSpawnStructureAtCoords(int var1, int var2) {
+	public boolean canSpawnStructureAtCoords(int var1, int var2) {
 		return this.rand.nextDouble() < this.field_82673_e && this.rand.nextInt(80) < Math.max(Math.abs(var1), Math.abs(var2));
 	}
 

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class ItemExpBottle extends Item {
 	public ItemExpBottle(int var1) {
 		super(var1);

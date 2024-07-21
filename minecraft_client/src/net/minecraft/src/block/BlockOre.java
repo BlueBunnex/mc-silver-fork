@@ -6,7 +6,7 @@ import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Item;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockOre extends Block {
 	public BlockOre(int var1) {

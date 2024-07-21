@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.World;
+
 public class EntitySlime extends EntityLiving implements IMob {
 	private static final float[] spawnChances = new float[]{1.0F, 12.0F / 16.0F, 0.5F, 0.25F, 0.0F, 0.25F, 0.5F, 12.0F / 16.0F};
 	public float field_70813_a;

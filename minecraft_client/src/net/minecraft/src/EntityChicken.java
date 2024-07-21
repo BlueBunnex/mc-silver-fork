@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityChicken extends EntityAnimal {
 	public boolean field_70885_d = false;
 	public float field_70886_e = 0.0F;

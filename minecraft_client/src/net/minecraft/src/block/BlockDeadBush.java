@@ -7,7 +7,7 @@ import net.minecraft.src.Item;
 import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.StatList;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockDeadBush extends BlockFlower {
 	protected BlockDeadBush(int var1) {

@@ -8,6 +8,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.BiomeGenBase;
 
 public class FlatGeneratorInfo {
 	private final List flatLayers = new ArrayList();

@@ -7,7 +7,7 @@ import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.Material;
 import net.minecraft.src.MovingObjectPosition;
 import net.minecraft.src.Vec3;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockTorch extends Block {
 	protected BlockTorch(int var1) {

@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.worldgen.World;
 
 public class EntityOtherPlayerMP extends EntityPlayer {
 	private boolean isItemInUse = false;

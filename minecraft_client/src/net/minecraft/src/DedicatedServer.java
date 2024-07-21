@@ -8,8 +8,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.callable.CallableServerType;
+import net.minecraft.src.callable.CallableType;
+import net.minecraft.src.worldgen.World;
 
 public class DedicatedServer extends MinecraftServer implements IServer {
+	
 	private final List pendingCommandList = Collections.synchronizedList(new ArrayList());
 	private final ILogAgent field_98131_l;
 	private RConThreadQuery theRConThreadQuery;

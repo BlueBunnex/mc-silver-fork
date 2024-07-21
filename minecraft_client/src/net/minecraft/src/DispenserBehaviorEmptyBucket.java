@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.worldgen.World;
 
 final class DispenserBehaviorEmptyBucket extends BehaviorDefaultDispenseItem {
 	private final BehaviorDefaultDispenseItem defaultDispenserItemBehavior = new BehaviorDefaultDispenseItem();

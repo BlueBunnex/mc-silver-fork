@@ -7,7 +7,7 @@ import net.minecraft.src.Entity;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.ItemMonsterPlacer;
 import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockPortal extends BlockBreakable {
 	public BlockPortal(int var1) {

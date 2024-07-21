@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityMinecartEmpty extends EntityMinecart {
 	public EntityMinecartEmpty(World var1) {
 		super(var1);

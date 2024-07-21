@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class EntityMob extends EntityCreature implements IMob {
 	public EntityMob(World var1) {
 		super(var1);

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntitySpellParticleFX extends EntityFX {
 	private int baseSpellTextureIndex = 128;
 

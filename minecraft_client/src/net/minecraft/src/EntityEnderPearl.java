@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityEnderPearl extends EntityThrowable {
 	public EntityEnderPearl(World var1) {
 		super(var1);

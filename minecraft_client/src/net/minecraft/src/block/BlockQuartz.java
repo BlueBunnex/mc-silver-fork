@@ -7,7 +7,7 @@ import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockQuartz extends Block {
 	public static final String[] quartzBlockTypes = new String[]{"default", "chiseled", "lines"};

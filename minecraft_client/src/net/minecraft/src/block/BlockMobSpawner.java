@@ -5,7 +5,7 @@ import java.util.Random;
 import net.minecraft.src.Material;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityMobSpawner;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockMobSpawner extends BlockContainer {
 	protected BlockMobSpawner(int var1) {

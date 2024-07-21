@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.src.ChunkPosition;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockBaseRailLogic {
 	private World logicWorld;

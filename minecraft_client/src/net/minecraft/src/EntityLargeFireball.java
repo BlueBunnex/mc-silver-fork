@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityLargeFireball extends EntityFireball {
 	public int field_92057_e = 1;
 

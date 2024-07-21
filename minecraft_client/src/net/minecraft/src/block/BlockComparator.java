@@ -11,7 +11,7 @@ import net.minecraft.src.IconRegister;
 import net.minecraft.src.Item;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityComparator;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockComparator extends BlockRedstoneLogic implements ITileEntityProvider {
 	public BlockComparator(int var1, boolean var2) {

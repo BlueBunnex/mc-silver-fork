@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.Random;
 import net.minecraft.client.Minecraft;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.callable.CallableMouseLocation;
+import net.minecraft.src.callable.CallableScreenName;
+import net.minecraft.src.callable.CallableScreenSize;
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.WorldClient;
 
 import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.Display;
@@ -1418,7 +1423,7 @@ public class EntityRenderer {
 		return var1;
 	}
 
-	static Minecraft getRendererMinecraft(EntityRenderer var0) {
+	public static Minecraft getRendererMinecraft(EntityRenderer var0) {
 		return var0.mc;
 	}
 }

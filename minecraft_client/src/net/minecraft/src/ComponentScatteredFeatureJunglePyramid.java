@@ -4,6 +4,7 @@ import java.util.Random;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockLever;
+import net.minecraft.src.worldgen.World;
 
 public class ComponentScatteredFeatureJunglePyramid extends ComponentScatteredFeature {
 	private boolean field_74947_h;

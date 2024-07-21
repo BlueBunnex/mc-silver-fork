@@ -10,7 +10,7 @@ import net.minecraft.src.IconRegister;
 import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public abstract class BlockRedstoneLogic extends BlockDirectional {
 	protected final boolean isRepeaterPowered;

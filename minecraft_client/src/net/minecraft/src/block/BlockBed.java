@@ -3,7 +3,6 @@ package net.minecraft.src.block;
 import java.util.Iterator;
 import java.util.Random;
 
-import net.minecraft.src.BiomeGenBase;
 import net.minecraft.src.ChunkCoordinates;
 import net.minecraft.src.Direction;
 import net.minecraft.src.Entity;
@@ -14,7 +13,8 @@ import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.Item;
 import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.World;
 
 public class BlockBed extends BlockDirectional {
 	public static final int[][] footBlockToHeadBlockMap = new int[][]{{0, 1}, {-1, 0}, {0, -1}, {1, 0}};

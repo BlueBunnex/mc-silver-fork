@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.worldgen.WorldClient;
 
 public class GuiConnecting extends GuiScreen {
 	private NetClientHandler clientHandler;

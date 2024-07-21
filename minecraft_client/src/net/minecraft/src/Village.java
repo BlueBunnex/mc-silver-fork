@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.TreeMap;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class Village {
 	private World worldObj;

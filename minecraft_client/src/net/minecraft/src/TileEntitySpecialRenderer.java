@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class TileEntitySpecialRenderer {
 	protected TileEntityRenderer tileEntityRenderer;
 

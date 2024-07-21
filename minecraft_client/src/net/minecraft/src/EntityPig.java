@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityPig extends EntityAnimal {
 	private final EntityAIControlledByPlayer aiControlledByPlayer;
 

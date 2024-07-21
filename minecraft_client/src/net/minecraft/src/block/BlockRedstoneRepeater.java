@@ -5,7 +5,7 @@ import java.util.Random;
 import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.Item;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockRedstoneRepeater extends BlockRedstoneLogic {
 	public static final double[] repeaterTorchOffset = new double[]{-0.0625D, 1.0D / 16.0D, 0.1875D, 0.3125D};

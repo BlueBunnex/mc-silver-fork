@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class ItemBucketMilk extends Item {
 	public ItemBucketMilk(int var1) {
 		super(var1);

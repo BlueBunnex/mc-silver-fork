@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockSilverfish;
+import net.minecraft.src.worldgen.World;
 
 public class EntitySilverfish extends EntityMob {
 	private int allySummonCooldown;

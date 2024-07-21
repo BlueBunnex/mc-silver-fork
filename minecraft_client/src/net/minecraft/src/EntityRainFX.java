@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.BlockFluid;
+import net.minecraft.src.worldgen.World;
 
 public class EntityRainFX extends EntityFX {
 	public EntityRainFX(World var1, double var2, double var4, double var6) {

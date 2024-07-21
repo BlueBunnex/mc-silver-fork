@@ -6,7 +6,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+import net.minecraft.src.callable.CallableChunkPosHash;
+import net.minecraft.src.callable.CallableIsFeatureChunk;
+import net.minecraft.src.callable.CallableStructureType;
+import net.minecraft.src.worldgen.World;
+
 public abstract class MapGenStructure extends MapGenBase {
+	
 	protected Map structureMap = new HashMap();
 
 	protected void recursiveGenerate(World var1, int var2, int var3, int var4, int var5, byte[] var6) {
@@ -139,7 +145,8 @@ public abstract class MapGenStructure extends MapGenBase {
 		return null;
 	}
 
-	protected abstract boolean canSpawnStructureAtCoords(int var1, int var2);
+	// was previously protected, idk why...?
+	public abstract boolean canSpawnStructureAtCoords(int var1, int var2);
 
 	protected abstract StructureStart getStructureStart(int var1, int var2);
 }

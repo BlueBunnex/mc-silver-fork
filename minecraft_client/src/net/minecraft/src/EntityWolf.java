@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.BlockCloth;
+import net.minecraft.src.worldgen.World;
 
 public class EntityWolf extends EntityTameable {
 	private float field_70926_e;

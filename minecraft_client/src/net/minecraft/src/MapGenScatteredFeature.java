@@ -8,6 +8,8 @@ import java.util.Map;
 import java.util.Random;
 import java.util.Map.Entry;
 
+import net.minecraft.src.worldgen.BiomeGenBase;
+
 public class MapGenScatteredFeature extends MapGenStructure {
 	private static List biomelist = Arrays.asList(new BiomeGenBase[]{BiomeGenBase.desert, BiomeGenBase.desertHills, BiomeGenBase.jungle, BiomeGenBase.jungleHills, BiomeGenBase.swampland});
 	private List scatteredFeatureSpawnList;
@@ -34,7 +36,7 @@ public class MapGenScatteredFeature extends MapGenStructure {
 
 	}
 
-	protected boolean canSpawnStructureAtCoords(int var1, int var2) {
+	public boolean canSpawnStructureAtCoords(int var1, int var2) {
 		int var3 = var1;
 		int var4 = var2;
 		if(var1 < 0) {

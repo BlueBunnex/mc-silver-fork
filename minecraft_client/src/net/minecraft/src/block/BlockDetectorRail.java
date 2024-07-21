@@ -12,7 +12,7 @@ import net.minecraft.src.IEntitySelector;
 import net.minecraft.src.IInventory;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockDetectorRail extends BlockRailBase {
 	private Icon[] iconArray;

@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class ContainerEnchantment extends Container {
 	public IInventory tableInventory = new SlotEnchantmentTable(this, "Enchant", true, 1);

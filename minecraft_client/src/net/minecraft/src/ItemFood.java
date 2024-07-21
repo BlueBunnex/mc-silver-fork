@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class ItemFood extends Item {
 	public final int itemUseDuration;
 	private final int healAmount;

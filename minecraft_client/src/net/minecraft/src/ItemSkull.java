@@ -4,6 +4,7 @@ import java.util.List;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockSkull;
+import net.minecraft.src.worldgen.World;
 
 public class ItemSkull extends Item {
 	private static final String[] skullTypes = new String[]{"skeleton", "wither", "zombie", "char", "creeper"};

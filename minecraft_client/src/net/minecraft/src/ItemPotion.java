@@ -7,6 +7,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import net.minecraft.src.worldgen.World;
+
 public class ItemPotion extends Item {
 	private HashMap effectCache = new HashMap();
 	private static final Map field_77835_b = new LinkedHashMap();

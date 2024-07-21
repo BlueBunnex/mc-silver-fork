@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityList {
 	private static Map stringToClassMapping = new HashMap();
 	private static Map classToStringMapping = new HashMap();

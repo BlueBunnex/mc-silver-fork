@@ -8,6 +8,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.command.CommandBase;
+import net.minecraft.src.command.CommandException;
 
 public class ServerCommandScoreboard extends CommandBase {
 	public String getCommandName() {

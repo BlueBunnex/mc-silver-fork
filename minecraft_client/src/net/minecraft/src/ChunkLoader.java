@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.WorldChunkManager;
+
 public class ChunkLoader {
 	public static AnvilConverterData load(NBTTagCompound var0) {
 		int var1 = var0.getInteger("xPos");

@@ -7,6 +7,10 @@ import java.util.Map;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldGenDungeons;
+import net.minecraft.src.worldgen.WorldGenLakes;
 
 public class ChunkProviderFlat implements IChunkProvider {
 	private World worldObj;

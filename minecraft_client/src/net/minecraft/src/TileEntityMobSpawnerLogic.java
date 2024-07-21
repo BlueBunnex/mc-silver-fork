@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 class TileEntityMobSpawnerLogic extends MobSpawnerBaseLogic {
 	final TileEntityMobSpawner mobSpawnerEntity;

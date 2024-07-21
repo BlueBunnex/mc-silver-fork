@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityGiantZombie extends EntityMob {
 	public EntityGiantZombie(World var1) {
 		super(var1);

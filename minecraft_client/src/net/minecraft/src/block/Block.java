@@ -38,7 +38,7 @@ import net.minecraft.src.StepSoundSand;
 import net.minecraft.src.StepSoundStone;
 import net.minecraft.src.TileEntitySign;
 import net.minecraft.src.Vec3;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class Block {
 	private CreativeTabs displayOnCreativeTab;

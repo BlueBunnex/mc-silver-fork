@@ -3,6 +3,7 @@ package net.minecraft.src;
 import net.minecraft.client.Minecraft;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockPistonBase;
+import net.minecraft.src.worldgen.World;
 
 import org.lwjgl.opengl.GL11;
 

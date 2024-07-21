@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class ItemEnderPearl extends Item {
 	public ItemEnderPearl(int var1) {
 		super(var1);

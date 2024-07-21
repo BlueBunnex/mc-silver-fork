@@ -10,7 +10,7 @@ import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.StatList;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockIce extends BlockBreakable {
 	public BlockIce(int var1) {

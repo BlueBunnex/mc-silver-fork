@@ -11,6 +11,8 @@ import java.util.Map;
 import java.util.Random;
 import net.minecraft.client.Minecraft;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.callable.CallableParticlePositionInfo;
+import net.minecraft.src.worldgen.WorldClient;
 
 import org.lwjgl.opengl.ARBOcclusionQuery;
 import org.lwjgl.opengl.GL11;

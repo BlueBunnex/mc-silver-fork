@@ -4,6 +4,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityAIMate extends EntityAIBase {
 	private EntityAnimal theAnimal;
 	World theWorld;

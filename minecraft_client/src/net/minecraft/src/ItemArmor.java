@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.worldgen.World;
 
 public class ItemArmor extends Item {
 	private static final int[] maxDamageArray = new int[]{11, 16, 15, 13};

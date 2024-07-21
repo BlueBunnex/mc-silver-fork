@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class EntityWaterMob extends EntityCreature implements IAnimals {
 	public EntityWaterMob(World var1) {
 		super(var1);

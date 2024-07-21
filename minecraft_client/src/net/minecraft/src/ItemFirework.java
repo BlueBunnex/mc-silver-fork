@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.minecraft.src.worldgen.World;
+
 public class ItemFirework extends Item {
 	public ItemFirework(int var1) {
 		super(var1);

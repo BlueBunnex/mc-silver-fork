@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class RecipesMapCloning implements IRecipe {
 	public boolean matches(InventoryCrafting var1, World var2) {
 		int var3 = 0;

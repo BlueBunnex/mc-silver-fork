@@ -8,7 +8,7 @@ import net.minecraft.src.IconRegister;
 import net.minecraft.src.Item;
 import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockCrops extends BlockFlower {
 	private Icon[] iconArray;

@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.ArrayList;
 import java.util.Random;
 
+import net.minecraft.src.worldgen.World;
+
 class StructureNetherBridgeStart extends StructureStart {
 	public StructureNetherBridgeStart(World var1, Random var2, int var3, int var4) {
 		ComponentNetherBridgeStartPiece var5 = new ComponentNetherBridgeStartPiece(var2, (var3 << 4) + 2, (var4 << 4) + 2);

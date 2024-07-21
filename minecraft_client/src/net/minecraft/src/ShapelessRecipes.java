@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+import net.minecraft.src.worldgen.World;
+
 public class ShapelessRecipes implements IRecipe {
 	private final ItemStack recipeOutput;
 	private final List recipeItems;

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class DemoWorldManager extends ItemInWorldManager {
 	private boolean field_73105_c = false;
 	private boolean demoTimeExpired = false;

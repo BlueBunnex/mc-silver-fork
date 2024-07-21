@@ -5,6 +5,7 @@ import java.util.List;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockChest;
 import net.minecraft.src.block.BlockHopper;
+import net.minecraft.src.worldgen.World;
 
 public class TileEntityHopper extends TileEntity implements Hopper {
 	private ItemStack[] hopperItemStacks = new ItemStack[5];

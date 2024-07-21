@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityPigZombie extends EntityZombie {
 	private int angerLevel = 0;
 	private int randomSoundDelay = 0;

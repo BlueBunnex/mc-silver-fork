@@ -3,6 +3,9 @@ package net.minecraft.src;
 import java.util.ArrayList;
 import java.util.Random;
 
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.WorldChunkManager;
+
 public class ComponentVillageStartPiece extends ComponentVillageWell {
 	public final WorldChunkManager worldChunkMngr;
 	public final boolean inDesert;

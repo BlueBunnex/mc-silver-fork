@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class ContainerRepair extends Container {
 	private IInventory outputSlot = new InventoryCraftResult();

@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class EntityWitherSkull extends EntityFireball {
 	public EntityWitherSkull(World var1) {

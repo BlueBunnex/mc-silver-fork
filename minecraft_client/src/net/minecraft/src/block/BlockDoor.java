@@ -12,7 +12,7 @@ import net.minecraft.src.Item;
 import net.minecraft.src.Material;
 import net.minecraft.src.MovingObjectPosition;
 import net.minecraft.src.Vec3;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockDoor extends Block {
 	private static final String[] doorIconNames = new String[]{"doorWood_lower", "doorWood_upper", "doorIron_lower", "doorIron_upper"};

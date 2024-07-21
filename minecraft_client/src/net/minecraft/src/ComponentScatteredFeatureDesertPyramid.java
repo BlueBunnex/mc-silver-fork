@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.World;
 
 public class ComponentScatteredFeatureDesertPyramid extends ComponentScatteredFeature {
 	private boolean[] field_74940_h = new boolean[4];

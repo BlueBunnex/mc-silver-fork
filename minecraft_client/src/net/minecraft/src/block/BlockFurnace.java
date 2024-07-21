@@ -15,7 +15,7 @@ import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityFurnace;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockFurnace extends BlockContainer {
 	private final Random furnaceRand = new Random();

@@ -17,7 +17,7 @@ import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntitySkull;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockSkull extends BlockContainer {
 	protected BlockSkull(int var1) {

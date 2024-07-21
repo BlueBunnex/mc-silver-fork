@@ -6,7 +6,7 @@ import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.EnumSkyBlock;
 import net.minecraft.src.Item;
 import net.minecraft.src.Material;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockSnowBlock extends Block {
 	protected BlockSnowBlock(int var1) {

@@ -19,7 +19,7 @@ import net.minecraft.src.Material;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityHopper;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockHopper extends BlockContainer {
 	private final Random field_94457_a = new Random();

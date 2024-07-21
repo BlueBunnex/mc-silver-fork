@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.WorldChunkManagerHell;
+
 public class WorldProviderHell extends WorldProvider {
 	public void registerWorldChunkManager() {
 		this.worldChunkMgr = new WorldChunkManagerHell(BiomeGenBase.hell, 1.0F, 0.0F);

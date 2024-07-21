@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.worldgen.World;
+
 public abstract class EntityFireball extends Entity {
 	private int xTile = -1;
 	private int yTile = -1;

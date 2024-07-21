@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.World;
+
 public class EntityBlaze extends EntityMob {
 	private float heightOffset = 0.5F;
 	private int heightOffsetUpdateTime;

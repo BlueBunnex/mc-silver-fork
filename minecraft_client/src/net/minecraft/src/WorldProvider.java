@@ -1,6 +1,10 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.worldgen.BiomeGenBase;
+import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldChunkManager;
+import net.minecraft.src.worldgen.WorldChunkManagerHell;
 
 public abstract class WorldProvider {
 	public World worldObj;

@@ -5,6 +5,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import net.minecraft.src.worldgen.World;
+
 public class Packet52MultiBlockChange extends Packet {
 	public int xPosition;
 	public int zPosition;

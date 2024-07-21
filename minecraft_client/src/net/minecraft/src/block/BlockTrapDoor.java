@@ -7,7 +7,7 @@ import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.Material;
 import net.minecraft.src.MovingObjectPosition;
 import net.minecraft.src.Vec3;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockTrapDoor extends Block {
 	protected BlockTrapDoor(int var1, Material var2) {

@@ -2,7 +2,7 @@ package net.minecraft.src.block;
 
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockRailPowered extends BlockRailBase {
 	protected Icon theIcon;

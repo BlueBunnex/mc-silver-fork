@@ -10,7 +10,7 @@ import net.minecraft.src.IconRegister;
 import net.minecraft.src.Material;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityEndPortal;
-import net.minecraft.src.World;
+import net.minecraft.src.worldgen.World;
 
 public class BlockEndPortal extends BlockContainer {
 	public static boolean bossDefeated = false;
