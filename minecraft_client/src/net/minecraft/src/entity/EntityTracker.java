@@ -12,8 +12,8 @@ import net.minecraft.src.IAnimals;
 import net.minecraft.src.IntHashMap;
 import net.minecraft.src.Packet;
 import net.minecraft.src.ReportedException;
-import net.minecraft.src.WorldServer;
 import net.minecraft.src.callable.CallableEntityTracker;
+import net.minecraft.src.worldgen.WorldServer;
 
 public class EntityTracker {
 	

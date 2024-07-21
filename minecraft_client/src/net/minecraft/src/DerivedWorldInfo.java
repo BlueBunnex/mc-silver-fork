@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.worldgen.WorldInfo;
+import net.minecraft.src.worldgen.WorldType;
+
 public class DerivedWorldInfo extends WorldInfo {
 	private final WorldInfo theWorldInfo;
 

@@ -12,6 +12,8 @@ import net.minecraft.src.callable.CallableServerType;
 import net.minecraft.src.callable.CallableType;
 import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldSettings;
+import net.minecraft.src.worldgen.WorldType;
 
 public class DedicatedServer extends MinecraftServer implements IServer {
 	

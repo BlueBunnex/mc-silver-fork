@@ -1,13 +1,13 @@
 package net.minecraft.src.item;
 
-import net.minecraft.src.BehaviorDispenseArmor;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.EnumArmorMaterial;
-import net.minecraft.src.IBehaviorDispenseItem;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.NBTTagCompound;
+import net.minecraft.src.block.BehaviorDispenseArmor;
 import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.block.IBehaviorDispenseItem;
 import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;

@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import java.io.File;
 
+import net.minecraft.src.worldgen.WorldInfo;
+import net.minecraft.src.worldgen.WorldProvider;
+
 public class SaveHandlerMP implements ISaveHandler {
 	public WorldInfo loadWorldInfo() {
 		return null;

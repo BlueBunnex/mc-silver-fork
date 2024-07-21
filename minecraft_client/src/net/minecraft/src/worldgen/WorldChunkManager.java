@@ -6,7 +6,6 @@ import java.util.Random;
 
 import net.minecraft.src.ChunkPosition;
 import net.minecraft.src.IntCache;
-import net.minecraft.src.WorldType;
 
 public class WorldChunkManager {
 	private GenLayer genBiomes;

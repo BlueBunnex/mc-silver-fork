@@ -49,6 +49,7 @@ import net.minecraft.src.item.ItemDye;
 import net.minecraft.src.item.ItemRecord;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.WorldClient;
+import net.minecraft.src.worldgen.WorldRenderer;
 
 import org.lwjgl.opengl.ARBOcclusionQuery;
 import org.lwjgl.opengl.GL11;

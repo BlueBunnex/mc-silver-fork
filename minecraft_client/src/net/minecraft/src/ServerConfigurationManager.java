@@ -18,6 +18,7 @@ import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.entity.EntityPlayerMP;
 import net.minecraft.src.item.ItemInWorldManager;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldServer;
 
 public abstract class ServerConfigurationManager {
 	private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd \'at\' HH:mm:ss z");

@@ -2,7 +2,7 @@ package net.minecraft.src.entity;
 
 import java.util.Comparator;
 
-import net.minecraft.src.WorldRenderer;
+import net.minecraft.src.worldgen.WorldRenderer;
 
 public class EntitySorter implements Comparator {
 	private double entityPosX;

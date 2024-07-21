@@ -9,9 +9,9 @@ import net.minecraft.src.ISaveFormat;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.StatCollector;
 import net.minecraft.src.StringTranslate;
-import net.minecraft.src.WorldInfo;
-import net.minecraft.src.WorldSettings;
-import net.minecraft.src.WorldType;
+import net.minecraft.src.worldgen.WorldInfo;
+import net.minecraft.src.worldgen.WorldSettings;
+import net.minecraft.src.worldgen.WorldType;
 
 public class GuiCreateWorld extends GuiScreen {
 	private GuiScreen parentGuiScreen;

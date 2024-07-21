@@ -1,8 +1,6 @@
 package net.minecraft.src.block;
 
-import net.minecraft.src.BehaviorDefaultDispenseItem;
 import net.minecraft.src.Facing;
-import net.minecraft.src.IBehaviorDispenseItem;
 import net.minecraft.src.IInventory;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.entity.tile.TileEntity;

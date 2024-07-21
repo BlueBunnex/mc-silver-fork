@@ -1,7 +1,6 @@
 package net.minecraft.src.worldgen;
 
 import net.minecraft.src.IntCache;
-import net.minecraft.src.WorldType;
 
 public class GenLayerBiome extends GenLayer {
 	private BiomeGenBase[] allowedBiomes = new BiomeGenBase[]{BiomeGenBase.desert, BiomeGenBase.forest, BiomeGenBase.extremeHills, BiomeGenBase.swampland, BiomeGenBase.plains, BiomeGenBase.taiga, BiomeGenBase.jungle};

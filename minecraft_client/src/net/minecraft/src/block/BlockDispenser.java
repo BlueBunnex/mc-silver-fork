@@ -2,11 +2,9 @@ package net.minecraft.src.block;
 
 import java.util.Random;
 
-import net.minecraft.src.BehaviorDefaultDispenseItem;
 import net.minecraft.src.Container;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.EnumFacing;
-import net.minecraft.src.IBehaviorDispenseItem;
 import net.minecraft.src.IBlockSource;
 import net.minecraft.src.IInventory;
 import net.minecraft.src.IPosition;

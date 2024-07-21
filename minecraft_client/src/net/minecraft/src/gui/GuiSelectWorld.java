@@ -12,8 +12,8 @@ import net.minecraft.src.ISaveHandler;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.SaveFormatComparator;
 import net.minecraft.src.StringTranslate;
-import net.minecraft.src.WorldInfo;
-import net.minecraft.src.WorldSettings;
+import net.minecraft.src.worldgen.WorldInfo;
+import net.minecraft.src.worldgen.WorldSettings;
 
 public class GuiSelectWorld extends GuiScreen {
 	private final DateFormat dateFormatter = new SimpleDateFormat();

@@ -2,11 +2,11 @@ package net.minecraft.src.item;
 
 import net.minecraft.src.EnumGameType;
 import net.minecraft.src.Packet53BlockChange;
-import net.minecraft.src.WorldServer;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.entity.EntityPlayerMP;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldServer;
 
 public class ItemInWorldManager {
 	public World theWorld;

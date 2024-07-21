@@ -15,6 +15,8 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.worldgen.BiomeGenBase;
 import net.minecraft.src.worldgen.WorldChunkManager;
 import net.minecraft.src.worldgen.WorldChunkManagerHell;
+import net.minecraft.src.worldgen.WorldInfo;
+import net.minecraft.src.worldgen.WorldType;
 
 public class AnvilSaveConverter extends SaveFormatOld {
 	public AnvilSaveConverter(File var1) {

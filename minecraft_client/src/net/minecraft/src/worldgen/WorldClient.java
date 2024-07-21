@@ -21,8 +21,6 @@ import net.minecraft.src.Profiler;
 import net.minecraft.src.SaveHandlerMP;
 import net.minecraft.src.Scoreboard;
 import net.minecraft.src.SoundUpdaterMinecart;
-import net.minecraft.src.WorldProvider;
-import net.minecraft.src.WorldSettings;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.callable.CallableMPL1;
 import net.minecraft.src.callable.CallableMPL2;

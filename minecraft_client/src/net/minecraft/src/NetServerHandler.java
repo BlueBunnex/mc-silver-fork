@@ -20,6 +20,7 @@ import net.minecraft.src.item.Item;
 import net.minecraft.src.item.ItemEditableBook;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.item.ItemWritableBook;
+import net.minecraft.src.worldgen.WorldServer;
 
 public class NetServerHandler extends NetHandler {
 	public final INetworkManager netManager;

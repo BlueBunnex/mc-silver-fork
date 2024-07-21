@@ -4,7 +4,7 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.ICommandSender;
 import net.minecraft.src.IProgressUpdate;
 import net.minecraft.src.MinecraftException;
-import net.minecraft.src.WorldServer;
+import net.minecraft.src.worldgen.WorldServer;
 
 public class CommandServerSaveAll extends CommandBase {
 	public String getCommandName() {

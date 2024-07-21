@@ -22,7 +22,6 @@ import net.minecraft.src.ReportedException;
 import net.minecraft.src.StatCollector;
 import net.minecraft.src.StepSound;
 import net.minecraft.src.Vec3;
-import net.minecraft.src.WorldServer;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockFluid;
 import net.minecraft.src.callable.CallableEntityName;
@@ -30,6 +29,7 @@ import net.minecraft.src.callable.CallableEntityType;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.item.enchantment.EnchantmentProtection;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldServer;
 
 public abstract class Entity {
 	

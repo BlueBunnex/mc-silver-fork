@@ -77,6 +77,8 @@ import net.minecraft.src.item.Item;
 import net.minecraft.src.item.ItemMap;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.WorldClient;
+import net.minecraft.src.worldgen.WorldProviderSurface;
+import net.minecraft.src.worldgen.WorldSettings;
 
 import org.lwjgl.input.Keyboard;
 

@@ -2,7 +2,7 @@ package net.minecraft.src.callable;
 
 import java.util.concurrent.Callable;
 
-import net.minecraft.src.WorldInfo;
+import net.minecraft.src.worldgen.WorldInfo;
 
 public class CallableLevelDimension implements Callable {
 	

@@ -6,6 +6,11 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.callable.CallableIsModded;
 import net.minecraft.src.callable.CallableType3;
+import net.minecraft.src.worldgen.WorldManager;
+import net.minecraft.src.worldgen.WorldServer;
+import net.minecraft.src.worldgen.WorldServerMulti;
+import net.minecraft.src.worldgen.WorldSettings;
+import net.minecraft.src.worldgen.WorldType;
 
 public class IntegratedServer extends MinecraftServer {
 	

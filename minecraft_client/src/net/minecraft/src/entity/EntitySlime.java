@@ -5,10 +5,10 @@ import net.minecraft.src.DamageSource;
 import net.minecraft.src.IMob;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
-import net.minecraft.src.WorldType;
 import net.minecraft.src.item.Item;
 import net.minecraft.src.worldgen.BiomeGenBase;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldType;
 
 public class EntitySlime extends EntityLiving implements IMob {
 	private static final float[] spawnChances = new float[]{1.0F, 12.0F / 16.0F, 0.5F, 0.25F, 0.0F, 0.25F, 0.5F, 12.0F / 16.0F};

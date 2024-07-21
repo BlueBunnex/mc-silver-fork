@@ -10,13 +10,13 @@ import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.Potion;
 import net.minecraft.src.PotionEffect;
-import net.minecraft.src.WorldProviderHell;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.item.Item;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.item.enchantment.Enchantment;
 import net.minecraft.src.item.enchantment.EnchantmentHelper;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldProviderHell;
 
 public class EntitySkeleton extends EntityMob implements IRangedAttackMob {
 	private EntityAIArrowAttack aiArrowAttack = new EntityAIArrowAttack(this, 0.25F, 20, 60, 15.0F);

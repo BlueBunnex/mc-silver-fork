@@ -4,9 +4,9 @@ import java.util.List;
 import java.util.Random;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.ICommandSender;
-import net.minecraft.src.WorldInfo;
-import net.minecraft.src.WorldServer;
 import net.minecraft.src.WrongUsageException;
+import net.minecraft.src.worldgen.WorldInfo;
+import net.minecraft.src.worldgen.WorldServer;
 
 public class CommandWeather extends CommandBase {
 	public String getCommandName() {

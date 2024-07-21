@@ -2,6 +2,11 @@ package net.minecraft.src;
 
 import java.io.File;
 
+import net.minecraft.src.worldgen.WorldInfo;
+import net.minecraft.src.worldgen.WorldProvider;
+import net.minecraft.src.worldgen.WorldProviderEnd;
+import net.minecraft.src.worldgen.WorldProviderHell;
+
 public class AnvilSaveHandler extends SaveHandler {
 	public AnvilSaveHandler(File var1, String var2, boolean var3) {
 		super(var1, var2, var3);

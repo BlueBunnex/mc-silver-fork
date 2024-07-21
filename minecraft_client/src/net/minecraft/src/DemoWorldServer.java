@@ -1,6 +1,9 @@
 package net.minecraft.src;
 
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.worldgen.WorldServer;
+import net.minecraft.src.worldgen.WorldSettings;
+import net.minecraft.src.worldgen.WorldType;
 
 public class DemoWorldServer extends WorldServer {
 	private static final long demoWorldSeed = (long)"North Carolina".hashCode();

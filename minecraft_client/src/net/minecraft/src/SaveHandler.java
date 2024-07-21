@@ -8,6 +8,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.worldgen.WorldInfo;
+import net.minecraft.src.worldgen.WorldProvider;
 
 public class SaveHandler implements ISaveHandler, IPlayerFileData {
 	private final File worldDirectory;

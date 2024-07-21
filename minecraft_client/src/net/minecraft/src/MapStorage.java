@@ -13,6 +13,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import net.minecraft.src.worldgen.WorldSavedData;
+
 public class MapStorage {
 	private ISaveHandler saveHandler;
 	private Map loadedDataMap = new HashMap();

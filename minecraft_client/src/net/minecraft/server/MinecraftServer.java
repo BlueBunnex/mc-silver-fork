@@ -15,7 +15,6 @@ import net.minecraft.src.ChunkCoordinates;
 import net.minecraft.src.ConvertingProgressUpdate;
 import net.minecraft.src.CrashReport;
 import net.minecraft.src.DemoWorldServer;
-import net.minecraft.src.DispenserBehaviors;
 import net.minecraft.src.EnumGameType;
 import net.minecraft.src.ICommandManager;
 import net.minecraft.src.ICommandSender;
@@ -39,18 +38,19 @@ import net.minecraft.src.ServerConfigurationManager;
 import net.minecraft.src.StringTranslate;
 import net.minecraft.src.StringUtils;
 import net.minecraft.src.ThreadMinecraftServer;
-import net.minecraft.src.WorldInfo;
-import net.minecraft.src.WorldManager;
-import net.minecraft.src.WorldServer;
-import net.minecraft.src.WorldServerMulti;
-import net.minecraft.src.WorldSettings;
-import net.minecraft.src.WorldType;
+import net.minecraft.src.block.DispenserBehaviors;
 import net.minecraft.src.callable.CallableIsServerModded;
 import net.minecraft.src.callable.CallableServerMemoryStats;
 import net.minecraft.src.callable.CallableServerProfiler;
 import net.minecraft.src.command.CommandBase;
 import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldInfo;
+import net.minecraft.src.worldgen.WorldManager;
+import net.minecraft.src.worldgen.WorldServer;
+import net.minecraft.src.worldgen.WorldServerMulti;
+import net.minecraft.src.worldgen.WorldSettings;
+import net.minecraft.src.worldgen.WorldType;
 
 public abstract class MinecraftServer implements ICommandSender, Runnable, IPlayerUsage {
 	

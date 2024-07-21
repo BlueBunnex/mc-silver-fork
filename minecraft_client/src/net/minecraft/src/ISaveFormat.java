@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.worldgen.WorldInfo;
+
 public interface ISaveFormat {
 	ISaveHandler getSaveLoader(String var1, boolean var2);
 

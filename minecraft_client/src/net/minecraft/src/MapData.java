@@ -9,6 +9,7 @@ import java.util.Map;
 import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldSavedData;
 
 public class MapData extends WorldSavedData {
 	public int xCenter;

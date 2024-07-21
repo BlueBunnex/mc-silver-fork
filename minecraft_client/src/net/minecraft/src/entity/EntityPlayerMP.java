@@ -69,7 +69,6 @@ import net.minecraft.src.ScoreObjectiveCriteria;
 import net.minecraft.src.SlotCrafting;
 import net.minecraft.src.StatBase;
 import net.minecraft.src.StringTranslate;
-import net.minecraft.src.WorldServer;
 import net.minecraft.src.entity.tile.TileEntity;
 import net.minecraft.src.entity.tile.TileEntityBeacon;
 import net.minecraft.src.entity.tile.TileEntityBrewingStand;
@@ -82,6 +81,7 @@ import net.minecraft.src.item.ItemInWorldManager;
 import net.minecraft.src.item.ItemMapBase;
 import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldServer;
 
 public class EntityPlayerMP extends EntityPlayer implements ICrafting {
 	private StringTranslate translator = new StringTranslate("en_US");

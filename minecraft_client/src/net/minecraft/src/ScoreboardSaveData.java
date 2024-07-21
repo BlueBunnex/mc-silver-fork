@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.Collection;
 import java.util.Iterator;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.worldgen.WorldSavedData;
 
 public class ScoreboardSaveData extends WorldSavedData {
 	private Scoreboard field_96507_a;

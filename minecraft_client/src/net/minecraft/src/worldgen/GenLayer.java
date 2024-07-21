@@ -1,7 +1,5 @@
 package net.minecraft.src.worldgen;
 
-import net.minecraft.src.WorldType;
-
 public abstract class GenLayer {
 	private long worldGenSeed;
 	protected GenLayer parent;

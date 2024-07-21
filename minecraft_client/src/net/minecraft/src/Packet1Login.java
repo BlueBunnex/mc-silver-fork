@@ -4,6 +4,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import net.minecraft.src.worldgen.WorldType;
+
 public class Packet1Login extends Packet {
 	public int clientEntityId = 0;
 	public WorldType terrainType;

@@ -6,6 +6,8 @@ import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.minecraft.src.worldgen.WorldInfo;
+
 public class SaveFormatOld implements ISaveFormat {
 	protected final File savesDirectory;
 

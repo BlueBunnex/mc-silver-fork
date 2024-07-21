@@ -14,6 +14,7 @@ import net.minecraft.src.entity.EntitySpider;
 import net.minecraft.src.entity.EntityZombie;
 import net.minecraft.src.worldgen.BiomeGenBase;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldServer;
 
 public final class SpawnerAnimals {
 	private static HashMap eligibleChunksForSpawning = new HashMap();

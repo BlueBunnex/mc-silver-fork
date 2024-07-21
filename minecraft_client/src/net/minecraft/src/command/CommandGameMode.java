@@ -5,9 +5,9 @@ import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.EnumGameType;
 import net.minecraft.src.ICommandSender;
 import net.minecraft.src.StatCollector;
-import net.minecraft.src.WorldSettings;
 import net.minecraft.src.WrongUsageException;
 import net.minecraft.src.entity.EntityPlayerMP;
+import net.minecraft.src.worldgen.WorldSettings;
 
 public class CommandGameMode extends CommandBase {
 	public String getCommandName() {

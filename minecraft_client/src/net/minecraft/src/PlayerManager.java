@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.src.entity.EntityPlayerMP;
+import net.minecraft.src.worldgen.WorldProvider;
+import net.minecraft.src.worldgen.WorldServer;
 
 public class PlayerManager {
 	private final WorldServer theWorldServer;

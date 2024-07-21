@@ -29,7 +29,6 @@ import net.minecraft.src.PotionHelper;
 import net.minecraft.src.ReportedException;
 import net.minecraft.src.StepSound;
 import net.minecraft.src.Vec3;
-import net.minecraft.src.WorldServer;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.callable.CallableEffectAmplifier;
 import net.minecraft.src.callable.CallableEffectDuration;
@@ -43,6 +42,7 @@ import net.minecraft.src.item.ItemStack;
 import net.minecraft.src.item.ItemSword;
 import net.minecraft.src.item.enchantment.EnchantmentHelper;
 import net.minecraft.src.worldgen.World;
+import net.minecraft.src.worldgen.WorldServer;
 
 public abstract class EntityLiving extends Entity {
 	

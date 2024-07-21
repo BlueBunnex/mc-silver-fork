@@ -21,7 +21,7 @@ import net.minecraft.src.RunnableTitleScreen;
 import net.minecraft.src.StringTranslate;
 import net.minecraft.src.Tessellator;
 import net.minecraft.src.ThreadTitleScreen;
-import net.minecraft.src.WorldInfo;
+import net.minecraft.src.worldgen.WorldInfo;
 
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.util.glu.GLU;

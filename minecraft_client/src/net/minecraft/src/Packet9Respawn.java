@@ -4,6 +4,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import net.minecraft.src.worldgen.WorldType;
+
 public class Packet9Respawn extends Packet {
 	public int respawnDimension;
 	public int difficulty;

@@ -4,7 +4,7 @@ import org.lwjgl.input.Keyboard;
 
 import net.minecraft.src.ISaveFormat;
 import net.minecraft.src.StringTranslate;
-import net.minecraft.src.WorldInfo;
+import net.minecraft.src.worldgen.WorldInfo;
 
 public class GuiRenameWorld extends GuiScreen {
 	private GuiScreen parentGuiScreen;
