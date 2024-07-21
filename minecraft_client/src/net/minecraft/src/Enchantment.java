@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.ArrayList;
 
+import net.minecraft.src.entity.EntityLiving;
+
 public abstract class Enchantment {
 	public static final Enchantment[] enchantmentsList = new Enchantment[256];
 	public static final Enchantment[] field_92090_c;

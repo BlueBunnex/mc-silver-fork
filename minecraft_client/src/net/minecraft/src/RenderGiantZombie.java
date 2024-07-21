@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityGiantZombie;
+import net.minecraft.src.entity.EntityLiving;
+
 public class RenderGiantZombie extends RenderLiving {
 	private float scale;
 

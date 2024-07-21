@@ -5,13 +5,13 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.src.EntityPlayerMP;
 import net.minecraft.src.IAdminCommand;
 import net.minecraft.src.ICommand;
 import net.minecraft.src.ICommandSender;
 import net.minecraft.src.NumberInvalidException;
 import net.minecraft.src.PlayerNotFoundException;
 import net.minecraft.src.PlayerSelector;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public abstract class CommandBase implements ICommand {
 	private static IAdminCommand theAdmin = null;

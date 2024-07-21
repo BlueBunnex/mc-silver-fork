@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ContainerHopper extends Container {
 	private final IInventory field_94538_a;
 

@@ -4,6 +4,9 @@ import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityIronGolem;
+import net.minecraft.src.entity.EntityLiving;
 
 public class RenderIronGolem extends RenderLiving {
 	private ModelIronGolem ironGolemModel = (ModelIronGolem)this.mainModel;

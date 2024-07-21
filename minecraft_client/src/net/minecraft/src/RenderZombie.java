@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityZombie;
+
 public class RenderZombie extends RenderBiped {
 	private ModelBiped field_82434_o = this.modelBipedMain;
 	private ModelZombieVillager field_82432_p = new ModelZombieVillager();

@@ -2,7 +2,7 @@ package net.minecraft.src.callable;
 
 import java.util.concurrent.Callable;
 
-import net.minecraft.src.Entity;
+import net.minecraft.src.entity.Entity;
 
 public class CallableEntityName implements Callable {
 	

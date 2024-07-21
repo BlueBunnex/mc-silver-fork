@@ -2,9 +2,9 @@ package net.minecraft.src.callable;
 
 import java.util.concurrent.Callable;
 
-import net.minecraft.src.EntityLiving;
 import net.minecraft.src.Potion;
 import net.minecraft.src.PotionEffect;
+import net.minecraft.src.entity.EntityLiving;
 
 public class CallableEffectName implements Callable {
 	

@@ -2,8 +2,8 @@ package net.minecraft.src.block;
 
 import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.Entity;
 import net.minecraft.src.Material;
+import net.minecraft.src.entity.Entity;
 import net.minecraft.src.worldgen.World;
 
 public class BlockSoulSand extends Block {

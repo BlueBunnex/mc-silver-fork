@@ -1,14 +1,14 @@
 package net.minecraft.src.block;
 
 import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.EntityIronGolem;
-import net.minecraft.src.EntityLiving;
-import net.minecraft.src.EntitySnowman;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.ItemStack;
 import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
+import net.minecraft.src.entity.EntityIronGolem;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySnowman;
 import net.minecraft.src.worldgen.World;
 
 public class BlockPumpkin extends BlockDirectional {

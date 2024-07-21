@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ContainerBeacon extends Container {
 	private TileEntityBeacon theBeacon;
 	private final SlotBeacon beaconSlot;

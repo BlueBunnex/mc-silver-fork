@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelChicken extends ModelBase {
 	public ModelRenderer head;
 	public ModelRenderer body;

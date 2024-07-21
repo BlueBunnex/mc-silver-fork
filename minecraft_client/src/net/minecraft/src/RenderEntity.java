@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+
 public class RenderEntity extends Render {
 	public void doRender(Entity var1, double var2, double var4, double var6, float var8, float var9) {
 		GL11.glPushMatrix();

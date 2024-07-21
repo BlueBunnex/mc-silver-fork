@@ -4,6 +4,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import net.minecraft.src.entity.Entity;
+
 public class Packet17Sleep extends Packet {
 	public int entityID;
 	public int bedX;

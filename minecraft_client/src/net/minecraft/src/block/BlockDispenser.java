@@ -5,9 +5,6 @@ import java.util.Random;
 import net.minecraft.src.BehaviorDefaultDispenseItem;
 import net.minecraft.src.Container;
 import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.EntityItem;
-import net.minecraft.src.EntityLiving;
-import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.EnumFacing;
 import net.minecraft.src.IBehaviorDispenseItem;
 import net.minecraft.src.IBlockSource;
@@ -23,6 +20,9 @@ import net.minecraft.src.PositionImpl;
 import net.minecraft.src.RegistryDefaulted;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityDispenser;
+import net.minecraft.src.entity.EntityItem;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class BlockDispenser extends BlockContainer {

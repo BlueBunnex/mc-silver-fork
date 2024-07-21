@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityBoat;
+
 public class RenderBoat extends Render {
 	protected ModelBase modelBoat;
 

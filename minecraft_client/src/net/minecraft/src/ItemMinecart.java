@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.BlockDispenser;
 import net.minecraft.src.block.BlockRailBase;
+import net.minecraft.src.entity.EntityMinecart;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class ItemMinecart extends Item {

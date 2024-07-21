@@ -5,9 +5,6 @@ import java.util.Random;
 
 import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.Entity;
-import net.minecraft.src.EntityLiving;
-import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.Explosion;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.Icon;
@@ -16,6 +13,9 @@ import net.minecraft.src.ItemStack;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.MovingObjectPosition;
 import net.minecraft.src.Vec3;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class BlockStairs extends Block {

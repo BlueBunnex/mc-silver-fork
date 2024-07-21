@@ -2,8 +2,8 @@ package net.minecraft.src.callable;
 
 import java.util.concurrent.Callable;
 
-import net.minecraft.src.EntityRenderer;
 import net.minecraft.src.ScaledResolution;
+import net.minecraft.src.entity.EntityRenderer;
 
 public class CallableScreenSize implements Callable {
 	

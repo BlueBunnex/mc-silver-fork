@@ -5,6 +5,8 @@ import org.lwjgl.opengl.GL11;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockAnvil;
 import net.minecraft.src.block.BlockDragonEgg;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityFallingSand;
 import net.minecraft.src.worldgen.World;
 
 public class RenderFallingSand extends Render {

@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityWither;
+
 public class ModelWither extends ModelBase {
 	private ModelRenderer[] field_82905_a;
 	private ModelRenderer[] field_82904_b;

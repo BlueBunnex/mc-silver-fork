@@ -3,7 +3,7 @@ package net.minecraft.src.callable;
 import java.util.concurrent.Callable;
 import org.lwjgl.input.Mouse;
 
-import net.minecraft.src.EntityRenderer;
+import net.minecraft.src.entity.EntityRenderer;
 
 public class CallableMouseLocation implements Callable {
 	

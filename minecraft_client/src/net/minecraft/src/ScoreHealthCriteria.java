@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.Iterator;
 import java.util.List;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ScoreHealthCriteria extends ScoreDummyCriteria {
 	public ScoreHealthCriteria(String var1) {
 		super(var1);

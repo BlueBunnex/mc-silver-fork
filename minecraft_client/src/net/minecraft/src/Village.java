@@ -6,6 +6,10 @@ import java.util.List;
 import java.util.TreeMap;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityIronGolem;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityVillager;
 import net.minecraft.src.worldgen.World;
 
 public class Village {

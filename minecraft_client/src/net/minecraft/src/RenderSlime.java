@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySlime;
+
 public class RenderSlime extends RenderLiving {
 	private ModelBase scaleAmount;
 

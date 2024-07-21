@@ -1,5 +1,6 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityEgg;
 import net.minecraft.src.worldgen.World;
 
 final class DispenserBehaviorEgg extends BehaviorProjectileDispense {

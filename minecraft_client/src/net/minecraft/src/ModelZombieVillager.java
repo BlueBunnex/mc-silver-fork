@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelZombieVillager extends ModelBiped {
 	public ModelZombieVillager() {
 		this(0.0F, 0.0F, false);

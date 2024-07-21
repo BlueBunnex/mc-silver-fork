@@ -1,8 +1,8 @@
 package net.minecraft.src.command;
 
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.ICommandSender;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class CommandShowSeed extends CommandBase {

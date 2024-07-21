@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.Entity;
 
 public class Teleporter {
 	private final WorldServer worldServerInstance;

@@ -11,6 +11,9 @@ import net.minecraft.src.block.BlockLog;
 import net.minecraft.src.block.BlockMushroom;
 import net.minecraft.src.block.BlockSapling;
 import net.minecraft.src.block.BlockStem;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntitySheep;
 import net.minecraft.src.worldgen.World;
 
 public class ItemDye extends Item {

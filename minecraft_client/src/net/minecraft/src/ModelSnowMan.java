@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelSnowMan extends ModelBase {
 	public ModelRenderer body;
 	public ModelRenderer bottomBody;

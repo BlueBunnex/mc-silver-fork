@@ -2,8 +2,8 @@ package net.minecraft.src.worldgen;
 
 import java.util.Random;
 
-import net.minecraft.src.EntityWolf;
 import net.minecraft.src.SpawnListEntry;
+import net.minecraft.src.entity.EntityWolf;
 
 public class BiomeGenTaiga extends BiomeGenBase {
 	public BiomeGenTaiga(int var1) {

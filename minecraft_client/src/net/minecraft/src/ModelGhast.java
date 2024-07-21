@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.Random;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelGhast extends ModelBase {
 	ModelRenderer body;
 	ModelRenderer[] tentacles = new ModelRenderer[9];

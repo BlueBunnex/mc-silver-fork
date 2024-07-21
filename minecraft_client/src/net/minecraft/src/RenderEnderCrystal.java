@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityEnderCrystal;
+
 public class RenderEnderCrystal extends Render {
 	private int field_76996_a = -1;
 	private ModelBase field_76995_b;

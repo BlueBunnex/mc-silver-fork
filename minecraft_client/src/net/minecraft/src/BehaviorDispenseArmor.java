@@ -3,6 +3,9 @@ package net.minecraft.src;
 import java.util.List;
 
 import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntitySelectorArmoredMob;
 
 final class BehaviorDispenseArmor extends BehaviorDefaultDispenseItem {
 	protected ItemStack dispenseStack(IBlockSource var1, ItemStack var2) {

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 class SlotBrewingStandPotion extends Slot {
 	private EntityPlayer player;
 

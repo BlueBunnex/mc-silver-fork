@@ -11,6 +11,11 @@ import net.minecraft.src.worldgen.BiomeGenBase;
 import net.minecraft.src.worldgen.World;
 import net.minecraft.src.worldgen.WorldGenDungeons;
 import net.minecraft.src.worldgen.WorldGenLakes;
+import net.minecraft.src.worldgen.structure.MapGenMineshaft;
+import net.minecraft.src.worldgen.structure.MapGenScatteredFeature;
+import net.minecraft.src.worldgen.structure.MapGenStronghold;
+import net.minecraft.src.worldgen.structure.MapGenStructure;
+import net.minecraft.src.worldgen.structure.MapGenVillage;
 
 public class ChunkProviderFlat implements IChunkProvider {
 	private World worldObj;

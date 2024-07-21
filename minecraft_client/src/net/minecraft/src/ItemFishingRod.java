@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityFishHook;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class ItemFishingRod extends Item {

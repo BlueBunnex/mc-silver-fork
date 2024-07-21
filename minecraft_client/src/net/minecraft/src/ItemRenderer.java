@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityClientPlayerMP;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayerSP;
 
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;

@@ -4,8 +4,8 @@ import java.util.Random;
 
 import net.minecraft.src.ColorizerFoliage;
 import net.minecraft.src.ColorizerGrass;
-import net.minecraft.src.EntitySlime;
 import net.minecraft.src.SpawnListEntry;
+import net.minecraft.src.entity.EntitySlime;
 
 public class BiomeGenSwamp extends BiomeGenBase {
 	protected BiomeGenSwamp(int var1) {

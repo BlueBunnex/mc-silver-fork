@@ -3,6 +3,8 @@ package net.minecraft.src;
 import org.lwjgl.opengl.GL11;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityMinecart;
+import net.minecraft.src.entity.EntityMinecartTNT;
 
 public class RenderTntMinecart extends RenderMinecart {
 	protected void func_94146_a(EntityMinecartTNT var1, float var2, Block var3, int var4) {

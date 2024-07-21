@@ -1,6 +1,7 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.Entity;
 
 public class PathFinder {
 	private IBlockAccess worldMap;

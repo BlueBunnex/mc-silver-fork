@@ -1,8 +1,8 @@
 package net.minecraft.src.worldgen;
 
-import net.minecraft.src.EntityEnderman;
 import net.minecraft.src.SpawnListEntry;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityEnderman;
 
 public class BiomeGenEnd extends BiomeGenBase {
 	public BiomeGenEnd(int var1) {

@@ -5,12 +5,12 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.EnumChatFormatting;
 import net.minecraft.src.ICommand;
 import net.minecraft.src.ICommandSender;
 import net.minecraft.src.NumberInvalidException;
 import net.minecraft.src.WrongUsageException;
+import net.minecraft.src.entity.EntityPlayer;
 
 public class CommandHelp extends CommandBase {
 	public String getCommandName() {

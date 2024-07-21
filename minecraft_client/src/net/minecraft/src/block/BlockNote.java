@@ -1,10 +1,10 @@
 package net.minecraft.src.block;
 
 import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.Material;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityNote;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class BlockNote extends BlockContainer {

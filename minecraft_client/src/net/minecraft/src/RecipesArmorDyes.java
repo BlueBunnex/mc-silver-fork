@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.ArrayList;
 
 import net.minecraft.src.block.BlockCloth;
+import net.minecraft.src.entity.EntitySheep;
 import net.minecraft.src.worldgen.World;
 
 public class RecipesArmorDyes implements IRecipe {

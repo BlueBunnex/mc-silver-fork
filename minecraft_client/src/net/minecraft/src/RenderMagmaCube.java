@@ -1,6 +1,10 @@
 package net.minecraft.src;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityMagmaCube;
+
 import org.lwjgl.opengl.GL11;
 
 public class RenderMagmaCube extends RenderLiving {

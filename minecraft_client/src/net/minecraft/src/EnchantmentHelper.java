@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+import net.minecraft.src.entity.EntityLiving;
+
 public class EnchantmentHelper {
 	private static final Random enchantmentRand = new Random();
 	private static final EnchantmentModifierDamage enchantmentModifierDamage = new EnchantmentModifierDamage((Empty3)null);

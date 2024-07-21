@@ -3,6 +3,8 @@ package net.minecraft.src;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
+import net.minecraft.src.entity.Entity;
+
 public class TileEntitySkullRenderer extends TileEntitySpecialRenderer {
 	public static TileEntitySkullRenderer skullRenderer;
 	private ModelSkeletonHead field_82396_c = new ModelSkeletonHead(0, 0, 64, 32);

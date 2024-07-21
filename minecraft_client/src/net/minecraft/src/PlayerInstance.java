@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.minecraft.src.entity.EntityPlayerMP;
+
 class PlayerInstance {
 	private final List playersInChunk;
 	private final ChunkCoordIntPair chunkLocation;

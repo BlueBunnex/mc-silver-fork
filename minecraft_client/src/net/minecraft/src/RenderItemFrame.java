@@ -3,6 +3,10 @@ package net.minecraft.src;
 import org.lwjgl.opengl.GL11;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityItem;
+import net.minecraft.src.entity.EntityItemFrame;
+import net.minecraft.src.entity.EntityPlayer;
 
 public class RenderItemFrame extends Render {
 	private final RenderBlocks renderBlocksInstance = new RenderBlocks();

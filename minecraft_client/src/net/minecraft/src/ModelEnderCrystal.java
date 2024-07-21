@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelEnderCrystal extends ModelBase {
 	private ModelRenderer cube;
 	private ModelRenderer glass = new ModelRenderer(this, "glass");

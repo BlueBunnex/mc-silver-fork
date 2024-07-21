@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class Slot {
 	private final int slotIndex;
 	public final IInventory inventory;

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelBoat extends ModelBase {
 	public ModelRenderer[] boatSides = new ModelRenderer[5];
 

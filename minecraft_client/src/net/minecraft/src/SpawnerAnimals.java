@@ -7,6 +7,11 @@ import java.util.List;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntitySkeleton;
+import net.minecraft.src.entity.EntitySpider;
+import net.minecraft.src.entity.EntityZombie;
 import net.minecraft.src.worldgen.BiomeGenBase;
 import net.minecraft.src.worldgen.World;
 

@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class ItemAppleGold extends ItemFood {

@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Iterator;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class MapInfo {
 	public final EntityPlayer entityplayerObj;
 	public int[] field_76209_b;

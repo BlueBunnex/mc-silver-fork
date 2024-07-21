@@ -9,6 +9,13 @@ import net.minecraft.src.worldgen.BiomeGenBase;
 import net.minecraft.src.worldgen.World;
 import net.minecraft.src.worldgen.WorldGenDungeons;
 import net.minecraft.src.worldgen.WorldGenLakes;
+import net.minecraft.src.worldgen.structure.MapGenBase;
+import net.minecraft.src.worldgen.structure.MapGenCaves;
+import net.minecraft.src.worldgen.structure.MapGenMineshaft;
+import net.minecraft.src.worldgen.structure.MapGenRavine;
+import net.minecraft.src.worldgen.structure.MapGenScatteredFeature;
+import net.minecraft.src.worldgen.structure.MapGenStronghold;
+import net.minecraft.src.worldgen.structure.MapGenVillage;
 
 public class ChunkProviderGenerate implements IChunkProvider {
 	private Random rand;

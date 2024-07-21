@@ -2,8 +2,8 @@ package net.minecraft.src.worldgen;
 
 import java.util.Random;
 
-import net.minecraft.src.EntityEnderCrystal;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityEnderCrystal;
 
 public class WorldGenSpikes extends WorldGenerator {
 	private int replaceID;

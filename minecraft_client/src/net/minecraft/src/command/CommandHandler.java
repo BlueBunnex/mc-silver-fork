@@ -9,13 +9,13 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 
-import net.minecraft.src.EntityPlayerMP;
 import net.minecraft.src.EnumChatFormatting;
 import net.minecraft.src.ICommand;
 import net.minecraft.src.ICommandManager;
 import net.minecraft.src.ICommandSender;
 import net.minecraft.src.PlayerSelector;
 import net.minecraft.src.WrongUsageException;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public class CommandHandler implements ICommandManager {
 	private final Map commandMap = new HashMap();

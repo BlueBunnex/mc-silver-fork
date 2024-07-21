@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Comparator;
 
+import net.minecraft.src.entity.EntityLiving;
+
 public class RenderSorter implements Comparator {
 	private EntityLiving baseEntity;
 

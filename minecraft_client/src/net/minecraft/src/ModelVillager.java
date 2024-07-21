@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelVillager extends ModelBase {
 	public ModelRenderer villagerHead;
 	public ModelRenderer villagerBody;

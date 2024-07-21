@@ -16,7 +16,6 @@ import net.minecraft.src.ConvertingProgressUpdate;
 import net.minecraft.src.CrashReport;
 import net.minecraft.src.DemoWorldServer;
 import net.minecraft.src.DispenserBehaviors;
-import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.EnumGameType;
 import net.minecraft.src.ICommandManager;
 import net.minecraft.src.ICommandSender;
@@ -50,6 +49,7 @@ import net.minecraft.src.callable.CallableIsServerModded;
 import net.minecraft.src.callable.CallableServerMemoryStats;
 import net.minecraft.src.callable.CallableServerProfiler;
 import net.minecraft.src.command.CommandBase;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public abstract class MinecraftServer implements ICommandSender, Runnable, IPlayerUsage {

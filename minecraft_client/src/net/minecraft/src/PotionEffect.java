@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityLiving;
+
 public class PotionEffect {
 	private int potionID;
 	private int duration;

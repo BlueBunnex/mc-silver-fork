@@ -10,6 +10,7 @@ import java.util.Random;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.callable.CallableServerType;
 import net.minecraft.src.callable.CallableType;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class DedicatedServer extends MinecraftServer implements IServer {

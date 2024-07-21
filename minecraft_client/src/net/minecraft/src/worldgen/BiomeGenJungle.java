@@ -2,10 +2,10 @@ package net.minecraft.src.worldgen;
 
 import java.util.Random;
 
-import net.minecraft.src.EntityChicken;
-import net.minecraft.src.EntityOcelot;
 import net.minecraft.src.SpawnListEntry;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityChicken;
+import net.minecraft.src.entity.EntityOcelot;
 
 public class BiomeGenJungle extends BiomeGenBase {
 	public BiomeGenJungle(int var1) {

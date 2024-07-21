@@ -3,6 +3,9 @@ package net.minecraft.src;
 import org.lwjgl.opengl.GL11;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityMooshroom;
 
 public class RenderMooshroom extends RenderLiving {
 	public RenderMooshroom(ModelBase var1, float var2) {

@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySkeleton;
+
 public class RenderSkeleton extends RenderBiped {
 	public RenderSkeleton() {
 		super(new ModelSkeleton(), 0.5F);

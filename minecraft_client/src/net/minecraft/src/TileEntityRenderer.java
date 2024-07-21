@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.Map;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityLiving;
 import net.minecraft.src.worldgen.World;
 
 public class TileEntityRenderer {

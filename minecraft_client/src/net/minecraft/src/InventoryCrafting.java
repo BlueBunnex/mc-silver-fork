@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class InventoryCrafting implements IInventory {
 	private ItemStack[] stackList;
 	private int inventoryWidth;

@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import java.util.Iterator;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public class WorldManager implements IWorldAccess {
 	private MinecraftServer mcServer;

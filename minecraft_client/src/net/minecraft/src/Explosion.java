@@ -9,6 +9,10 @@ import java.util.Map;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityTNTPrimed;
 import net.minecraft.src.worldgen.World;
 
 public class Explosion {

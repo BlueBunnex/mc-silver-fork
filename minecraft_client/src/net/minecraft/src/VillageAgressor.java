@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityLiving;
+
 class VillageAgressor {
 	public EntityLiving agressor;
 	public int agressionTime;

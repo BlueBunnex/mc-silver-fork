@@ -3,12 +3,12 @@ package net.minecraft.src.command;
 import java.util.Arrays;
 import java.util.List;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.src.EntityPlayer;
-import net.minecraft.src.EntityPlayerMP;
 import net.minecraft.src.EnumChatFormatting;
 import net.minecraft.src.ICommandSender;
 import net.minecraft.src.PlayerNotFoundException;
 import net.minecraft.src.WrongUsageException;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public class CommandServerMessage extends CommandBase {
 	public List getCommandAliases() {

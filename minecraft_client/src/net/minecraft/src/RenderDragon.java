@@ -3,6 +3,10 @@ package net.minecraft.src;
 import java.util.Random;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityDragon;
+import net.minecraft.src.entity.EntityLiving;
+
 public class RenderDragon extends RenderLiving {
 	private static int updateModelState = 0;
 	protected ModelDragon modelDragon = (ModelDragon)this.mainModel;

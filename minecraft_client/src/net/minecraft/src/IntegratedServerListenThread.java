@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.io.IOException;
 import java.net.InetAddress;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public class IntegratedServerListenThread extends NetworkListenThread {
 	private final MemoryConnection netMemoryConnection;

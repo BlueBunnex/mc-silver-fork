@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Comparator;
 
+import net.minecraft.src.entity.EntityPlayerMP;
+
 public class PlayerPositionComparator implements Comparator {
 	private final ChunkCoordinates theChunkCoordinates;
 

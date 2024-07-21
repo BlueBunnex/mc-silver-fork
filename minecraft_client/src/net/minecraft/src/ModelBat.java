@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityBat;
+
 public class ModelBat extends ModelBase {
 	private ModelRenderer batHead;
 	private ModelRenderer batBody;

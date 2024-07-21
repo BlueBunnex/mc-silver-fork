@@ -2,7 +2,7 @@ package net.minecraft.src.callable;
 
 import java.util.concurrent.Callable;
 
-import net.minecraft.src.MapGenStructure;
+import net.minecraft.src.worldgen.structure.MapGenStructure;
 
 public class CallableIsFeatureChunk implements Callable {
 	

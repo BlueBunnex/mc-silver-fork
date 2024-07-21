@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityDragon;
+import net.minecraft.src.entity.EntityLiving;
+
 public class ModelDragon extends ModelBase {
 	private ModelRenderer head;
 	private ModelRenderer neck;

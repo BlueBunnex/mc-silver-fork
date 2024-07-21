@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityXPOrb;
+
 public class SlotFurnace extends Slot {
 	private EntityPlayer thePlayer;
 	private int field_75228_b;

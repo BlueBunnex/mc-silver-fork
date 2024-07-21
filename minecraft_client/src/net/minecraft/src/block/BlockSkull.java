@@ -3,9 +3,6 @@ package net.minecraft.src.block;
 import java.util.Random;
 
 import net.minecraft.src.AxisAlignedBB;
-import net.minecraft.src.EntityLiving;
-import net.minecraft.src.EntityPlayer;
-import net.minecraft.src.EntityWither;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
@@ -17,6 +14,9 @@ import net.minecraft.src.MathHelper;
 import net.minecraft.src.NBTTagCompound;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntitySkull;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityWither;
 import net.minecraft.src.worldgen.World;
 
 public class BlockSkull extends BlockContainer {

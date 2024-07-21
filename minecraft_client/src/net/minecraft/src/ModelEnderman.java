@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelEnderman extends ModelBiped {
 	public boolean isCarrying = false;
 	public boolean isAttacking = false;

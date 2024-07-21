@@ -31,6 +31,7 @@ import net.minecraft.src.block.BlockStairs;
 import net.minecraft.src.block.BlockStem;
 import net.minecraft.src.block.BlockTripWire;
 import net.minecraft.src.block.BlockWall;
+import net.minecraft.src.entity.EntityRenderer;
 import net.minecraft.src.worldgen.World;
 
 import org.lwjgl.opengl.GL11;

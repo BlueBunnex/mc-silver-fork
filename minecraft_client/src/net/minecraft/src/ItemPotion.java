@@ -7,6 +7,8 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityPotion;
 import net.minecraft.src.worldgen.World;
 
 public class ItemPotion extends Item {

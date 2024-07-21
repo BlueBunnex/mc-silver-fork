@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityBat;
+import net.minecraft.src.entity.EntityLiving;
+
 public class RenderBat extends RenderLiving {
 	private int renderedBatSize = ((ModelBat)this.mainModel).getBatSize();
 

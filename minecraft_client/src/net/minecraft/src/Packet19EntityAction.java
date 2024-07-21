@@ -4,6 +4,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import net.minecraft.src.entity.Entity;
+
 public class Packet19EntityAction extends Packet {
 	public int entityId;
 	public int state;

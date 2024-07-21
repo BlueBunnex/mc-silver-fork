@@ -10,6 +10,7 @@ import java.util.Map;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.command.CommandBase;
 import net.minecraft.src.command.CommandException;
+import net.minecraft.src.entity.EntityPlayer;
 
 public class ServerCommandScoreboard extends CommandBase {
 	public String getCommandName() {

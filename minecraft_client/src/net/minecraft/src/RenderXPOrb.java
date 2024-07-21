@@ -3,6 +3,9 @@ package net.minecraft.src;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityXPOrb;
+
 public class RenderXPOrb extends Render {
 	public RenderXPOrb() {
 		this.shadowSize = 0.15F;

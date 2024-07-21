@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySpider;
+
 public class RenderSpider extends RenderLiving {
 	public RenderSpider() {
 		super(new ModelSpider(), 1.0F);

@@ -1,5 +1,9 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySilverfish;
+
 public class RenderSilverfish extends RenderLiving {
 	public RenderSilverfish() {
 		super(new ModelSilverfish(), 0.3F);

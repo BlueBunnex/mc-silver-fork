@@ -3,6 +3,9 @@ package net.minecraft.src;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityPotion;
+
 public class RenderSnowball extends Render {
 	private Item field_94151_a;
 	private int field_94150_f;

@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityGhast;
+import net.minecraft.src.entity.EntityLiving;
+
 public class RenderGhast extends RenderLiving {
 	public RenderGhast() {
 		super(new ModelGhast(), 0.5F);

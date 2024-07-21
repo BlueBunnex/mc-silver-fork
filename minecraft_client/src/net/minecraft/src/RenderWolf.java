@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySheep;
+import net.minecraft.src.entity.EntityWolf;
+
 public class RenderWolf extends RenderLiving {
 	public RenderWolf(ModelBase var1, ModelBase var2, float var3) {
 		super(var1, var3);

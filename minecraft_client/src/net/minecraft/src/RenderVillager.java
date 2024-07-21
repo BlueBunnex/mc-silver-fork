@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityVillager;
+
 public class RenderVillager extends RenderLiving {
 	protected ModelVillager villagerModel = (ModelVillager)this.mainModel;
 

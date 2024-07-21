@@ -3,6 +3,9 @@ package net.minecraft.src;
 import java.util.Random;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLightningBolt;
+
 public class RenderLightningBolt extends Render {
 	public void doRenderLightningBolt(EntityLightningBolt var1, double var2, double var4, double var6, float var8, float var9) {
 		Tessellator var10 = Tessellator.instance;

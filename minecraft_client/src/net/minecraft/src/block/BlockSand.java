@@ -3,8 +3,8 @@ package net.minecraft.src.block;
 import java.util.Random;
 
 import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.EntityFallingSand;
 import net.minecraft.src.Material;
+import net.minecraft.src.entity.EntityFallingSand;
 import net.minecraft.src.worldgen.World;
 
 public class BlockSand extends Block {

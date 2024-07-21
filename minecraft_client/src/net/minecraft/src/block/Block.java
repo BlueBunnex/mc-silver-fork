@@ -6,11 +6,6 @@ import java.util.Random;
 import net.minecraft.src.AxisAlignedBB;
 import net.minecraft.src.CreativeTabs;
 import net.minecraft.src.EnchantmentHelper;
-import net.minecraft.src.Entity;
-import net.minecraft.src.EntityItem;
-import net.minecraft.src.EntityLiving;
-import net.minecraft.src.EntityPlayer;
-import net.minecraft.src.EntityXPOrb;
 import net.minecraft.src.EnumMobType;
 import net.minecraft.src.Explosion;
 import net.minecraft.src.IBlockAccess;
@@ -38,6 +33,11 @@ import net.minecraft.src.StepSoundSand;
 import net.minecraft.src.StepSoundStone;
 import net.minecraft.src.TileEntitySign;
 import net.minecraft.src.Vec3;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityItem;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityXPOrb;
 import net.minecraft.src.worldgen.World;
 
 public class Block {

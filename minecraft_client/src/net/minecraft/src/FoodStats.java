@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class FoodStats {
 	private int foodLevel = 20;
 	private float foodSaturationLevel = 5.0F;

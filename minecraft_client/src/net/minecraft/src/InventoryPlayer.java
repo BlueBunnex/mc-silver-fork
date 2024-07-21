@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.callable.CallableItemName;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityPlayer;
 
 public class InventoryPlayer implements IInventory {
 	

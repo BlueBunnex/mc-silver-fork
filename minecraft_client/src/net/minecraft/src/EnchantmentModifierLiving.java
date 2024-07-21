@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityLiving;
+
 final class EnchantmentModifierLiving implements IEnchantmentModifier {
 	public int livingModifier;
 	public EntityLiving entityLiving;

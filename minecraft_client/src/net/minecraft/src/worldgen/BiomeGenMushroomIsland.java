@@ -1,8 +1,8 @@
 package net.minecraft.src.worldgen;
 
-import net.minecraft.src.EntityMooshroom;
 import net.minecraft.src.SpawnListEntry;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityMooshroom;
 
 public class BiomeGenMushroomIsland extends BiomeGenBase {
 	public BiomeGenMushroomIsland(int var1) {

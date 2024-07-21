@@ -10,9 +10,6 @@ import net.minecraft.src.ChunkCoordIntPair;
 import net.minecraft.src.ChunkProviderClient;
 import net.minecraft.src.CrashReport;
 import net.minecraft.src.CrashReportCategory;
-import net.minecraft.src.Entity;
-import net.minecraft.src.EntityFireworkStarterFX;
-import net.minecraft.src.EntityMinecart;
 import net.minecraft.src.IChunkProvider;
 import net.minecraft.src.ILogAgent;
 import net.minecraft.src.IUpdatePlayerListBox;
@@ -29,6 +26,9 @@ import net.minecraft.src.WorldSettings;
 import net.minecraft.src.block.Block;
 import net.minecraft.src.callable.CallableMPL1;
 import net.minecraft.src.callable.CallableMPL2;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityFireworkStarterFX;
+import net.minecraft.src.entity.EntityMinecart;
 
 public class WorldClient extends World {
 	

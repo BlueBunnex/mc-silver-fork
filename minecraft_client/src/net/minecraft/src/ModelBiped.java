@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelBiped extends ModelBase {
 	public ModelRenderer bipedHead;
 	public ModelRenderer bipedHeadwear;

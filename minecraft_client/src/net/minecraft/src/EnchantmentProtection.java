@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+
 public class EnchantmentProtection extends Enchantment {
 	private static final String[] protectionName = new String[]{"all", "fire", "fall", "explosion", "projectile"};
 	private static final int[] baseEnchantability = new int[]{1, 10, 5, 5, 3};

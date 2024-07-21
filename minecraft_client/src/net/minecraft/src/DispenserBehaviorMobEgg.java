@@ -1,6 +1,8 @@
 package net.minecraft.src;
 
 import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
 
 final class DispenserBehaviorMobEgg extends BehaviorDefaultDispenseItem {
 	public ItemStack dispenseStack(IBlockSource var1, ItemStack var2) {

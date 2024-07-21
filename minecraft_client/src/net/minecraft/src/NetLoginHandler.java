@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Random;
 import javax.crypto.SecretKey;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public class NetLoginHandler extends NetHandler {
 	private static Random rand = new Random();

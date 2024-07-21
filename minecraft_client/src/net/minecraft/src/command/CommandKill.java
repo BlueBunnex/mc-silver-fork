@@ -1,8 +1,8 @@
 package net.minecraft.src.command;
 
 import net.minecraft.src.DamageSource;
-import net.minecraft.src.EntityPlayerMP;
 import net.minecraft.src.ICommandSender;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public class CommandKill extends CommandBase {
 	public String getCommandName() {

@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class TileEntityBrewingStand extends TileEntity implements ISidedInventory {
 	private static final int[] field_102017_a = new int[]{3};
 	private static final int[] field_102016_b = new int[]{0, 1, 2};

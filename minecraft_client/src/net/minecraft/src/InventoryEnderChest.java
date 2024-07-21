@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class InventoryEnderChest extends InventoryBasic {
 	private TileEntityEnderChest associatedChest;
 

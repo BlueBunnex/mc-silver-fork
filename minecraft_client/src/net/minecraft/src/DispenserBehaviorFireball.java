@@ -3,6 +3,7 @@ package net.minecraft.src;
 import java.util.Random;
 
 import net.minecraft.src.block.BlockDispenser;
+import net.minecraft.src.entity.EntitySmallFireball;
 import net.minecraft.src.worldgen.World;
 
 final class DispenserBehaviorFireball extends BehaviorDefaultDispenseItem {

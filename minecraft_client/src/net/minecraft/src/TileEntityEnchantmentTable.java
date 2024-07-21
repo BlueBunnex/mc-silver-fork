@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class TileEntityEnchantmentTable extends TileEntity {
 	public int tickCount;
 	public float pageFlip;

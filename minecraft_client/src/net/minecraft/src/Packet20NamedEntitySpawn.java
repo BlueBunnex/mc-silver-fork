@@ -5,6 +5,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.List;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class Packet20NamedEntitySpawn extends Packet {
 	public int entityId;
 	public String name;

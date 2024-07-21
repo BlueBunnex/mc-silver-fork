@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelBlaze extends ModelBase {
 	private ModelRenderer[] blazeSticks = new ModelRenderer[12];
 	private ModelRenderer blazeHead;

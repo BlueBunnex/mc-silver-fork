@@ -1,7 +1,7 @@
 package net.minecraft.src.worldgen;
 
-import net.minecraft.src.EntityDragon;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityDragon;
 
 public class BiomeEndDecorator extends BiomeDecorator {
 	protected WorldGenerator spikeGen = new WorldGenSpikes(Block.whiteStone.blockID);

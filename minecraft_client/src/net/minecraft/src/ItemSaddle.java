@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPig;
+
 public class ItemSaddle extends Item {
 	public ItemSaddle(int var1) {
 		super(var1);

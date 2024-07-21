@@ -2,6 +2,10 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityWither;
+
 public class RenderWither extends RenderLiving {
 	private int field_82419_a = ((ModelWither)this.mainModel).func_82903_a();
 

@@ -12,6 +12,10 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Map.Entry;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityList;
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityPlayerMP;
 import net.minecraft.src.worldgen.World;
 
 public abstract class ServerConfigurationManager {

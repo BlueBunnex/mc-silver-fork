@@ -5,6 +5,8 @@ import java.io.DataOutputStream;
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class GuiScreenBook extends GuiScreen {
 	private final EntityPlayer editingPlayer;
 	private final ItemStack itemstackBook;

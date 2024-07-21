@@ -7,22 +7,22 @@ import java.util.Random;
 
 import net.minecraft.src.ColorizerFoliage;
 import net.minecraft.src.ColorizerGrass;
-import net.minecraft.src.EntityBat;
-import net.minecraft.src.EntityChicken;
-import net.minecraft.src.EntityCow;
-import net.minecraft.src.EntityCreeper;
-import net.minecraft.src.EntityEnderman;
-import net.minecraft.src.EntityPig;
-import net.minecraft.src.EntitySheep;
-import net.minecraft.src.EntitySkeleton;
-import net.minecraft.src.EntitySlime;
-import net.minecraft.src.EntitySpider;
-import net.minecraft.src.EntitySquid;
-import net.minecraft.src.EntityZombie;
 import net.minecraft.src.EnumCreatureType;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.SpawnListEntry;
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityBat;
+import net.minecraft.src.entity.EntityChicken;
+import net.minecraft.src.entity.EntityCow;
+import net.minecraft.src.entity.EntityCreeper;
+import net.minecraft.src.entity.EntityEnderman;
+import net.minecraft.src.entity.EntityPig;
+import net.minecraft.src.entity.EntitySheep;
+import net.minecraft.src.entity.EntitySkeleton;
+import net.minecraft.src.entity.EntitySlime;
+import net.minecraft.src.entity.EntitySpider;
+import net.minecraft.src.entity.EntitySquid;
+import net.minecraft.src.entity.EntityZombie;
 
 public abstract class BiomeGenBase {
 	public static final BiomeGenBase[] biomeList = new BiomeGenBase[256];

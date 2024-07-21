@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ContainerBrewingStand extends Container {
 	private TileEntityBrewingStand tileBrewingStand;
 	private final Slot theSlot;

@@ -8,6 +8,8 @@ import org.lwjgl.input.Mouse;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL12;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class GuiContainerCreative extends InventoryEffectRenderer {
 	private static InventoryBasic inventory = new InventoryBasic("tmp", true, 45);
 	private static int selectedTabIndex = CreativeTabs.tabBlock.getTabIndex();

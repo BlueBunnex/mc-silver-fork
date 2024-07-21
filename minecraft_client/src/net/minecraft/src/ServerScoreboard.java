@@ -7,6 +7,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public class ServerScoreboard extends Scoreboard {
 	private final MinecraftServer field_96555_a;

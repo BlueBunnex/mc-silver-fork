@@ -8,6 +8,7 @@ import net.minecraft.src.callable.CallableIsModded;
 import net.minecraft.src.callable.CallableType3;
 
 public class IntegratedServer extends MinecraftServer {
+	
 	private final Minecraft mc;
 	private final WorldSettings theWorldSettings;
 	private final ILogAgent serverLogAgent = new LogAgent("Minecraft-Server", " [SERVER]", (new File(Minecraft.getMinecraftDir(), "output-server.log")).getAbsolutePath());

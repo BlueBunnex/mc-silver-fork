@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntitySheep;
+
 public class RenderSheep extends RenderLiving {
 	public RenderSheep(ModelBase var1, ModelBase var2, float var3) {
 		super(var1, var3);

@@ -4,6 +4,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import net.minecraft.src.entity.EntityPainting;
+
 public class Packet25EntityPainting extends Packet {
 	public int entityId;
 	public int xPosition;

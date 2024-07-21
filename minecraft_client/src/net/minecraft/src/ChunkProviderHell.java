@@ -13,6 +13,9 @@ import net.minecraft.src.worldgen.WorldGenGlowStone1;
 import net.minecraft.src.worldgen.WorldGenGlowStone2;
 import net.minecraft.src.worldgen.WorldGenHellLava;
 import net.minecraft.src.worldgen.WorldGenMinable;
+import net.minecraft.src.worldgen.structure.MapGenBase;
+import net.minecraft.src.worldgen.structure.MapGenCavesHell;
+import net.minecraft.src.worldgen.structure.MapGenNetherBridge;
 
 public class ChunkProviderHell implements IChunkProvider {
 	private Random hellRNG;

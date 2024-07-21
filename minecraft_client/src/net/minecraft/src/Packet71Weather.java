@@ -4,6 +4,9 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLightningBolt;
+
 public class Packet71Weather extends Packet {
 	public int entityID;
 	public int posX;

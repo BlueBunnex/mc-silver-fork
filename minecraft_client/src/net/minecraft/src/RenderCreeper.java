@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityCreeper;
+import net.minecraft.src.entity.EntityLiving;
+
 public class RenderCreeper extends RenderLiving {
 	private ModelBase creeperModel = new ModelCreeper(2.0F);
 

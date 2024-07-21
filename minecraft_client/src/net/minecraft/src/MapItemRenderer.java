@@ -4,6 +4,8 @@ import java.awt.image.BufferedImage;
 import java.util.Iterator;
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class MapItemRenderer {
 	private int[] intArray = new int[16384];
 	private int bufferedImage;

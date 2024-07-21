@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.List;
 import java.util.Random;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemEnchantedBook extends Item {
 	public ItemEnchantedBook(int var1) {
 		super(var1);

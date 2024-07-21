@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.List;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 public class ItemFireworkCharge extends Item {
 	private Icon theIcon;
 

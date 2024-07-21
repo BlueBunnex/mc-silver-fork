@@ -2,6 +2,7 @@ package net.minecraft.src;
 
 import java.net.SocketAddress;
 import net.minecraft.server.MinecraftServer;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public class IntegratedPlayerList extends ServerConfigurationManager {
 	private NBTTagCompound hostPlayerData = null;

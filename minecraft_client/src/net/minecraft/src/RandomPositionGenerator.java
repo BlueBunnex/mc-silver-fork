@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.entity.EntityCreature;
+
 public class RandomPositionGenerator {
 	private static Vec3 staticVector = Vec3.createVectorHelper(0.0D, 0.0D, 0.0D);
 

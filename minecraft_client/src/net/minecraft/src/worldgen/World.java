@@ -18,10 +18,6 @@ import net.minecraft.src.ChunkPosition;
 import net.minecraft.src.CrashReport;
 import net.minecraft.src.CrashReportCategory;
 import net.minecraft.src.Direction;
-import net.minecraft.src.Entity;
-import net.minecraft.src.EntityLiving;
-import net.minecraft.src.EntityMinecart;
-import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.EnumSkyBlock;
 import net.minecraft.src.Explosion;
 import net.minecraft.src.Facing;
@@ -64,6 +60,10 @@ import net.minecraft.src.block.BlockStairs;
 import net.minecraft.src.callable.CallableLvl1;
 import net.minecraft.src.callable.CallableLvl2;
 import net.minecraft.src.callable.CallableLvl3;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityMinecart;
+import net.minecraft.src.entity.EntityPlayer;
 
 public abstract class World implements IBlockAccess {
 	

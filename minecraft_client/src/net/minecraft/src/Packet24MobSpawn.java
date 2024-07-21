@@ -5,6 +5,9 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.List;
 
+import net.minecraft.src.entity.EntityList;
+import net.minecraft.src.entity.EntityLiving;
+
 public class Packet24MobSpawn extends Packet {
 	public int entityId;
 	public int type;

@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.ArrayList;
 import java.util.List;
 
+import net.minecraft.src.entity.EntityPlayer;
+
 class ContainerCreative extends Container {
 	public List itemList = new ArrayList();
 

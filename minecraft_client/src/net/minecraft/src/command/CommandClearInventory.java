@@ -2,8 +2,8 @@ package net.minecraft.src.command;
 
 import java.util.List;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.src.EntityPlayerMP;
 import net.minecraft.src.ICommandSender;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public class CommandClearInventory extends CommandBase {
 	public String getCommandName() {

@@ -2,6 +2,9 @@ package net.minecraft.src;
 
 import java.util.Random;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+
 public class EnchantmentThorns extends Enchantment {
 	public EnchantmentThorns(int var1, int var2) {
 		super(var1, var2, EnumEnchantmentType.armor_torso);

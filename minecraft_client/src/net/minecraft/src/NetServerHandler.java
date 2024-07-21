@@ -9,6 +9,9 @@ import java.util.Random;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.src.callable.CallablePacketClass;
 import net.minecraft.src.callable.CallablePacketID;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityItem;
+import net.minecraft.src.entity.EntityPlayerMP;
 
 public class NetServerHandler extends NetHandler {
 	public final INetworkManager netManager;

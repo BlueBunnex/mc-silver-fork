@@ -3,11 +3,11 @@ package net.minecraft.src.block;
 import java.util.Iterator;
 import java.util.List;
 
-import net.minecraft.src.Entity;
-import net.minecraft.src.EntityLiving;
-import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.EnumMobType;
 import net.minecraft.src.Material;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class BlockPressurePlate extends BlockBasePressurePlate {

@@ -12,6 +12,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityList;
 import net.minecraft.src.worldgen.World;
 
 public class AnvilChunkLoader implements IChunkLoader, IThreadedFileIO {

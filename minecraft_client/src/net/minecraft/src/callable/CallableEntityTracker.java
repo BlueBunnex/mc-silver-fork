@@ -2,7 +2,7 @@ package net.minecraft.src.callable;
 
 import java.util.concurrent.Callable;
 
-import net.minecraft.src.EntityTracker;
+import net.minecraft.src.entity.EntityTracker;
 
 public class CallableEntityTracker implements Callable {
 	

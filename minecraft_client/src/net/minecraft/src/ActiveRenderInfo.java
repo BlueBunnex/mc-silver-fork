@@ -7,6 +7,8 @@ import org.lwjgl.util.glu.GLU;
 
 import net.minecraft.src.block.Block;
 import net.minecraft.src.block.BlockFluid;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class ActiveRenderInfo {

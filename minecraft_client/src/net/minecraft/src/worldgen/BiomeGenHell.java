@@ -1,9 +1,9 @@
 package net.minecraft.src.worldgen;
 
-import net.minecraft.src.EntityGhast;
-import net.minecraft.src.EntityMagmaCube;
-import net.minecraft.src.EntityPigZombie;
 import net.minecraft.src.SpawnListEntry;
+import net.minecraft.src.entity.EntityGhast;
+import net.minecraft.src.entity.EntityMagmaCube;
+import net.minecraft.src.entity.EntityPigZombie;
 
 public class BiomeGenHell extends BiomeGenBase {
 	public BiomeGenHell(int var1) {

@@ -5,14 +5,14 @@ import java.util.Random;
 
 import net.minecraft.src.ChunkCoordinates;
 import net.minecraft.src.Direction;
-import net.minecraft.src.Entity;
-import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.EnumStatus;
 import net.minecraft.src.IBlockAccess;
 import net.minecraft.src.Icon;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.Item;
 import net.minecraft.src.Material;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.BiomeGenBase;
 import net.minecraft.src.worldgen.World;
 

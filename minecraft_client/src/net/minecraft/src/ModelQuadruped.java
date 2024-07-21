@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+
 public class ModelQuadruped extends ModelBase {
 	public ModelRenderer head = new ModelRenderer(this, 0, 0);
 	public ModelRenderer body;

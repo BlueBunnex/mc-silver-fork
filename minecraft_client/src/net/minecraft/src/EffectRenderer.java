@@ -6,6 +6,9 @@ import java.util.Random;
 import org.lwjgl.opengl.GL11;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityDiggingFX;
+import net.minecraft.src.entity.EntityFX;
 import net.minecraft.src.worldgen.World;
 
 public class EffectRenderer {

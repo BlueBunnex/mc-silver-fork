@@ -3,6 +3,8 @@ package net.minecraft.src;
 import java.util.Iterator;
 import java.util.List;
 
+import net.minecraft.src.entity.EntityPlayer;
+import net.minecraft.src.entity.EntityZombie;
 import net.minecraft.src.worldgen.World;
 
 public class VillageSiege {

@@ -1,5 +1,7 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.Entity;
+
 public class MovingObjectPosition {
 	public EnumMovingObjectType typeOfHit;
 	public int blockX;

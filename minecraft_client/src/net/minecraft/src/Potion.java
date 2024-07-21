@@ -1,5 +1,8 @@
 package net.minecraft.src;
 
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
+
 public class Potion {
 	public static final Potion[] potionTypes = new Potion[32];
 	public static final Potion field_76423_b = null;

@@ -2,6 +2,8 @@ package net.minecraft.src;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraft.src.entity.Entity;
+
 public class RenderEnchantmentTable extends TileEntitySpecialRenderer {
 	private ModelBook enchantmentBook = new ModelBook();
 

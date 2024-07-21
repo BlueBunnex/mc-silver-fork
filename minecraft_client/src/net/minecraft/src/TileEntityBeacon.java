@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.EntityPlayer;
 
 public class TileEntityBeacon extends TileEntity implements IInventory {
 	public static final Potion[][] effectsList = new Potion[][]{{Potion.moveSpeed, Potion.digSpeed}, {Potion.resistance, Potion.jump}, {Potion.damageBoost}, {Potion.regeneration}};

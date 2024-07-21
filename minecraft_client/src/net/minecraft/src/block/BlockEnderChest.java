@@ -3,8 +3,6 @@ package net.minecraft.src.block;
 import java.util.Random;
 
 import net.minecraft.src.CreativeTabs;
-import net.minecraft.src.EntityLiving;
-import net.minecraft.src.EntityPlayer;
 import net.minecraft.src.IconRegister;
 import net.minecraft.src.InventoryEnderChest;
 import net.minecraft.src.ItemStack;
@@ -12,6 +10,8 @@ import net.minecraft.src.Material;
 import net.minecraft.src.MathHelper;
 import net.minecraft.src.TileEntity;
 import net.minecraft.src.TileEntityEnderChest;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class BlockEnderChest extends BlockContainer {

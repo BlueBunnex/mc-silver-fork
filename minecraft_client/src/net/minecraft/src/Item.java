@@ -4,6 +4,11 @@ import java.util.List;
 import java.util.Random;
 
 import net.minecraft.src.block.Block;
+import net.minecraft.src.entity.Entity;
+import net.minecraft.src.entity.EntityItemFrame;
+import net.minecraft.src.entity.EntityLiving;
+import net.minecraft.src.entity.EntityPainting;
+import net.minecraft.src.entity.EntityPlayer;
 import net.minecraft.src.worldgen.World;
 
 public class Item {
