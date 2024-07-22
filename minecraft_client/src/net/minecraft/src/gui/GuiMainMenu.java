@@ -382,8 +382,8 @@ public class GuiMainMenu extends GuiScreen {
 		this.drawCenteredString(this.fontRenderer, this.splashText, 0, -8, 16776960);
 		GL11.glPopMatrix();
 
-		this.drawString(this.fontRenderer, "Minecraft 1.5.2", 2, this.height - 10, 16777215);
-		String var10 = "Copyright Mojang AB. Do not distribute!";
+		//this.drawString(this.fontRenderer, "Minecraft 1.5.2", 2, this.height - 10, 16777215);
+		String var10 = "Developed by the Minecraft Silver team. Distribute if you want!";
 		this.drawString(this.fontRenderer, var10, this.width - this.fontRenderer.getStringWidth(var10) - 2, this.height - 10, 16777215);
 		if(this.field_92025_p != null && this.field_92025_p.length() > 0) {
 			drawRect(this.field_92022_t - 2, this.field_92021_u - 2, this.field_92020_v + 2, this.field_92019_w - 1, 1428160512);
